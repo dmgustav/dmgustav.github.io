@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<album>
+    <provenance>
+        <label>
+            <original id="bmi">BMI</original>
+            <remaster id="hi">Hi Records</remaster>
+        </label>
+        <reclocation id="RRS"><studio>Royal Recording Studios</studio>, <city><globalcord lat="35° 7′ 3″ N"
+                    long="89°58′16″W">Memphis, TN</globalcord></city></reclocation>
+        <technical><media>DVD</media>
+        <media tracking="quad" ips="7.5">ORT</media></technical>
+        <creators>
+            <person id="A Green">Al Green <role>Lead</role>
+                <role>Producer</role>
+                <role>Writer</role>
+            </person>
+            <person id="W Mitchell">Willie Mitchell <role>Producer</role>
+                <role type="original">Engineer</role>
+                <role type="remix">Engineer</role>
+                <role>Writer</role>
+            </person>
+            <person id="Rhodes1">Rhodes
+            <role>Vocal Backgrounds</role></person>
+            <person id="Rhodes2">Rhodes
+                <role>Vocal Backgrounds</role></person>
+            <!-- I did a quick search forthe two Rhodes listed here, but I wasn't able find any information. It's probably out there, just not readily avalible through google for someone unfamilier w/ Al Green-->
+            <person id="C Chalmers"> Charles Chalmers
+                <role>Vocal Backgrounds</role>
+                <!-- I make the assumption that the Chalmers listed in vocal backgrounds is the same Chalmers who did string arrangments -->
+                <role>String Arrangement</role>
+            </person>
+           <Person id="J Mitchell">James Mitchell
+               <role>String Arrangement</role>
+               <role>Baritone Sax</role>
+           </Person>
+           <person id="W Jackson">Wayne Jackson
+           <role>Trumpet</role></person>
+            <person id="A Love">Andrew Love <role>Tenor</role></person>
+            <person id="E Logan">Ed Logan<role>Tenor</role></person>
+            <person id="J Hole">Jack Hole <role>Trombone</role></person>
+            <person id="H Grimes">Howard Grimes<role>Drums, Congas, &amp; Bongo</role></person>
+            <person id="A Jackson">Al Jackson <role>Drums, Congas, &amp; Bongo</role></person>
+            <person id="L Hodges">Leroy Hodges <role>Bass</role></person> 
+            <person id="C Hodges">Charles Hodges <role>Organ and Piano</role></person>
+            <person id="T Hodges" altid="M Hodges">Teenie Hodges<role>Guitar</role></person>
+            <person id="A Turner">Archie Turner<role>Piano</role></person>
+            <person id="M Allen">Michael Allen<role>Piano</role></person>
+            <person id="B Gibb">Barry Gibb <role>Writer</role></person>
+            <person id="R Gibb">Robin Gibb <role>Writer</role></person>
+            <person id="N Whitfield">Norman Whitfield <role>Writer</role></person>
+            <person id="B Strong">Barrett Strong</person>
+            <!-- The Gibbs, Whitfield, and Strong are not listed anywhere else on the cover. I've found the infor myself and included it in the provenance field because this is potentially important metadata -->
+            <organization id="Memphis Strings">The Memphis Strings
+           <role>Strings Section</role></organization>
+        </creators>
+    </provenance>
+    <recording/>
+    <sleeve>
+        <frontcover/>
+        <backcover text="white">
+            <!-- I put text color here on the assumption that it would apply to all child elements. Is this the correct way to do this? -->
+            <sidebar location="left" orientation="bottom-top">Al Green's Greatest Hits   <specialcharacter id="qcqc" href=""/><specialcharacter id="DVD Audio" href=""/><specialcharacter id="MLP Losless" href=""/><specialcharacter id="Dolby Digital" href=""/><specialcharacter id="dts" href=""/><specialcharacter id="DVD Video" href=""/></sidebar>
+            <sidebar location="right" orientation="top-bottom">Al Green's Greatest Hits   <specialcharacter id="qcqc" href=""/><specialcharacter id="DVD Audio" href=""/><specialcharacter id="MLP Losless" href=""/><specialcharacter id="Dolby Digital" href=""/><specialcharacter id="dts" href=""/><specialcharacter id="DVD Video" href=""/></sidebar>
+            <!-- I have no idea what the qcqc icon is, and google isn't any help. I've included a cropped image because it is likely the closest I can come -->
+            <tracklist location="top" alignment="left">
+                <song track="1"><title>TIRED OF BEING ALONE</title><credits type="song">(<person id="A Green"/>)<label id="BMI"/></credits></song>
+                <song track="2"><title>CALL ME (COME BACK HOME)</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
+                <song track="3"><title>I'M STILL IN LOVE WITH YOU</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
+                <song track="4"><title>HERE I AM (COME AND TAKE ME)</title><credits type="song">(<person id="A Green"/>;<person id="T Hodges">M Hodges</person>)<label id="BMI"/></credits></song>
+                <!-- Teenie Hodges is listed as M Hodges here, but I'm not sure what the best way to represent that difference in xml. I assumed making M Hodges the content of the element would do this, and I did the same thing below iwth Whitfield and Strong -->
+                <song track="5"><title>HOW CAN YOU MEND A BROKEN HEART</title><credits type="song">(<person id="B Gibb">B Gibb</person>;<person id="R Gibb">R Gibb</person>)<label id="BMI"/></credits></song>
+                <song track="6"><title>LET'S STAY TOGETHER</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
+                <song track="7"><title>I CAN'T GET NEXT TO YOU</title><credits type="song">(<person id="N Whitfield">Whitfield</person>;<person id="B Strong">Strong</person>)<label id="ASCAP"/></credits></song>
+                <song track="8"><title>YOU OUGHT TO BE WITH ME</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
+                <song track="9"><title>LOOK WHAT YOU DONE FOR ME</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
+                <song track="10"><title>LET'S GET MARRIED</title><credits type="song">(<person id="A Green"/>)<label id="BMI"/></credits></song>
+            </tracklist>
+            <credits type="album" location="top" alignment="right">
+                <producers>Producers:<person id="W Mitchel"/> and <person id="A Green"/></producers>
+                <engineer>Engineer:<person id="W Mitchell"/></engineer>
+                <remixengineer>Remix Engineer:<person id="W Mitchell"/></remixengineer>
+                <vocalbackgrounds>Vocal Backgrounds:<person id="Rhodes1"/>,<person id="C Chalmers"/> and <person id="Rhodes2"/></vocalbackgrounds>
+                <stringarrangments>String Arramgements:<person id="J Mitchel"/> and <person id="C Chalmers"/></stringarrangments>
+                <!-- Typo "String arramgements in the original -->
+                <strings>String Section: <organization id="Memphis Strings"/></strings>
+                <Horns>Horn Section: <person id="W Jackson"/>-Trumpet; <person id="A Love"/>-Tenor; <person id="E Logan"/>-Tenor; <person id="J Mitchell"/>- Baritone Sax; <person id="J Hole"/>-Trombone</Horns>
+                <rhythm>Rhythm Section: <person id="H Grimes"/>, <person id="A Jackson"/>- Drums, Conga, &amp; Bongo; <person id="L Hodges"/>-Bass; <person id="C Hodges"/>- Organ and Piano; <person id="T Hodges"/>-Guitar; <person id="A turner"/> &amp;<person id="M Allen"/>-Piano</rhythm>
+                <location>Recorded at <reclocation id="RRC"/></location>
+            </credits>
+            <background>
+                <image/>
+                <!-- This is technically not the full image, but rather a cropped image of the album's bottom, including the Hi Records logo. Ideally I could link to the original image, then include some sort of description for the red shading, but I don't have either the original image or the graphic design knowledge to accurately describe the background. -->
+            </background>
+        </backcover>
+    </sleeve>
+</album>
