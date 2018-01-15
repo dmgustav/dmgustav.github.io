@@ -22,7 +22,9 @@
                 men in their degree, some time or other, cherish very nearly the same feelings towards
                 <placename id="ocean">the ocean</placename> with me. </p>
             <p>There now is your insular <placename id="Manhattoes">city of the Manhattoes</placename>, belted round by
-                wharves as <placename id="Andaman Island" id="Nicobar Island" id="Lakshadweep Island">Indian isles</placename> by coral reefs—commerce surrounds it with her surf. Right and
+                wharves as <placename id="Andaman Island, Nicobar Island, and Lakshadweep Island">Indian isles</placename>
+                <!-- I wasn't sure how to list three different islands as seperate identities within the same element -->
+                by coral reefs—commerce surrounds it with her surf. Right and
                 left, the streets take you <placename id="ocean">waterward</placename>. Its extreme down-town is the battery, where that
                 noble mole is washed by waves, and cooled by breezes, which a few hours previous were
                 out of sight of land. Look at the crowds of water-gazers there.</p>
