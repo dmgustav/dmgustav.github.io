@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This may be a little TEI-esque, but I tried to not just make this TEI. I played a lot with persname and placename tags, which I borrowed from TEI. Hopefully you'll allow it -->
 <book>
     <titlestatment>
         <title type="main">Moby-Dick</title>, or, <title type="alternate">The Whale</title>
