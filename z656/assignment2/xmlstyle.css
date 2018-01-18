@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {display: block;}
+
+[rendition~="#center"] {
+    text-align: center;
+   
+}
+
+[rendition~="#x-large"] {font-size: 150%;}
+[rendition~="#xx-large"] {font-size: 200%;}
+[rendition~="#small"] {font-size: 50%;}
+[rendition~="#red"] {color: red;}
+
+
+space[quantity="5"] {padding: 50px;}
+space[quantity="1"] {padding: 10px;}
+space[quantity="3"] {padding: 30px;}
+space[quantity="4"] {padding: 40px;}
