@@ -90,7 +90,7 @@
                 <location>Recorded at <reclocation id="RRC"/></location>
             </credits>
             <background>
-                <image href"z656/assignment1/backcover.PNG" />
+                <image href"dmgustav.github.io/z656/assignment1/back cover.PNG" />
                 <!-- This is technically not the full image, but rather a cropped image of the album's bottom, including the Hi Records logo. Ideally I could link to the original image, then include some sort of description for the red shading, but I don't have either the original image or the graphic design knowledge to accurately describe the background. -->
             </background>
         </backcover>
