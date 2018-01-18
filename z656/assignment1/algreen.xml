@@ -63,12 +63,14 @@
             <sidebar location="right" orientation="top-bottom">Al Green's Greatest Hits   <specialcharacter id="qcqc" href="/z656/assignment1/qcqc.PNG"/><specialcharacter id="DVD Audio" href="/z656/assignment1/DVD-Audio_Logo.svg"/><specialcharacter id="MLP Losless" href="/z656/assignment1/Dolby_MLP.svg"/><specialcharacter id="Dolby Digital" href="/z656/assignment1/Dolby-Digital.svg"/><specialcharacter id="dts" href="/z656/assignment1/dts-digital-sound-logo.jpg"/><specialcharacter id="DVD Video" href="/z656/assignment1/Dvd-video-logo.svg"/></sidebar>
             <!-- I have no idea what the qcqc icon is, and google isn't any help. I've included a cropped image because it is likely the closest I can come. I also couldn't find the exact dts-digital logo, so this one is close. All images are from wikipedia -->
             <tracklist location="top" alignment="left">
+                <!-- I didn't include any content in the most of the person elements here (except those which had a different presentation
+ than in the provenance section), figuring that a transformation could take care of that. Should I have included contents in these elements? -->
                 <song track="1"><title>TIRED OF BEING ALONE</title><credits type="song">(<person id="A Green"/>)<label id="BMI"/></credits></song>
                 <song track="2"><title>CALL ME (COME BACK HOME)</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
                 <song track="3"><title>I'M STILL IN LOVE WITH YOU</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
                 <song track="4"><title>HERE I AM (COME AND TAKE ME)</title><credits type="song">(<person id="A Green"/>;<person id="T Hodges">M Hodges</person>)<label id="BMI"/></credits></song>
                 <!-- Teenie Hodges is listed as M Hodges here, but I'm not sure what the best way to represent that difference in xml. I assumed making M Hodges the content of the element would do this, and I did the same thing below iwth Whitfield and Strong -->
-                <song track="5"><title>HOW CAN YOU MEND A BROKEN HEART</title><credits type="song">(<person id="B Gibb">B Gibb</person>;<person id="R Gibb">R Gibb</person>)<label id="BMI"/></credits></song>
+                <song track="5"><title>HOW CAN YOU MEND A BROKEN HEART</title><credits type="song">(<person id="B Gibb"/>;<person id="R Gibb"/>)<label id="BMI"/></credits></song>
                 <song track="6"><title>LET'S STAY TOGETHER</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
                 <song track="7"><title>I CAN'T GET NEXT TO YOU</title><credits type="song">(<person id="N Whitfield">Whitfield</person>;<person id="B Strong">Strong</person>)<label id="ASCAP"/></credits></song>
                 <song track="8"><title>YOU OUGHT TO BE WITH ME</title><credits type="song">(<person id="A Green"/>;<person id="W Mitchell"/>;<person id="A Jackson"/>)<label id="BMI"/></credits></song>
