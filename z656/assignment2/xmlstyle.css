@@ -2,7 +2,7 @@
 /* CSS Document */
 
 @font-face {font-family: "SinaNovaReg";
-src: url("/z656/assignment2/SinaNovaReg.otf");
+src: url(SinaNovaReg.otf);
 }
 * {display: block;}
 *{font-family: "SinaNovaReg"}
