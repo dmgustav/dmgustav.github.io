@@ -1,8 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@font-face {font-family: "SinaNovaReg";
+src: url(SinaNovaReg.otf);
+}
 * {display: block;}
-
+*{font-family: "SinaNovaReg"}
 titlePage {padding-top: 80px;}
 docImprint {font-size: 150%;}
 docDate:after {content:attr(when)}
@@ -17,7 +20,7 @@ docDate:after {content:attr(when)}
 [rendition~="#expanded"] {letter-spacing: 3px;}
 
 
-space[quantity="5"] {padding: 55px;}
-space[quantity="1"] {padding: 11px;}
-space[quantity="3"] {padding: 33px;}
-space[quantity="4"] {padding: 44px;}
+space[quantity="5"] {padding: 50px;}
+space[quantity="1"] {padding: 10px;}
+space[quantity="3"] {padding: 30px;}
+space[quantity="4"] {padding: 40px;}
