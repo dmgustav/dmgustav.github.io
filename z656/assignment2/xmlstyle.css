@@ -23,11 +23,11 @@ titlePage {
 
 docTitle {
   padding: 15% 1% 0px 1%;
-  background-color: rgba(255, 255, 240, 0.5);
+  background-color: rgba(255, 255, 235, 0.7);
 }
 
 docImprint {
-  background-color: rgba(255, 255, 240 0.5);
+  background-color: rgba(255, 255, 235 0.7);
   padding: 0px 1% 20% 1%;
   font-size: 150%;
 }
