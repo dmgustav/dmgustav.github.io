@@ -5,7 +5,9 @@
 src: url(SinaNovaReg.otf);
 }
 * {display: block;}
-*{font-family: "SinaNovaReg"}
+*{font-family: "SinaNovaReg";}
+*{white-space: nowrap;}
+*{overflow: hidden;}
 titlePage {margin: 10px 35% 10px 35%;}
 titlePage {border-style: solid;
 border-width: 2px;}
