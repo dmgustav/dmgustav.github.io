@@ -7,7 +7,8 @@ src: url(SinaNovaReg.otf);
 * {display: block;}
 *{font-family: "SinaNovaReg"}
 titlePage {margin: 10px;}
-titlePage {boarder-style: solid;}
+titlePage {boarder-style: solid;
+boarder-width: 2px;}
 titlePage {padding-top: 80px;}
 docImprint {font-size: 150%;}
 docDate:after {content:attr(when)}
