@@ -5,7 +5,7 @@
   font-family: "SinaNovaReg";
   src: url(SinaNovaReg.otf);
 }
-xml { background-color: white;}
+
 * {
   display: block;
   text-align: center;
@@ -16,7 +16,9 @@ xml { background-color: white;}
 
 *{overflow: hidden;}
 titlePage {margin: 10px 35% 20% 35%;}
-titlePage {background-color: rgb(255, 255, 240);}
+docTitle {background-color: rgb(255, 255, 240);}
+docImprint {background-color: rgb(255, 255, 240);}
+
 titlePage {border-style: solid;border-width: 2px;}
 titlePage {padding: 5% 1% 8% 1%;}
 docImprint {font-size: 150%;}
