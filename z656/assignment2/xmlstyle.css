@@ -22,13 +22,13 @@ titlePage {
 }
 
 docTitle {
-  padding: 10% 1% 0px 1%;
-  background-color: rgba(255, 255, 240, 0.3);
+  padding: 15% 1% 0px 1%;
+  background-color: rgba(255, 255, 240, 0.5);
 }
 
 docImprint {
-  background-color: rgba(255, 255, 240 0.3);
-  padding: 0px 1% 15% 1%;
+  background-color: rgba(255, 255, 240 0.5);
+  padding: 0px 1% 20% 1%;
   font-size: 150%;
 }
 docDate:after {content:attr(when);}
