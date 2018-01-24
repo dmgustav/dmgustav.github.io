@@ -5,12 +5,13 @@
   font-family: "SinaNovaReg";
   src: url(SinaNovaReg.otf);
 }
+xml { background-color: white;}
 * {
   display: block;
   text-align: center;
   font-family: "SinaNovaReg";
   font-size: 1vw;
-  background-color: white;
+  
 }
 
 *{overflow: hidden;}
