@@ -11,18 +11,27 @@
   text-align: center;
   font-family: "SinaNovaReg";
   font-size: 1vw;
-  
+  overflow: hidden;
 }
 
-*{overflow: hidden;}
-titlePage {margin: 10px 35% 20% 35%;}
-docTitle {background-color: rgb(255, 255, 240);}
-docImprint {background-color: rgb(255, 255, 240);}
 
-titlePage {border-style: solid;border-width: 2px;}
-titlePage {padding: 5% 1% 8% 1%;}
-docImprint {font-size: 150%;}
-docDate:after {content:attr(when)}
+titlePage {
+  margin: 10px 35% 20% 35%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+docTitle {
+  padding: 5% 1% 0px 1%;
+  background-color: rgb(255, 255, 240);
+}
+
+docImprint {
+  background-color: rgb(255, 255, 240);
+  padding: 0px 1% 10% 1%;
+  font-size: 150%;
+}
+docDate:after {content:attr(when);}
 
 [rendition~="#center"] {text-align: center;}
 [rendition~="#x-large"] {font-size: 125%;}
