@@ -15,7 +15,7 @@
 *{overflow: hidden;}
 titlePage {margin: 10px 30% 20% 30%;}
 titlePage {border-style: solid;border-width: 2px;}
-titlePage {padding: 6% 4% 8% 4%;}
+titlePage {padding: 5% 2% 8% 2%;}
 docImprint {font-size: 150%;}
 docDate:after {content:attr(when)}
 
