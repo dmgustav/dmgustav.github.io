@@ -23,7 +23,7 @@ docDate:after {content:attr(when)}
 [rendition~="#x-large"] {font-size: 125%;}
 [rendition~="#xx-large"] {font-size: 150%;}
 [rendition~="#large"] {font-size: 100%;}
-[rendition~="#small"] {font-size: 75%;}
+[rendition~="#small"] {font-size: 60%;}
 [rendition~="#red"] {color: red;}
 [rendition~="#uppercase"] {text-transform: uppercase;}
 [rendition~="#expanded"] {letter-spacing: 3px;}
