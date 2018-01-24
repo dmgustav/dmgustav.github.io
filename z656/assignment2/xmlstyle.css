@@ -16,19 +16,19 @@
 
 
 titlePage {
-  margin: 10px 35% 20% 35%;
+  margin: 30px 35% 20% 35%;
   border-style: solid;
   border-width: 2px;
 }
 
 docTitle {
-  padding: 5% 1% 0px 1%;
+  padding: 10% 1% 0px 1%;
   background-color: rgb(255, 255, 240);
 }
 
 docImprint {
   background-color: rgb(255, 255, 240);
-  padding: 0px 1% 10% 1%;
+  padding: 0px 1% 15% 1%;
   font-size: 150%;
 }
 docDate:after {content:attr(when);}
