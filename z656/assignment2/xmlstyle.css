@@ -1,16 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@font-face {font-family: "SinaNovaReg";
-src: url(SinaNovaReg.otf);
+@font-face {
+  font-family: "SinaNovaReg";
+  src: url(SinaNovaReg.otf);
 }
-* {display: block;}
-*{font-family: "SinaNovaReg";}
-/* *{white-space: nowrap;} */
+* {
+  display: block;
+  text-align: center;
+  font-family: "SinaNovaReg";
+  font-size: 15vw;
+}
+
 *{overflow: hidden;}
 titlePage {margin: 10px 35% 10px 35%;}
-titlePage {border-style: solid;
-border-width: 2px;}
+titlePage {border-style: solid;border-width: 2px;}
 titlePage {padding: 80px 50px 100px 50px;}
 docImprint {font-size: 150%;}
 docDate:after {content:attr(when)}
