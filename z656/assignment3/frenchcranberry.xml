@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe xmlns:xsi="/recipeml.xsd">
+    <name>French Cranberry Chicken</name>
+    <supplies>
+        <ingredient id="1">
+            <quantity unit="cup">1</quantity>
+            <kind preperation="prepared" brand="Soup of Success">French Créme dressing</kind>
+        </ingredient>
+        <ingredient id="2">
+            <quantity unit="cup">1</quantity>
+            <kind preperation="whole">cranberry sauce</kind>
+        </ingredient>
+        <ingredient id="3">
+            <quantity unit="package">1</quantity>
+            <kind preperation="dry">onion soup mix</kind>
+        </ingredient>
+        <ingredient id="4">
+            <quantity unit="pounds">1.5</quantity>
+            <kind preperation="de-boned" cut="breast">chicken</kind>
+        </ingredient>
+        <ingredient id="5" apperence="hidden">
+            <kind>rice</kind>
+        </ingredient>
+        <!-- Rice is included in the directions, but not the ingredient list. I considered including it here and commenting it out, but that would make non-computer readable. I decided to instead give this ingredient the attribute "hidden" to show that it would not be included in the printed ingredient list, but to hopefully make it still useful for Alexa as she attempts to prepare dinner (of course, any IOT device would probably want a qantity as well, and the steps below would likely need much more information to make them useful for a computer) -->
+    </supplies>
+    <directions>
+        <step action="place">Place <ingredient id="4">chicken</ingredient> in a <cookware dimensions="9x13" units="inches">dish</cookware></step>
+        <step>
+            <sub-step action="mix">Mix <ingredient id="1">dressing</ingredient>, <ingredient id="2">cranberry sauce</ingredient>, and <ingredient id="3">soup
+                mix</ingredient></sub-step>
+            <sub-step action="pour">pour over <ingredient id="4">chicken</ingredient></sub-step>
+        </step>
+        <step action="bake" appliance="oven">Bake at <temp units="degrees">350 degrees</temp> for
+                <durration unit="minutes">45 minutes</durration></step>
+        <step action="serve">Serve over <ingredient id="5">rice</ingredient> and enjoy</step>
+    </directions>
+</recipe>

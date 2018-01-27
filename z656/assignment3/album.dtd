@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT album (provenance, recording, sleeve)>
+<!ELEMENT provenance (label, reclocation, technical, creators+)>
+<!ELEMENT label (#PCDATA|original|remaster)* >
+<!ATTLIST label id CDATA #IMPLIED >
+<!ELEMENT original (#PCDATA) >
+<!ELEMENT remaster (#PCDATA) >
+<!ATTLIST original id ID #IMPLIED>
+<!ATTLIST remaster id ID #IMPLIED >
+<!ELEMENT reclocation (studio*, city*)>
+<!ATTLIST reclocation id ID #IMPLIED >
+<!ELEMENT studio (#PCDATA) >
+<!ELEMENT city (globalcord) >
+<!ELEMENT globalcord (#PCDATA) >
+<!ATTLIST globalcord lat CDATA #REQUIRED >
+<!ATTLIST globalcord long CDATA #REQUIRED >
+<!ELEMENT technical (media+) >
+<!ELEMENT media (#PCDATA) >
+<!ATTLIST media type CDATA #IMPLIED >
+<!ATTLIST media tracking (full|half|quad) #IMPLIED >
+<!ATTLIST media ips (1.875|3.75|7.5|15|30|slow) #IMPLIED >
+<!ELEMENT creators (person*, organization*) >
+<!ELEMENT person (#PCDATA|role)* >
+<!ATTLIST person id CDATA #IMPLIED >
+<!ELEMENT role (#PCDATA) >
+<!ELEMENT organization (#PCDATA|role)* >
+<!ATTLIST organization id CDATA #IMPLIED >
+<!ELEMENT recording ANY >
+<!ELEMENT sleeve (frontcover?,backcover?) >
+<!ELEMENT frontcover (title?, artist*, coverimage?) >
+<!ATTLIST frontcover text CDATA #IMPLIED >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT artist (person, group) >
+<!ELEMENT group (#PCDATA) >
+<!ELEMENT coverimage ANY >
+<!ATTLIST coverimage href CDATA #IMPLIED >
+<!ELEMENT backcover (sidebar*, tracklist, albumcredits, background?) >
+<!ATTLIST backcover text CDATA #IMPLIED >
+<!ELEMENT sidebar (#PCDATA|specialcharacter)*>
+<!ATTLIST sidebar location (left|right) #REQUIRED >
+<!ATTLIST sidebar orientation (bottom-top|top-bottom) #REQUIRED >
+<!ELEMENT specialcharacter ANY >
+<!ATTLIST specialcharacter id CDATA #REQUIRED >
+<!ATTLIST specialcharacter href CDATA #IMPLIED >
+<!ELEMENT tracklist (song+) >
+<!ATTLIST tracklist location (top|center|bottom) #IMPLIED >
+<!ATTLIST tracklist alignment (left|center|right) #IMPLIED >
+<!ELEMENT song (title, songcredits*) >
+<!ATTLIST song track ID #REQUIRED>
+<!ELEMENT songcredits (#PCDATA|person|label)*>
+<!ELEMENT albumcredits (producers, engineers, remix, vocalbackgrounds, stringarrangement, strings, horns, rhythm, location)>
+<!ATTLIST albumcredits location (top|center|bottom) #IMPLIED >
+<!ATTLIST albumcredits alignment (left|center|right) #IMPLIED >
+<!ELEMENT producers (#PCDATA|person|organization)* >
+<!ELEMENT engineers (#PCDATA|person|organization)* >
+<!ELEMENT remix (#PCDATA|person|organization)* >
+<!ELEMENT vocalbackgrounds (#PCDATA|person|organization)* >
+<!ELEMENT stringarrangement (#PCDATA|person|organization)* >
+<!ELEMENT strings (#PCDATA|person|organization)* >
+<!ELEMENT horns (#PCDATA|person|organization)* >
+<!ELEMENT rhythm (#PCDATA|person|organization)* >
+<!ELEMENT location (#PCDATA|reclocation)* >
+<!ELEMENT background ANY >
+<!ELEMENT image EMPTY >
+<!ATTLIST image href CDATA #IMPLIED>
+<!ATTLIST background href CDATA #IMPLIED >
