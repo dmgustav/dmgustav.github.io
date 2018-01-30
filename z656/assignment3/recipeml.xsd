@@ -10,7 +10,7 @@
                 </xs:element>
                 <xs:element name="kind" minOccurs="0">
                     <xs:complexType mixed="true">
-                        <xs:attribute name="preperation"/>
+                        <xs:attribute name="preparation"/>
                         <xs:attribute name="brand"/>
                         
                         <xs:attribute name="cut"/>
@@ -59,7 +59,7 @@
                                                 <xs:attribute name="units"/>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="durration" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name="duration" minOccurs="0" maxOccurs="unbounded">
                                             <xs:complexType mixed="true">
                                                 <xs:attribute name="unit"/>
                                             </xs:complexType>
