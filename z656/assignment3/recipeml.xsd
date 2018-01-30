@@ -1,70 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-    <xs:element name="ingredient"><xs:complexType mixed="true">
-        <xs:all>
-            <xs:element name="quantity">
-                <xs:complexType>
-                    <xs:attribute name="unit"/>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="kind">
-                <xs:complexType>
-                    <xs:attribute name="preperation"/>
-                    <xs:attribute name="brand"/>
-                </xs:complexType>
-            </xs:element>
-        </xs:all>
-        <xs:attribute name="id" type="xs:ID"/>
-    </xs:complexType>
-        
+    <xs:element name="ingredient">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element name="quantity" minOccurs="0">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="unit"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="kind" minOccurs="0">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="preperation"/>
+                        <xs:attribute name="brand"/>
+                        
+                        <xs:attribute name="cut"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="appearance"/>
+            <xs:attribute name="id" type="xs:integer"/>
+        </xs:complexType>
+
     </xs:element>
-<xs:element name="recipe">
-    <xs:complexType>
-        <xs:sequence>
-           <xs:element name="supplies">
-               <xs:complexType>
-                   <xs:all>
-                       <xs:element ref="ingredient" minOccurs="1"/>
-                   </xs:all>
-               </xs:complexType>
-           </xs:element> 
-            <xs:element name="directions" minOccurs="1">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="step">
-                            <xs:complexType mixed="true">
-                                <xs:sequence>
-                                    <xs:element ref="ingredient"/>
-                                    <xs:element name="cookware">
-                                        <xs:complexType>
-                                            <xs:attribute name="dimensions"/>
-                                            <xs:attribute name="units"/>
-                                        </xs:complexType>
-                                    </xs:element>
-                                    <xs:element name="substep">
-                                        <xs:complexType><xs:sequence><xs:element ref="ingredient"/></xs:sequence>
-                                        <xs:attribute name="action"/>
-                                        </xs:complexType>
-                                    </xs:element>
-                                    <xs:element name="temp">
-                                        <xs:complexType>
-                                            <xs:attribute name="units"/>
-                                        </xs:complexType>
-                                    </xs:element>
-                                    <xs:element name="durration">
-                                        <xs:complexType>
-                                            <xs:attribute name="units"/>
-                                        </xs:complexType>
-                                    </xs:element>
-                                </xs:sequence>
-                                <xs:attribute name="action"/>
-                                <xs:attribute name="appliance"/>
-                            </xs:complexType>
-                        </xs:element>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
-</xs:element>
+    <xs:element name="recipe">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name"></xs:element>
+                <xs:element name="supplies">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element ref="ingredient" minOccurs="1" maxOccurs="unbounded"/>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="directions" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="step" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element ref="ingredient" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element name="cookware" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">
+                                                <xs:attribute name="dimensions"/>
+                                                <xs:attribute name="units"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="sub-step" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">
+                                                <xs:choice>
+                                                  <xs:element ref="ingredient" minOccurs="0" maxOccurs="unbounded"/>
+                                                </xs:choice>
+                                                <xs:attribute name="action"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="temp" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">
+                                                <xs:attribute name="units"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="durration" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">
+                                                <xs:attribute name="unit"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="action"/>
+                                    <xs:attribute name="appliance"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
