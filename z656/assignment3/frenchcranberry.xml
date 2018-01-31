@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="recipeml.xsd">
+ xsi:noNamespaceSchemaLocation="https://github.com/dmgustav/dmgustav.github.io/blob/master/z656/assignment3/recipeml.xsd">
     <name>French Cranberry Chicken</name>
     <supplies>
         <ingredient id="1">
