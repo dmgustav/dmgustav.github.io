@@ -10,22 +10,31 @@ title: ILS-Z656 Assignment 4
 
 </pre></code></p>
 <p>Answer to Question 2:<pre class="prettyprint pre-scrollable"><code>
-There is only one "list" element in the document, however, given that the text is an ordered collection of reviews, it would not be unfair to charaterize the whole document as a list of books published about Indiana history.
-There may be other "lists" scattered throughout the document, but none of these use the "list" element.
+There is only one &quot;list&quot; element in the document, however, given that the text is an ordered collection of reviews, it would not be unfair to charaterize the whole document as a list of books published about Indiana history.
+There may be other &quot;lists&quot; scattered throughout the document, but none of these use the &quot;list&quot; element.
 &lt;XPATH&gt;//body//list&lt;/XPATH&gt;
 </pre></code></p>
 <p>Answer to Question 3:<pre class="prettyprint pre-scrollable">
-&lt;XPATH&gt; &lt;/XPATH&gt;
+&lt;XPATH&gt;//publicationStmt/availability/p[1]&lt;/XPATH&gt;
 <code></pre></code></p>
 <p>Answer to Question 4:<pre class="prettyprint pre-scrollable">
-&lt;XPATH&gt; &lt;/XPATH&gt;
+&lt;XPATH&gt;//publicationStmt/date/preceding-sibling::*&lt;/XPATH&gt;
+&lt;XPATH&gt;//publicationStmt/*[position()&lt;3]&lt;/XPATH&gt;
 <code></pre></code></p>
-<p>Answer to Question 5:<pre class="prettyprint pre-scrollable">
-&lt;XPATH&gt; &lt;/XPATH&gt;
+<p>Answer to Question 5:<pre class="prettyprint pre-scrollable">There are 34 &quot;p&quot; elements in the text of this document, however several of these are actually headers of individual books being reviewed. It seems as though all of these headers include the &quot;lb&quot; element (left-bullet?). Searching for &quot;p&quot; elements not including the &quot;lb&quot; element finds 16 results.
+&lt;XPATH&gt;count(//body/div/p)&lt;/XPATH&gt; or better:
+&lt;XPATH&gt;count(//body/div/p[not(child::lb)]&lt;/XPATH&gt;
 <code></pre></code></p>
-<p>Answer to Question 6:<pre class="prettyprint pre-scrollable"><code>
-&lt;XPATH&gt; &lt;/XPATH&gt;
+<p>Answer to Question 6:<pre class="prettyprint pre-scrollable"><code>There are 7 distinct states listed in this document. This xpath needed a little troubleshotting because &quot;Monroe&quot; is erroneousely listed as a state.
+&lt;XPATH&gt;count(distinct-values(//region[@type=&quot;state&quot;][@reg!=&quot;Monroe&quot;])))&lt;/XPATH&gt;
 </pre></code></p>
-<p>Answer to Question 7:<pre class="prettyprint pre-scrollable"><code>
-&lt;XPATH&gt; &lt;/XPATH&gt;
+<p>Answer to Question 7:<pre class="prettyprint pre-scrollable"><code>There are 23 distinct cities mentioned in the text. For some reason, the xpath distinct-values(//body//placeName/settlment[@type=&quot;city&quot;]) still double counts South Bend and Notre Dame. There does not appear to be any difference in the way these values are spelled within the attribute, and I couldn&apos;t figure out a way to elliminate these duplicates using xpath, meaning that to get an acccurate count of cities I had to subtract two from the xpath result.
+&lt;XPATH&gt;count(distinct-values(//body//placeName/settlement[@type=&quot;city&quot;]))-2&lt;/XPATH&gt;
 </pre></code></p>
+<p>Answer to Question 8:<pre class="prettyprint pre-scrollable"><code>Evansville is mentioned twice in the document
+&lt;XPATH&gt;//body//placeName/settlement[@reg=&quot;Evansville&quot;]&lt;/XPATH&gt;
+</pre></code></p>
+<p>Answer to Question 9:<pre class="prettyprint pre-scrollable"><code>As with question five, searching for the &quot;lb&quot; element would be one way to count reviews, however I also tried a few other methods. Because each review lists a price for the book under review, counting the number of paragraphs in which the $ symbol appears should reveal how the number of reviews in the issue (16). While  similar xapaths using words needed for title statments could also be used (eg. by searching for paragraphs that contain the words &quot;editor,&quot; or &quot;author&quot;) those words are more likely to appear within the reviews themselves. The issue with searching for the $ symbol is that it may exclude any books with a price that is TBD (or free books), but it is still the best approximation I can find using xpath alone. 
+&lt;XPATH&gt;//body//p[contains(.,&quot;$&quot;)]&lt;/XPATH&gt;
+</pre></code></p>
+
