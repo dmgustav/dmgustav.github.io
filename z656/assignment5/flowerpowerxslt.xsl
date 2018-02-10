@@ -7,9 +7,12 @@
 
         <html>
             <head>
-                <title>Homenda Greenhouses Product Catalog</title>
+                <title>Homenda Greenhouse</title>
             </head>
             <body>
+                <h1>Welcome to the Homenda Digital Greenhouse!</h1>
+                <p>We're a small family operated nursery dedicated to providing flowers and shrubs worldwide. We take extra special care of our products' roots, stems, and leaves to make sure all our plants are well formed. For ordering info, please call 1-800-656-2449, or you can reach us at orders@homendagreenhouse.com </p>
+                <h2>Product Catalog</h2>
                 <table>
                     <tr>
                         <th>Common Name</th>
@@ -28,7 +31,7 @@
                     </xsl:apply-templates>
                 </table>
             </body>
-            <footer><p>created from <a href="https://www.w3schools.com/xml/plant_catalog.xml">XML</a> using FLOWERPOWERXSLT</p></footer>
+            <footer><p>created from <a href="https://www.w3schools.com/xml/plant_catalog.xml">XML</a> using <a href="dmgustav.github.io/z656/assignment5/flowerpowerxslt.xsl">FLOWERPOWERXSLT</a></p></footer>
         </html>
     </xsl:template>
 
