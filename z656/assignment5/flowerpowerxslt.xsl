@@ -7,11 +7,15 @@
 
         <html>
             <head>
-                <title>Homenda Greenhouse</title>
+                <link rel="stylesheet" type="text/css" href="flowers.css"/>
+                <title>David's Greenhouse</title>
             </head>
             <body>
-                <h1>Welcome to the Homenda Digital Greenhouse!</h1>
-                <p>We're a small family operated nursery dedicated to providing flowers and shrubs worldwide. We take extra special care of our products' roots, stems, and leaves to make sure all our plants are well formed. For ordering info, please call 1-800-656-2449, or you can reach us at orders@homendagreenhouse.com </p>
+                <h1>Welcome to the David's Greenhouse!</h1>
+                <p>We're a small family operated nursery dedicated to providing flowers and shrubs worldwide. We take extra special care of our products' roots, stems, and leaves to make sure all our plants are well formed. For ordering info, please call 1-800-656-2449, or you can reach us at orders@davidsgreenhouse.com </p>
+                <img class="center" src="/z656/assignment5/Butteryfly_Weed_3_Stages_of_Bloom_2240px.jpg" width="500" height="500"></img>
+                <p class="note">Asclepias tuberosa</p>
+                <p class="note">Photo by Derek Ramsey (<a href="https://en.wikipedia.org/wiki/User:Ram-Man" class="extiw" title="en:User:Ram-Man">Ram-Man</a>) - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/2.5" title="Creative Commons Attribution-Share Alike 2.5">CC BY-SA 2.5</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=913012">Link</a></p>
                 <h2>Product Catalog</h2>
                 <table>
                     <tr>
