@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
@@ -6,7 +5,14 @@
     <xsl:strip-space elements="*"/>
     <xsl:output method="html" indent="yes"/>
     
+    
+    <!-- <xsl:variable name="playername"><xsl:value-of select="concat(./@first,' ',./@last,' # ',./@num)"/></xsl:variable>--> 
+    <!--<xsl:variable name="playername" select="concat(@first,' ',@last,' # ',@num)"></xsl:variable> -->
+   <!-- <xsl:variable name="playername"><xsl:copy-of select="concat(@first,' ',@last,' # ',@num)"></xsl:copy-of></xsl:variable>-->
+    
+    
     <xsl:template match="game">
+       
         <html>
             <head>
                 <title><xsl:value-of select="team[1]/@name"/> vs <xsl:value-of select="team[2]/@name"/> <xsl:value-of select="@date"/></title>
@@ -35,15 +41,19 @@
             <tr><th>Player</th> <th>Batting Average</th> <th>Home Runs</th> <th>RBI</th> <th>Earned Run Average</th>
             </tr>
             <xsl:apply-templates select="player[@position='P']">
-                <xsl:sort select="last" data-type="text" order="ascending"></xsl:sort>
+                <xsl:sort select="@last" data-type="text" order="ascending"></xsl:sort>
             </xsl:apply-templates>
         </table>
-        
+        <footer><p>Compiled from <a href="http://gd2.mlb.com/components/game/mlb/year_2011/month_04/day_04/gid_2011_04_04_minmlb_nyamlb_1/players.xml">xml data</a> using <a href="/MLBXSLT.xml">MLBXSLT</a>. Background image copyright realtor.com </p></footer>
     </xsl:template>
     
     <xsl:template match="player[@position!='P']">
+        <xsl:variable name="playername"><xsl:value-of select="concat(@first,' ',@last,' #',@num)"/></xsl:variable>
         <tr>
-            <td><xsl:value-of select="concat(@first,' ', @last,' #',@num)"/></td>
+            <td>
+                <xsl:value-of select="$playername"/>
+                <!--<xsl:value-of select="concat(@first,' ',@last,' # ',@num)"/>-->
+            </td>
             <td><xsl:choose>
                 <xsl:when test="@position='D'">Designated Hitter</xsl:when>
                 <xsl:when test="@position='RF'">Right Fielder</xsl:when>
@@ -62,8 +72,11 @@
         </tr>
     </xsl:template>
     <xsl:template match="player[@position='P']">
+        <xsl:variable name="playername"><xsl:value-of select="concat(@first,' ',@last,' #',@num)"/></xsl:variable>
         <tr>
-            <td><xsl:value-of select="concat(@first,' ', @last,' #',@num)"/></td>
+            <td><!--<xsl:value-of select="concat(@first,' ', @last,' #',@num)"/>-->
+            <xsl:value-of select="$playername"/>
+            </td>
             <td><xsl:choose><xsl:when test="@avg!='.000'"><xsl:value-of select="@avg"/></xsl:when>
                 <xsl:when test="@avg='.000'">-</xsl:when></xsl:choose></td>
             <td><xsl:choose><xsl:when test="@avg!='.000'"><xsl:value-of select="@hr"/></xsl:when><xsl:when test="@avg='.000'">-</xsl:when></xsl:choose></td>
