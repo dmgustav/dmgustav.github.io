@@ -7,7 +7,10 @@
     <xsl:strip-space elements="*"/>
     <xsl:output method="html" indent="yes"/>
     
-    <xsl:variable name="name"></xsl:variable> 
+   <!-- <xsl:variable name="playername"><xsl:value-of select="concat(@first,' ',@last,' # ',@num)"/></xsl:variable>--> 
+    <!-- <xsl:variable name="playername"><xsl:value-of select="concat(./@first,' ',./@last,' # ',./@num)"/></xsl:variable>--> 
+    <!--<xsl:variable name="playername" select="concat(@first,' ',@last,' # ',@num)"></xsl:variable> -->
+   <!-- <xsl:variable name="playername"><xsl:copy-of select="concat(@first,' ',@last,' # ',@num)"></xsl:copy-of></xsl:variable>-->
     
     <xsl:template match="game">
         <html>
