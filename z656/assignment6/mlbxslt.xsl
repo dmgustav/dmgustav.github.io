@@ -23,6 +23,7 @@
                 <xsl:apply-templates/>
                 
             </body>
+            <footer><p>Compiled from <a href="http://gd2.mlb.com/components/game/mlb/year_2011/month_04/day_04/gid_2011_04_04_minmlb_nyamlb_1/players.xml">xml data</a> using <a href="/MLBXSLT.xml">MLBXSLT</a>. Background image copyright realtor.com </p></footer>
         </html>
     </xsl:template>
     <xsl:template match="team">
@@ -44,7 +45,7 @@
                 <xsl:sort select="@last" data-type="text" order="ascending"></xsl:sort>
             </xsl:apply-templates>
         </table>
-        <footer><p>Compiled from <a href="http://gd2.mlb.com/components/game/mlb/year_2011/month_04/day_04/gid_2011_04_04_minmlb_nyamlb_1/players.xml">xml data</a> using <a href="/MLBXSLT.xml">MLBXSLT</a>. Background image copyright realtor.com </p></footer>
+        
     </xsl:template>
     
     <xsl:template match="player[@position!='P']">
