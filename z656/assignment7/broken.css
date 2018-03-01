@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    display: block;
+    font-size: 1vw;
+    font-family: 'averia serif';
+    
+
+
+}
+title{
+    display: none;
+}
+
+body {padding:20px 35% 20px 35%;
+display:block}
+   
+
+h1{
+    text-align: center
+}
+
+span{
+    display: inline-block;
+    text-indent: 0px;
+}
+.i{
+    font-style: italic;
+}
+
+p{
+
+
+    text-indent: 30px;
+    text-align: justify;
+    text-justify: distribute;
+    word-wrap: break-word;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+.b{
+    font-weight: bold;
+}
+
+.subhead{
+   margin: 0px;
+    text-align: left;
+    float: left;
+   position: relative;
+    vertical-align:top;
+    top: 2em;
+    max-width: 150px;
+   
+    padding: 10px 10px 0px 0px;
+    text-indent: 0px;
+}
