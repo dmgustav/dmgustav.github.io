@@ -74,7 +74,7 @@
             <head>ALMA</head>
             <epigraph>
                <p rend="itl"> "Est-elle almee? . . . aux premieres heures bleues Se detruira-t-elle
-                  comme les fleurs feues. . . /'</p>
+                  comme les fleurs feues. . . /'<note>"Is she an Egyptian dancer? ... in the first blue hours will she destroy herself like deceased flowers..." - Rimbaud <hi rend="itl">Est-elle almee?...</hi> translated by John Kinsella</note></p>
                <p> — Rimbaud.</p>
             </epigraph>
             <div type="part">
@@ -85,7 +85,7 @@
                   <l>purple, her fancy white skin quite unoriental to the dirty child-</l>
                   <l>ren's round eyes standing in circles munching muffins, the cock</l>
                   <l>roaches like nuggets half hid in the bran. Boy! how are you,</l>
-                  <l>Prester John? the smile of the river, so searching, so enamelled.</l>
+                  <l><persName>Prester John <note>Prester John: Legendary Christian King said to have ruled over a lost Christian nation in Asia <ref target="https://en.wikipedia.org/wiki/Prester_John">Wikipedia</ref></note></persName>? the smile of the river, so searching, so enamelled.</l>
                </lg>
             </div>
             <div type="part">
@@ -124,7 +124,7 @@
                   <l>Thus he to bed and we to rise</l>
                   <l>and Alma singing like a loon.</l>
                   <l>Her dancing toenails in her eyes.</l>
-                  <l>Her pa was dead on the River Gaboon.</l>
+                  <l>Her pa was dead on the <placeName>River Gaboon<note>River Gaboon: Portuguese name for the estuary which flows through Libreville, Gabon</note></placeName>.</l>
                </lg>
             </div>
             <div type="part">
@@ -146,7 +146,7 @@
                   height of her nostalgia with the Metropolitan Opera Ballet in Salammbo; her father
                   seemed very close in all that oriental splendor of bamboo and hotel palms and
                   stale sweat and bracelets, an engagement of tears. In the snow, in her white fox
-                  fur wraps, how more beautiful than Mary Garden!</p>
+                  fur wraps, how more beautiful than <persName>Mary Garden <note>Mary Garden (1874-1967): Scottish opera soprano famed for her beauty <ref target="https://en.wikipedia.org/wiki/Mary_Garden">Wikipedia</ref></note></persName>!</p>
             </div>
             <div type="part">
                <l>4</l>
@@ -175,7 +175,7 @@
          <div type="poem">
             <head>ON RACHMANINOFFS BIRTHDAY</head>
             <l>Quick! a last poem before I go</l>
-            <l>off my rocker. Oh Rachmaninoff!</l>
+            <l>off my rocker. Oh <persName>Rachmaninoff<note>Sergei Rachmaninoff (1873-1943): Russian pianist, composer and conductor <ref target="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff">Wikipedia</ref></note></persName>!</l>
             <l>Onset, Massachusetts. Is it the fig-newton</l>
             <l>playing the horn? Thundering windows</l>
             <l>of hell, will your tubes ever break</l>
@@ -194,7 +194,7 @@
             <lg>
                <l>I watched an armory combing its bronze bricks</l>
                <l>and in the sky there were glistening rails of milk.</l>
-               <l> Where had the swan gone, the one with the lame back?</l>
+               <l>Where had the swan gone, the one with the lame back?</l>
             </lg>
             <lg rend="center">
                <l>Now mounting the steps</l>
@@ -314,6 +314,7 @@
             <p><date>1954</date></p>
          </div>
          <div type="poem">
+            <!-- Come back to -->
             <head>2 POEMS FROM THE OHARA MONOGATARI</head>
             <div type="part">
                <l>1</l>
@@ -351,7 +352,7 @@
                </lg>
                <lg>
                   <l>there is no longer no ocean</l>
-                  <l>I don't see the ocean under niy stilts</l>
+                  <l>I don't see the ocean under my stilts</l>
                   <l>as I poke along</l>
                </lg>
                <lg>
@@ -401,11 +402,11 @@
             </lg>
             <lg>
                <l rend="double-indent">Neon in daylight is a</l>
-               <l>great pleasure, as Edwin Denby would</l>
+               <l>great pleasure, as <persName>Edwin Denby<note>Edwin Denby (1903-1983): American writer of dance criticism and poetry <ref target="https://en.wikipedia.org/wiki/Edwin_Denby_(poet)">Wikipedia</ref></note></persName> would</l>
                <l>write, as are light bulbs in daylight.</l>
                <l>I stop for a cheeseburger at JULIET'S</l>
                <l>CORNER. Giulietta Masina, wife of</l>
-               <l> Federico Fellini, <hi rend="itl" xml:lang="it">e bell' attrice.</hi></l>
+               <l> <persName>Federico Fellini<note>Federico Fellini (1920-1993): Italian film director and screenwriter <ref target="https://en.wikipedia.org/wiki/Federico_Fellini">Wikipedia</ref></note></persName>, <hi rend="itl" xml:lang="it">e bell' attrice.</hi></l>
 
                <l>And chocolate malted. A lady in</l>
                <l>foxes on such a day puts her poodle</l>
@@ -415,8 +416,8 @@
                <l>There are several Puerto</l>
                <l>Ricans on the avenue today, which</l>
                <l>makes it beautiful and warm. First</l>
-               <l>Bunny died, then John Latouche,</l>
-               <l>then Jackson Pollock. But is the</l>
+               <l><persName>Bunny<note>V.R. "Bunny" Lang (1924-1956): Poet, actor, and editor of the <hi rend="itl">Chicago Review</hi>. Lang and O'Hara met durring O'Hara college years at Harvard, where they became close friends. Many of O'Hara's poems were originally sent in letters to Lang, and she appears frequently in these poems. </note></persName> died, then <persName>John Latouche <note>John La Touche (1914-1956): American lyricist and Bookwriter for the musical theater <ref target="https://en.wikipedia.org/wiki/John_La_Touche_(lyricist)">Wikipedia</ref></note></persName>,</l>
+               <l>then <persName>Jackson Pollock <note>Jackson Pollock (1912-1956): American Painter and leader in the abstract expressionist movement. Pollock was both a close friend and artistic icon of O'Hara's. After his death, O'Hara would write a monograph on Pollock and his paintings. Furthermore, several of O'Hara's poems are either inspired by or make direct reference to Pollock's work. <ref target="https://en.wikipedia.org/wiki/Jackson_Pollock">Wikipedia</ref></note></persName>. But is the</l>
                <l>earth as full as life was full, of them?</l>
                <l>And one has eaten and one walks,</l>
                <l>past the magazines with nudes</l>
@@ -439,7 +440,7 @@
             <l>with only three drab leaves left. The hot plate works,</l>
             <l>it is the sole heat on earth, and instant coffee. I</l>
             <l>put on my warm corduroy pants, a heavy maroon sweater,</l>
-            <l>and wrap myself in my old maroon bathrobe. Just like Pasternak</l>
+            <l>and wrap myself in my old maroon bathrobe. Just like <persName>Pasternak <note>Boris Pasternak (1890-1960): Russian poet, novelist, and translator. <ref target="https://en.wikipedia.org/wiki/Boris_Pasternak">Wikipedia</ref></note></persName></l>
             <l>in Marburg (they say Italy and France are colder, but</l>
             <l>I'm sure that Germany's at least as cold as this) and,</l>
             <l>lacking the Master's inspiration, I may freeze to death</l>
@@ -459,7 +460,7 @@
             <l>in it, and a phone call to the beyond</l>
             <l>which doesn't seem to be coming any nearer.</l>
             <l>"Ah daddy, I wanna stay drunk many days"</l>
-            <l>on the poetry of a new friend</l>
+            <l>on the poetry of <persName>a new friend<note>John Wieners (1934-2002): American Beat Poet, antiwar and gay rights activist. <ref target="https://www.poetryfoundation.org/poets/john-wieners#about">Poetry Foundation</ref></note></persName></l>
             <l>my life held precariously in the seeing</l>
             <l>hands of others, their and my impossibilities.</l>
             <l>Is this love, now that the first love</l>
@@ -669,11 +670,11 @@
                <l>is pushed off the enormous glass piers by hard wind</l>
                <l>and everything is tossing, hurrying on up</l>
                <l rend="4-indent">this country</l>
-               <l>has everything but politesse, a Puerto Rican cab driver says</l>
+               <l>has everything but <hi rend="itl">politesse</hi>, a Puerto Rican cab driver says</l>
                <l>and five different girls I see</l>
                <l rend="triple-indent">look like Piedie Gimbel</l>
                <l>with her blonde hair tossing too,</l>
-               <l rend="tripple indent"> as she looked when I pushed</l>
+               <l rend="triple-indent"> as she looked when I pushed</l>
                <l>her little daughter on the swing on the lawn it was also windy</l>
             </lg>
             <lg>
