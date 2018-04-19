@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lunch Poems</title>
+            <author>Frank O'Hara</author>
+            <respStmt>
+               <resp>Created using XSLT from EPUB, encoded by </resp>
+               <name>David Gustavsen</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>City Lights Books</publisher>
+            <date>1964</date>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Pocket Poets Series: Number 19</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="ns">Digital edition created by David Gustavsen for Z656</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Created using XSLT from an EPUB then edited for consistancy</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="center" n="tiebp:center"
+               scheme="css"> display:block;
+               text-align:center; margin-left:auto;
+               margin-right:auto; </rendition>
+            <rendition xml:id="itl" n="tiebp:itl"
+               scheme="css"> font-style: italic; </rendition>
+            <rendition xml:id="right" n="teibp:right"
+               scheme="css"> text-align:right; </rendition>
+            <rendition xml:id="l-indent-01"
+               n="tiebp:l-indent-01" scheme="css">
+               display:block; padding-left:4em;
+               text-indent:-2em; </rendition>
+            
+            <rendition xml:id="l-indent-02"
+               n="tiebp:l-indent-02" scheme="css">
+               display:block; padding-left:5em;
+               text-indent:-2em; </rendition>
+            
+            <rendition xml:id="l-indent-03"
+               n="tiebp:l-indent-03" scheme="css">
+               display:block; padding-left:10em;
+               text-indent:-2em; </rendition>
+            
+            <rendition xml:id="l-indent-04"
+               n="tiebp:l-indent-04" scheme="css">
+               display:block; padding-left:15em;
+               text-indent:-2em; </rendition>
+            
+            <rendition xml:id="l-indent-05"
+               n="tiebp:l-indent-05" scheme="css">
+               display:block; padding-left:20em;
+               text-indent:-2em; </rendition>
+            
+            <rendition xml:id="l-indent-06"
+               n="tiebp:l-indent-06" scheme="css">
+               display:block; padding-left:25em;
+               text-indent:-2em; </rendition>
+            
+          
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="dedication">
+            <p> to Joseph LeSueur</p>
+         </div>
+         <div type="preface">
+            <p> Some of these poems have appeared previously in Yugen, Evergreen Review, Poetry,
+               Locus Solus, The Beat Scene, Big Table, Signal, Nugget, The Floating Bear, C, The New
+               American Poetry, and City Lights Journal, to all of whom the author and publisher
+               offer their thanks.</p>
+         </div>
+      </front>
+      <body>
+         <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+            <moduleRef key="core" except=""/>
+            <moduleRef key="tei" except=""/>
+            <moduleRef key="header" except=""/>
+            <moduleRef key="textstructure" except=""/>
+            <moduleRef key="namesdates" except=""/>
+            <moduleRef key="verse" except=""/>
+         </schemaSpec>
+         <pb n="7" xml:id="p7" facs="../images/lunchpoems_Pg7.pdf"/>
+         <div type="poem">
+            <head>MUSIC</head>
+            <l>If I rest for a moment near The Equestrian</l>
+            <l>pausing for a liver sausage sandwich in the Mayflower Shoppe,</l>
+            <l>that angel seems to be leading the horse into Bergdorf's</l>
+            <l>and I am naked as a table cloth, my nerves humming.</l>
+            <l>Close to the fear of war and the stars which have disappeared.</l>
+            <l>I have in my hands only 35c, it's so meaningless to eat!</l>
+            <l>and gusts of water spray over the basins of leaves</l>
+            <l>like the hammers of a glass pianoforte. If I seem to you</l>
+            <l>to have lavender lips under the leaves of the world,</l>
+            <l>I must tighten my belt.</l>
+            <l>It's like a locomotive on the march, the season</l>
+            <l>of distress and clarity</l>
+            <l>and my door is open to the evenings of midwinter's</l>
+            <l>lightly falling snow over the newspapers.</l>
+            <l>Clasp me in your handkerchief like a tear, trumpet</l>
+            <l>of early afternoon! in the foggy autumn.</l>
+            <l>As they're putting up the Christmas trees on Park Avenue</l>
+            <l>I shall see my daydreams walking by with dogs in blankets,</l>
+            <l>put to some use before all those coloured lights come on!</l>
+            <l>But no more fountains and no more rain,</l>
+            <l>and the stores stay open terribly late.</l>
+         </div>
+         <pb n="8" xml:id="p8"/>
+         <div type="poem">
+            <head>ALMA</head>
+            <epigraph>
+               <p rendition="#itl"> "Est-elle almee? . . . aux premieres heures bleues Se detruira-t-elle
+                  comme les fleurs feues. . . /'<note>"Is she an Egyptian dancer? ... in the first blue hours will she destroy herself like deceased flowers..." - Rimbaud <hi rendition="#itl">Est-elle almee?...</hi> translated by John Kinsella</note></p>
+               <p> — Rimbaud.</p>
+            </epigraph>
+            <div type="part">
+               <l>1</l>
+               <lg>
+                  <l>The sun, perhaps three of them, one black one red, you know,</l>
+                  <l>and her dancing all the time, fanning the purple sky getting</l>
+                  <l>purple, her fancy white skin quite unoriental to the dirty child-</l>
+                  <l>ren's round eyes standing in circles munching muffins, the cock</l>
+                  <l>roaches like nuggets half hid in the bran. Boy! how are you,</l>
+                  <l><persName>Prester John <note>Prester John: Legendary Christian king said to have ruled over a lost Christian nation in Asia <ref target="https://en.wikipedia.org/wiki/Prester_John">Wikipedia</ref></note></persName>? the smile of the river, so searching, so enamelled.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <l>2</l>
+               <lg>
+                  <l>What mention of the King?</l>
+                  <l>the spinning wheel still turns,</l>
+                  <l>the apples rot to the singing.</l>
+                  <l>Ale est e on winter sojourns</l>
+               </lg>
+               <lg>
+                  <l>is nice at Nice. Wander,</l>
+                  <l>my dear sacred Pontiff, do dare</l>
+                  <l>to murder minutely and ponder</l>
+                  <l>what is the bloody affair</l>
+               </lg>
+               <lg>
+                  <l>inside the heart of the weak</l>
+                  <l>dancer, whose one toe is worth</l>
+                  <l>inestimable, the gang, the cheek</l>
+                  <l>of it! it's too dear, her birth</l>
+               </lg>
+               <lg>
+                  <l>amidst the acorns with nails</l>
+                  <l>stuck through them by passionate</l>
+                  <pb n="9" xml:id="p9"/>
+                  <l>parents, castanets! Caucasian tales!</l>
+                  <l>their prodigality proportionate:</l>
+               </lg>
+               <lg>
+                  <l>"Sacred Heart, oh Heart so sick,</l>
+                  <l>make Detroit more wholly thine,</l>
+                  <l>all with greeds and scabs so thick</l>
+                  <l>that Judas Priest must make a sign."</l>
+               </lg>
+               <lg>
+                  <l>Thus he to bed and we to rise</l>
+                  <l>and Alma singing like a loon.</l>
+                  <l>Her dancing toenails in her eyes.</l>
+                  <l>Her pa was dead on the <placeName>River Gaboon<note>River Gaboon: Portuguese name for the estuary which flows through Libreville, Gabon</note></placeName>.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <l>3</l>
+               <p style="prosepoem"> Detroit was founded on the great near waterways next to Canada
+                  which was friendly and immediately gained for herself the appellation "the Detroit
+                  of Thermopylaes", a name which has stuck to this day wherever ballroom dancing is
+                  held in proper esteem. Let me remind you of that great wrist movement, the
+                  enjambement schizophrene, a particularly satisfying variation of which may be made
+                  by adding a little tomato paste. Great success. While in Detroit accused of
+                  starting the Chicago fire. Millions of roses from Russians. Alma had come a long
+                  way, she opened a jewelry shop, her name became a household word, she'd invented
+                  an arch-supporter.</p>
+               <p style="prosepoem"> How often she thought of her father! the castle, the
+                  kitchen-garden, the hollihocks and the mill stream beyond curving gently as a
+                  parenthesis. Many a bitter tear was shed by her on the boards of this theatre as
+                  she pondered the inscrutable meagerness of divine Providence, always humming,
+                  always shifting a little, never missing a beat. She guested one season at the
+                  height of her nostalgia with the Metropolitan Opera Ballet in Salammbo; her </p>
+               <pb n="10" xml:id="p10"/>
+               <p>father
+                  seemed very close in all that oriental splendor of bamboo and hotel palms and
+                  stale sweat and bracelets, an engagement of tears. In the snow, in her white fox
+                  fur wraps, how more beautiful than <persName>Mary Garden <note>Mary Garden (1874-1967): Scottish opera soprano famed for her beauty. <ref target="https://en.wikipedia.org/wiki/Mary_Garden">Wikipedia</ref></note></persName>!</p>
+            </div>
+            <div type="part">
+               <l>4</l>
+               <lg>
+                  <l>Onward to the West. "Where I came from,</l>
+                  <l>where I'm going. Indian country." Gold.</l>
+                  <l>Oh say can you see Alma. The darling</l>
+                  <l>of Them. All her friends were artists.</l>
+                  <l>They alone have memories. They alone</l>
+                  <l>love flowers. They alone give parties</l>
+                  <l>and die. Poor Alma. They alone.</l>
+               </lg>
+               <lg>
+                  <l>She died,</l>
+                  <l>and it was as if all the jewels in the world</l>
+                  <l>had heaved a sigh. The seismograph</l>
+                  <l>at Fordham University registered, for once,</l>
+                  <l>a spiritual note. How like a sliver</l>
+                  <l>in her own short fat muscular foot.</l>
+                  <l>She loved the Western World, though</l>
+                  <l>there are some who say she isn't really dead.</l>
+               </lg>
+               <p rendition="#right"><date>1953</date></p>
+            </div>
+         </div>
+         <pb n="11" xml:id="p11"/>
+         <div type="poem">
+            <head>ON RACHMANINOFFS BIRTHDAY</head>
+            <l>Quick! a last poem before I go</l>
+            <l>off my rocker. Oh <persName>Rachmaninoff<note>Sergei Rachmaninoff (1873-1943): Russian pianist, composer and conductor. <ref target="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff">Wikipedia</ref></note></persName>!</l>
+            <l>Onset, Massachusetts. Is it the fig-newton</l>
+            <l>playing the horn? Thundering windows</l>
+            <l>of hell, will your tubes ever break</l>
+            <l>into powder? Oh my palace of oranges,</l>
+            <l>junk shop, staples, umber, basalt;</l>
+            <l>I'm a child again when I was really</l>
+            <l>miserable, a grope pizzicato. My pocket</l>
+            <l>of rhinestone, yoyo, carpenter's pencil,</l>
+            <l>amethyst, hypo, campaign button,</l>
+            <l>is the room full of smoke? Shit</l>
+            <l>on the soup, let it burn. So it's back.</l>
+            <l>You'll never be mentally sober.</l>
+         </div>
+         <pb n="12" xml:id="p12"/>
+         <div type="poem">
+            <head>POEM</head>
+            <lg>
+               <l>I watched an armory combing its bronze bricks</l>
+               <l>and in the sky there were glistening rails of milk.</l>
+               <l>Where had the swan gone, the one with the lame back?</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>Now mounting the steps</l>
+               <l>I enter my new home full</l>
+               <l>of grey radiators and glass</l>
+               <l>ashtrays full of wool.</l>
+            </lg>
+            <lg>
+               <l>Against the winter I must get a samovar</l>
+               <l>embroidered with basil leaves and Ukranian mottos</l>
+               <l>to the distant sound of wings, painfully anti-wind,</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>a little bit of the blue</l>
+               <l>summer air will come back</l>
+               <l>as the steam chuckles in</l>
+               <l>the monster's steamy attack</l>
+            </lg>
+            <lg>
+               <l>and I'll be happy here and happy there, full</l>
+               <l>of tea and tears. I don't suppose I'll ever get</l>
+               <l>to Italy, but I have the terrible tundra at least.</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>My new home will be full</l>
+               <l>of wood, roots and the like,</l>
+               <l>while I pace in a turtleneck</l>
+               <l>sweater, repairing my bike.</l>
+            </lg>
+            <lg>
+               <l>I watched the palisades shivering in the snow</l>
+               <l>of my face, which had grown preternaturally pure.</l>
+               <l>Once I destroyed a man's idea of himself to have him.</l>
+            </lg>
+            <pb n="13" xml:id="p13"/>
+            <lg rendition="#l-indent-02">
+               <l>If I'd had a samovar then</l>
+               <l>I'd have made him tea</l>
+               <l>and as hyacinths grow from</l>
+               <l>a pot he would love me</l>
+            </lg>
+            <lg>
+               <l>and my charming room of tea cosies full of dirt</l>
+               <l>which is why I must travel, to collect the leaves.</l>
+               <l>O my enormous piano, you are not like being outdoors</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>though it is cold and you</l>
+               <l>are made of fire and wood!</l>
+               <l>I lift your lid and mountains</l>
+               <l>return, that I am good.</l>
+            </lg>
+            <lg>
+               <l>The stars blink like a hairnet that was dropped</l>
+               <l>on a seat and now it is lying in the alley behind</l>
+               <l>the theater where my play is echoed by dying voices.</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>I am really a woodcarver</l>
+               <l>and my words are love</l>
+               <l>which willfully parades in</l>
+               <l>its room, refusing to move.</l>
+            </lg>
+            <p rendition="#right"><date>1954</date></p>
+         </div>
+         <pb n="14" xml:id="p14"/>
+         <div type="poem">
+            <head>ON THE WAY TO SAN REMO</head>
+            <lg>
+               <l>The black ghinkos snarl their way up</l>
+               <l>the moon growls at each bhnking window</l>
+               <l>the apartment houses climb deafeningly into the purple</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>A bat hisses northwards</l>
+               <l>the perilous steps lead to a grate</l>
+               <l>suddenly the heat is bearable</l>
+            </lg>
+            <lg>
+               <l>The cross-eyed dog scratches a worn patch of pavement</l>
+               <l>his right front leg is maimed in the shape of a V</l>
+               <l>there's no trace of his nails on the street a woman cajoles</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>She is very old and dirty</l>
+               <l>she whistles her filthy hope</l>
+               <l>that it will rain tonight</l>
+            </lg>
+            <lg>
+               <l>The 6th Avenue bus trunk-lumbers sideways</l>
+               <l>it is full of fat people who cough as at a movie</l>
+               <l>they eat each other's dandruff in the flickering glare</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>The moon passes into clouds</l>
+               <l>so hurt by the street lights</l>
+               <l>of your glance oh my heart</l>
+            </lg>
+            <lg>
+               <l>The act of love is also passing like a subway bison</l>
+               <l>through the paper-littered arches of the express tracks</l>
+               <l>the sailor sobers he feeds pennies to the peanut machines</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>Though others are in the night</l>
+               <l>far away lips upon a dusty armpit</l>
+               <l>the nostrils are full of tears</l>
+            </lg>
+            <pb n="15" xml:id="p15"/>
+            <lg>
+               <l>High fidelity reposed in a box a hand on the windowpane</l>
+               <l>the sweet calm the violin strings tie a young man's hair</l>
+               <l>the bright black eyes pin far away their smudged curiosity</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>Yes you are foolish smoking</l>
+               <l>the bars are for rabbits</l>
+               <l>who wish to outlive the men</l>
+            </lg>
+            <p rendition="#right"><date>1954</date></p>
+         </div>
+         <pb n="16" xml:id="p16"/>
+         <div type="poem">
+            <!-- Come back to -->
+            <head>2 POEMS FROM THE OHARA MONOGATARI</head>
+            <div type="part">
+               <l>1</l>
+               <lg>
+                  <l>My love is coming in a glass</l>
+                  <l>the blood of the Bourbons</l>
+               </lg>
+               <lg>
+                  <l>saxophone or cornet</l>
+                  <l>qu'importe ou?</l>
+               </lg>
+               <lg>
+                  <l>green of glass flowers dans le Kentucky</l>
+               </lg>
+               <lg>
+                  <l>and always the same handkerchief</l>
+                  <l>at the same nose of damask</l>
+               </lg>
+               <lg>
+                  <l>turning up my extravagant collar</l>
+                  <l>tossing my scarf about my neck</l>
+               </lg>
+               <lg>
+                  <l>the Baudelaire of Kyoto's never-ending pureness</l>
+                  <l>is he cracked in the head?</l>
+               </lg>
+            </div>
+            <div type="part">
+               <l>2</l>
+               <lg>
+                  <l>After a long trip to a shrine</l>
+                  <l>in wooden clogs so hard on the muscles</l>
+                  <l>the tea is bitter and the breasts are hard</l>
+                  <l>so much terrace for one evening</l>
+               </lg>
+               <lg>
+                  <l>there is no longer no ocean</l>
+                  <l>I don't see the ocean under my stilts</l>
+                  <l>as I poke along</l>
+               </lg>
+               <pb n="17" xml:id="p17"/>
+               <lg>
+                  <l>hands on ankles feet on wrists</l>
+                  <l>naked in thought</l>
+                  <l>like a whip made from sheerest stockings</l>
+               </lg>
+               <lg>
+                  <l>the radio is on the cigarette is puffed upon</l>
+                  <l>by the pleasures of rolling in a bog</l>
+                  <l>some call the Milky Way</l>
+                  <l>in far-fetched Occidental lands above the trees</l>
+                  <l>where dwell the amusing skulls</l>
+               </lg>
+               <p rendition="#right"><date>1954</date></p>
+            </div>
+            
+         </div>
+         <pb n="18" xml:id="p18"/>
+         <div type="poem">
+            <head>A STEP AWAY FROM THEM</head>
+            <lg>
+               <l>It's my lunch hour, so I go</l>
+               <l>for a walk among the hum-colored</l>
+               <l>cabs. First, down the sidewalk</l>
+               <l>where laborers feed their dirty</l>
+               <l>glistening torsos sandwiches</l>
+               <l>and Coca-Cola, with yellow helmets</l>
+               <l>on. They protect them from falling</l>
+               <l>bricks, I guess. Then onto the</l>
+               <l>avenue where skirts are flipping</l>
+               <l>above heels and blow up over</l>
+               <l>grates. The sun is hot, but the</l>
+               <l>cabs stir up the air. I look</l>
+               <l>at bargains in wristwatches. There</l>
+               <l>are cats playing in sawdust.</l>
+            </lg>
+            <lg>
+               <l rendition="#right">On</l>
+               <l>to Times Square, where the sign</l>
+               <l>blows smoke over my head, and higher</l>
+               <l>the waterfall pours lightly. A</l>
+               <l>Negro stands in a doorway with a</l>
+               <l>toothpick, languorously agitating.</l>
+               <l>A blonde chorus girl clicks: he</l>
+               <l>smiles and rubs his chin. Everything</l>
+               <l>suddenly honks: it is 12:40 of</l>
+               <l>a Thursday.</l>
+            </lg>
+            <lg>
+               <l rendition="#l-indent-03">Neon in daylight is a</l>
+               <l>great pleasure, as <persName>Edwin Denby<note>Edwin Denby (1903-1983): American writer of dance criticism and poetry. <ref target="https://en.wikipedia.org/wiki/Edwin_Denby_(poet)">Wikipedia</ref></note></persName> would</l>
+               <l>write, as are light bulbs in daylight.</l>
+               <l>I stop for a cheeseburger at JULIET'S</l>
+               <l>CORNER. Giulietta Masina, wife of</l>
+               <l> <persName>Federico Fellini<note>Federico Fellini (1920-1993): Italian film director and screenwriter <ref target="https://en.wikipedia.org/wiki/Federico_Fellini">Wikipedia</ref></note></persName>, <hi rendition="#itl" xml:lang="it">e bell' attrice.</hi></l>
+               <pb n="19" xml:id="p19"/>
+               <l>And chocolate malted. A lady in</l>
+               <l>foxes on such a day puts her poodle</l>
+               <l>in a cab.</l>
+            </lg>
+            <lg>
+               <l>There are several Puerto</l>
+               <l>Ricans on the avenue today, which</l>
+               <l>makes it beautiful and warm. First</l>
+               <l><persName>Bunny<note>V.R. "Bunny" Lang (1924-1956): Poet, actor, and editor of the <hi rendition="#itl">Chicago Review</hi>. Lang and O'Hara met during O'Hara college years at Harvard, where they became close friends. Many of O'Hara's poems were originally sent in letters to Lang, and she appears frequently in these poems. </note></persName> died, then <persName>John Latouche <note>John La Touche (1914-1956): American lyricist and bookwriter for the musical theater <ref target="https://en.wikipedia.org/wiki/John_La_Touche_(lyricist)">Wikipedia</ref></note></persName>,</l>
+               <l>then <persName>Jackson Pollock <note>Jackson Pollock (1912-1956): American Painter and leader in the abstract expressionist movement. Pollock was both a close friend and artistic icon of O'Hara's. After his death, O'Hara would write a monograph on Pollock and his paintings. Furthermore, several of O'Hara's poems are either inspired by or make direct reference to Pollock's work. <ref target="https://en.wikipedia.org/wiki/Jackson_Pollock">Wikipedia</ref></note></persName>. But is the</l>
+               <l>earth as full as life was full, of them?</l>
+               <l>And one has eaten and one walks,</l>
+               <l>past the magazines with nudes</l>
+               <l>and the posters for BULLFIGHT and the Manhattan Storage Warehouse,</l>
+               <l>which they'll soon tear down. I</l>
+               <l>used to think they had the Armory</l>
+               <l>Show there.</l>
+            </lg>
+            <lg>
+               <l>A glass of papaya juice</l>
+               <l>and back to work. My heart is in my</l>
+               <l>pocket, it is Poems by <persName>Pierre Reverdy<note>Pierre Reverdy (1889-1960): French poet and surrealist. <ref target="https://en.wikipedia.org/wiki/Pierre_Reverdy">Wikipedia</ref></note></persName>.</l>
+            </lg>
+            <p rendition="#right"><date>1956</date></p>
+         </div>
+         <pb n="20" xml:id="p20"/>
+         <div type="poem">
+            <head>CAMBRIDGE</head>
+            <l>It is still raining and the yellow-green cotton fruit</l>
+            <l>looks silly round a window giving out on winter trees</l>
+            <l>with only three drab leaves left. The hot plate works,</l>
+            <l>it is the sole heat on earth, and instant coffee. I</l>
+            <l>put on my warm corduroy pants, a heavy maroon sweater,</l>
+            <l>and wrap myself in my old maroon bathrobe. Just like <persName>Pasternak <note>Boris Pasternak (1890-1960): Russian poet, novelist, and translator. <ref target="https://en.wikipedia.org/wiki/Boris_Pasternak">Wikipedia</ref></note></persName></l>
+            <l>in Marburg (they say Italy and France are colder, but</l>
+            <l>I'm sure that Germany's at least as cold as this) and,</l>
+            <l>lacking the Master's inspiration, I may freeze to death</l>
+            <l>before I can get out into the white rain. I could have left</l>
+            <l>the window closed last night? But that's where health</l>
+            <l>comes from! His breath from the Urals, drawing me into flame</l>
+            <l>like a forgotten cigarette. Burn! this is not negligible,</l>
+            <l>being poetic, and not feeble, since it's sponsored by</l>
+            <l>the greatest living Russian poet at incalculable cost.</l>
+            <l>Across the street there is a house under construction,</l>
+            <l>abandoned to the rain. Secretly, I shall go to work on it.</l>
+            <l>1956</l>
+         </div>
+         <pb n="21" xml:id="p21"/>
+         <div type="poem">
+            <head>POEM</head>
+            <l>Instant coffee with slightly sour cream</l>
+            <l>in it, and a phone call to the beyond</l>
+            <l>which doesn't seem to be coming any nearer.</l>
+            <l>"Ah daddy, I wanna stay drunk many days"</l>
+            <l>on the poetry of <persName>a new friend<note>John Wieners (1934-2002): American Beat Poet, antiwar and gay rights activist. <ref target="https://www.poetryfoundation.org/poets/john-wieners#about">Poetry Foundation</ref></note></persName></l>
+            <l>my life held precariously in the seeing</l>
+            <l>hands of others, their and my impossibilities.</l>
+            <l>Is this love, now that the first love</l>
+            <l>has finally died, where there were no impossibilities?</l>
+         </div>
+         <pb n="22" xml:id="p22"/>
+         <div type="poem">
+            <head>THREE AIRS</head>
+            <epigraph>
+               <p>to <persName>Norman Bluhm<note>Norman Bluhm (1921-1999):  American abstract expressionist painter. Bluhm was a friend of O'Hara's, and collaborated with him on several poem/paintings which attempted to combine the gestural paintings of abstract expressionism with the studied casualness of O'Hara's language. <ref target="https://en.wikipedia.org/wiki/Norman_Bluhm">Wikipedia</ref></note></persName></p>
+            </epigraph>
+            <div type="part">
+               <l>1.</l>
+               <lg rend="center">
+                  <l>So many things in the air! soot,</l>
+                  <l>elephant balls, a Chinese cloud</l>
+                  <l>which is entirely collapsed, a cat</l>
+                  <l>swung by its tail</l>
+               </lg>
+               <lg rend="center">
+                  <l rendition="#l-indent-03">and the senses</l>
+                  <l>of the dead which are banging about</l>
+                  <l>inside my tired red eyes</l>
+               </lg>
+            </div>
+            <div type="part">
+               <l>2.</l>
+               <lg>
+                  <l>In the deeps there is a little bird</l>
+                  <l>and it only hums, it hums of fortitude</l>
+               </lg>
+               <lg>
+                  <l>and temperance, it is managing a foundry</l>
+               </lg>
+               <lg>
+                  <l>how firmly it must grasp things! tear them</l>
+                  <l>out of the slime and then, alas! it mischievously</l>
+               </lg>
+               <lg>
+                  <l>drops them into the cauldron of hideousness</l>
+               </lg>
+               <lg>
+                  <l>there is already a sunset naming</l>
+                  <l>the poplars which see only, watery, themselves</l>
+               </lg>
+            </div>
+            <pb n="23" xml:id="p23"/>
+            <div type="part">
+               <l>3.</l>
+               <lg>
+                  <l>Oh to be an angel (if there were any!), and go</l>
+                  <l>straight up into the sky and look around and then come down</l>
+               </lg>
+               <lg>
+                  <l>not to be covered with steel and aluminum</l>
+                  <l>glaringly ugly in the pure distances and clattering and</l>
+                  <l>buckling, wheezing</l>
+               </lg>
+               <lg>
+                  <l>but to be part of the treetops and the blueness, invisible,</l>
+                  <l>the iridescent darknesses beyond,</l>
+                  <l rendition="#l-indent-06">silent, listening to</l>
+                  <l rendition="#right">the air becoming no air becoming air again</l>
+               </lg>
+               <p rendition="#right"><date>1958</date></p>
+            </div>
+         </div>
+         <pb n="24" xml:id="p24"/>
+         <div type="poem">
+            <head>IMAGE OF THE BUDDHA PREACHING</head>
+            <lg>
+               <l>I am very happy to be here at the <placeName>Villa Hügel<note>Villa Hügel: a 19th century mansion in Essen, Germany. The Villa currently houses the Ruhr Cultural Foundation</note></placeName></l>
+               <l>and <persName>Prime Minister Nehr <note>Jawaharlal Nehru (1889-1964) The first Prime Minister of India. <ref target="https://en.wikipedia.org/wiki/Jawaharlal_Nehru">Wikipedia</ref></note></persName>u has asked me to greet the people of</l>
+               <l rendition="#right">Essen</l>
+               <l>and to tell you how powerfully affected we in India</l>
+               <l>have been by Germany's philosophy, traditions and mythology</l>
+               <l>though our lucidity and our concentration on archetypes</l>
+               <l>puts us in a class by ourself</l>
+               <l rendition="#right">" for in this world of storm and stress "</l>
+               <l> — 5,000 years of Indian art! just think of it, oh Essen!</l>
+               <l>is this a calmer region of thought, " a reflection of the mind </l>
+               <l>through the ages "?</l>
+               <l rendition="#l-indent-03"><persName>Max Müller <note>Friedrich Max Müller (1823-1900): German-born English philologist who developed the western acadmic field of Indian Studies.</note></persName>, " primus inter pares " among</l>
+               <l rendition="#right">Indologists</l>
+               <l>remember our byword, Mokshamula, I rejoice in the fact of 900</l>
+               <l rendition="#right">exhibits</l>
+            </lg>
+            <lg>
+               <l>I deeply appreciate filling the gaps, oh Herr Doktor Heinrich</l>
+               <l rendition="#right">Goetz!</l>
+               <l>and the research purring onward in Pakistan and Ceylon and</l>
+               <l rendition="#right">Afghanistan</l>
+               <l>soapstone, terracotta-Indus, terracotta-Maurya, terracotta Sunga,</l>
+               <l rendition="#l-indent-02">terracotta-Andhra, terracotta fragments famous Bharhut</l>
+               <l rendition="#right">Stupa</l>
+               <l>Kushana, Ghandara, Gupta, Hindu and Jain, Secco, Ajanta,</l>
+               <l rendition="#right">Villa Hügel!</l>
+            </lg>
+            <lg>
+               <l>Anglo-German trade will prosper by Swansea-Mannheim</l>
+               <l rendition="#right">friendship</l>
+               <l>waning now the West Wall by virtue of two rolls per capita</l>
+               <l>and the flagship BERLIN is joining its "white fleet" on the Rhine</l>
+               <pb n="25" xml:id="p25"/>
+               <l>though better schools and model cars are wanting, still still oh</l>
+               <l rendition="#right">Essen</l>
+               <l rendition="#l-indent-02"><persName>Nataraja<note>Nataraja: depection of the god Shiva as the lord of the dance. <ref target="https://en.wikipedia.org/wiki/Nataraja">https://en.wikipedia.org/wiki/Nataraja</ref></note></persName> dances on the dwarf</l>
+               <l rendition="#l-indent-02">and unlike their fathers</l>
+               <l rendition="#l-indent-02">Germany's highschool pupils love the mathematics</l>
+            </lg>
+            <lg rendition="#l-indent-02">
+               <l>which is hopeful of a new delay in terror</l>
+               <l>I don't think</l>
+            </lg>
+            <p rendition="#right"><date>1959</date></p>
+         </div>
+         <pb n="26" xml:id="p26"/>
+         <div type="poem">
+            <head>SONG</head>
+            <lg>
+               <l>Is it dirty</l>
+               <l>does it look dirty</l>
+               <l>that's what you think of in the city</l>
+            </lg>
+            <lg>
+               <l>does it just seem dirty</l>
+               <l>that's what you think of in the city</l>
+               <l>you don't refuse to breathe do you</l>
+            </lg>
+            <lg>
+               <l>someone comes along with a very bad character</l>
+               <l>he seems attractive, is he really, yes. very</l>
+               <l>he's attractive as his character is bad. is it. yes</l>
+            </lg>
+            <lg>
+               <l>that's what you think of in the city</l>
+               <l>run your finger along your no-moss mind</l>
+               <l>that's not a thought that's soot</l>
+            </lg>
+            <lg>
+               <l>and you take a lot of dirt off someone</l>
+               <l>is the character less bad. no. it improves constantly</l>
+               <l>you don't refuse to breathe do you</l>
+            </lg>
+            <l>1959</l>
+         </div>
+         <pb n="27" xml:id="p27"/>
+         <div type="poem">
+            <head>THE <persName>DAY LADY<note>Billie Holiday (1915-1959): American Jazz musician and singer. Holiday, born Eleanora Fagan, was also known as "lady day" and O'Hara's title puns off this nickname. <ref target="https://en.wikipedia.org/wiki/Billie_Holiday">Wikipedia</ref></note></persName> DIED</head>
+            <lg>
+               <l>It is 12 : 20 in New York a Friday</l>
+               <l>three days after Bastille day, yes</l>
+               <l>it is 1959 and I go get a shoeshine</l>
+               <l>because I will get off the 4 : 19 in Easthampton</l>
+               <l>at 7 : 15 and then go straight to dinner</l>
+               <l>and I don't know the people who will feed me</l>
+            </lg>
+            <lg>
+               <l>I walk up the muggy street beginning to sun</l>
+               <l>and have a hamburger and a malted and buy</l>
+               <l>an ugly NEW WORLD WRITING to see what the poets</l>
+               <l>in Ghana are doing these days</l>
+               <l rend="tripple-indent">I go on to the bank</l>
+               <l>and Miss Stillwagon (first name Linda I once heard)</l>
+               <l>doesn't even look up my balance for once in her life</l>
+               <l>and in the GOLDEN GRIFFIN I get a little <persName>Verlaine <note>Paul Verlain (1844-1896): French Poet and part of the Decadent movement which, as its name implies, prized excess. <ref target="https://en.wikipedia.org/wiki/Paul_Verlaine">Wikipeida</ref> </note></persName></l>
+               <l>for <persName>Patsy<note>Likely Patsy Southgate (1928-1998): Writer and translator. Southgate was an important social figure in the New York and Paris literary communities</note></persName> with drawings by <persName>Bonnard <note>Pierre Bonnard (1867-1947): French Painter and Printmaker. Bonnard was a founding member of the Post-Impressionist school of paining. <ref target="https://en.wikipedia.org/wiki/Pierre_Bonnard">Wikipeida</ref></note></persName> although I do</l>
+               <l>think of Hesiod, trans. <persName>Richmond Lattimore<note>Richmond Lattimore (1906-1984): American poet known for his translations of classical Greek epics.<ref target="https://en.wikipedia.org/wiki/Richmond_Lattimore">Wikipedia</ref> </note></persName></l>
+               <l>or <persName>Brendan Behan's <note>Brendan Francis Aidan Behan (1923-1964): Irish poet and playwright. <ref target="https://en.wikipedia.org/wiki/Brendan_Behan">Wikipedia</ref></note></persName> new play or <hi rendition="#itl">Le Balcon</hi> or <hi rend="irl">Les
+                     Negres</hi></l>
+               <l>of Genet, but I don't, I stick with Verlaine</l>
+               <l>after practically going to sleep with quandariness</l>
+            </lg>
+            <lg>
+               <l>and for <persName>Mike<note>Likely Michael Goldberg (1924-2007): American Painter and friend of O'Hara's known for action paintings, abstractions, and still-lives. Goldberg is the same painter referenced in O'Hara's poem <ref target="https://www.poets.org/poetsorg/poem/why-i-am-not-painter">"Why I am not a painter"</ref>. <ref target="https://en.wikipedia.org/wiki/Michael_Goldberg_(painter)">Wikipedia</ref></note></persName> I just stroll into the PARK LANE</l>
+               <l>Liquor Store and ask for a bottle of Strega and</l>
+               <l>then I go back where I came from to 6th Avenue</l>
+               <l>and the tobacconist in the Ziegfeld Theatre and</l>
+               <l>casually ask for a carton of Gauloises and a carton</l>
+               <l>of Picayunes, and a NEW YORK POST with her face on it</l>
+            </lg>
+            <lg>
+               <l>and I am sweating a lot by now and thinking of</l>
+               <l>leaning on the John door in the <placeName>5 SPOT<note>Famous jazz club in the Bowery neighbourhood of New York City. <ref target="https://en.wikipedia.org/wiki/Five_Spot_Caf%C3%A9">Wikipedia</ref></note></placeName></l>
+               <l>while she whispered a song along the keyboard</l>
+               <l>to <persName>Mal Waldron <note>Mal Waldron (1925-2002): Jazz musician and house pianist for Prestige Records whose work appears on many albums in the late 50s. <ref target="https://en.wikipedia.org/wiki/Mal_Waldron">Wikipedia</ref></note></persName> and everyone and I stopped breathing</l>
+            </lg>
+            <p rendition="#right"><date>1959</date></p>
+         </div>
+         <pb n="28" xml:id="p28"/>
+         <div type="poem">
+            <head>POEM</head>
+            <lg>
+               <l>Wouldn't it be funny</l>
+               <l>if The Finger had designed us</l>
+               <l>to shit just once a week?</l>
+            </lg>
+            <lg rend="single-indent">
+               <l>all week long we'd get fatter</l>
+               <l>and fatter and then on Sunday morning</l>
+               <l>while everyone's in church</l>
+            </lg>
+            <lg rendition="#l-indent-05">
+               <l>ploop!</l>
+            </lg>
+            <p rendition="#right"><date>1959</date></p>
+         </div>
+         <pb n="29" xml:id="p29"/>
+         <div type="poem">
+            <head>POEM</head>
+            <lg>
+               <l><persName>Khrushchev<note>Nikita Khrushchev (1894-1971): First Secretary of the Communist Party of the Soviet Union from 1953-1964. <ref target="https://en.wikipedia.org/wiki/Nikita_Khrushchev">Wikipedia</ref> </note></persName> is coming on the right day!</l>
+               <l rendition="#l-indent-05">the cool graced light</l>
+               <l>is pushed off the enormous glass piers by hard wind</l>
+               <l>and everything is tossing, hurrying on up</l>
+               <l rendition="#l-indent-05">this country</l>
+               <l>has everything but <hi rendition="#itl">politesse</hi>, a Puerto Rican cab driver says</l>
+               <l>and five different girls I see</l>
+               <l rendition="#l-indent-04">look like Piedie Gimbel</l>
+               <l>with her blonde hair tossing too,</l>
+               <l rendition="#l-indent-04"> as she looked when I pushed</l>
+               <l>her little daughter on the swing on the lawn it was also windy</l>
+            </lg>
+            <lg>
+               <l>last night we went to a movie and came out,</l>
+               <l rendition="#l-indent-05"><persName>Ionesco<note>Eugène Ionesco (1909-1994): Romanian-French playwright and figure in the French Avant-garde. <ref target="https://en.wikipedia.org/wiki/Eug%C3%A8ne_Ionesco">Wikipedia</ref></note></persName> is greater</l>
+               <l>than <persName>Beckett <note>Samuel Beckett (1906-1989): Irish avant-garde writer. <ref target="https://en.wikipedia.org/wiki/Samuel_Beckett">Wikipedia</ref></note></persName>, <persName>Vincent <note>Vincent Paul Warren (1938-2017): Ballet dancer and O'Hara's partner. Warren and O'Hara met in the summer of 1959 and quickly fell in love. Warren appears numerous times in O'Hara's poems, occasionally under the pseudonym "St. Paul." <ref target="https://en.wikipedia.org/wiki/Vincent_Warren">Wikipedia</ref></note></persName> said, that's what I think, blueberry blintzes</l>
+               <l>and Khrushchev was probably being carped at</l>
+               <l rendition="#l-indent-05">in Washington, no</l>
+               <l rendition="#right"><hi rendition="#itl">politesse</hi></l>
+               <l>Vincent tells me about his mother's trip to Sweden</l>
+               <l>Hans tells us</l>
+               <l>about his father's life in Sweden, it sounds like <persName>Grace Hartigan's<note>Grace Hartigan (1922-2008): American Abstract Expressionist painter. <ref target="https://en.wikipedia.org/wiki/Grace_Hartigan">Wikipedia</ref></note></persName></l>
+               <l> painting Sweden</l>
+               <l rendition="#l-indent-03">so I go home to bed and names drift through my</l>
+               <l rendition="#right">head</l>
+               <l>Purgatorio Merchado, Gerhard Schwartz and caspar Gonzales,</l>
+               <l rendition="#l-indent-02">all unknown figures of the early morning as I go to work</l>
+            </lg>
+            <lg>
+               <l>where does the evil of the year go</l>
+               <l rendition="#right">when September takes New York</l>
+               <l>and turns it into ozone stalagmites</l>
+               <pb n="30" xml:id="p30"/>
+               <l rendition="#l-indent-05">deposits of light</l>
+               <l rendition="#l-indent-05">so I get back up</l>
+               <l>make coffee, and read <persName>Francois Villon<note>François Villon (1431-1463): French poet who had numerous encounters with governmental authorities. <ref target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Villon">Wikipedia</ref></note></persName>, his life, so dark</l>
+               <l rendition="#l-indent-02">New York seems blinding and my tie is blowing up the street</l>
+               <l>I wish it would blow off</l>
+               <l rendition="#l-indent-04">though it is cold and somewhat warms</l>
+               <l rendition="#right">my neck</l>
+               <l>as the train bears Khrushchev on to Pennsylvania Station</l>
+               <l rendition="#l-indent-02">and the light seems to be eternal</l>
+               <l rendition="#l-indent-02">and joy seems to be inexorable</l>
+               <l rendition="#l-indent-02">I am foolish enough always to find it in wind</l>
+            </lg>
+            <p rendition="#right"><date>1959</date></p>
+         </div>
+         <pb n="31" xml:id="p31"/>
+         <div type="poem">
+            <head>NAPHTHA</head>
+            <lg>
+               <l>Ah <persName>Jean Dubuffet<note>Jean Dubuffet (1901-1985): French painter and sculptor and founder of the Art Brut movement. <ref target="https://en.wikipedia.org/wiki/Jean_Dubuffet">Wikipedia</ref></note></persName></l>
+               <l>when you think of him</l>
+               <l>doing his military service in the Eiffel Tower</l>
+               <l>as a meteorologist</l>
+               <l>in 1922</l>
+               <l>you know how wonderful the 20th Century</l>
+               <l>can be</l>
+               <l>and the gaited Iroquois on the girders</l>
+               <l>fierce and unflinching-footed</l>
+               <l>nude as they should be</l>
+               <l>slightly empty</l>
+               <l>like a <persName>Sonia Delaunay<note>Sonia Delaunay (1885-1979): Ukrainian-born French artist and cofounder of the Orphism art movement. <ref target="https://en.wikipedia.org/wiki/Sonia_Delaunay">Wikipedia</ref></note></persName></l>
+               <l>there is a parable of speed</l>
+               <l>somewhere behind the Indians' eyes</l>
+               <l>they invented the century with their horses</l>
+               <l>and their fragile backs</l>
+               <l>which are dark</l>
+            </lg>
+            <lg>
+               <l>we owe a debt to the Iroquois</l>
+               <l>and to <persName>Duke Ellington<note>Edward Kennedy "Duke" Ellington (1899-1974): American Jazz composer, pianist and bandleader. <ref target="https://en.wikipedia.org/wiki/Duke_Ellington">Wikipedia</ref></note></persName></l>
+               <l>for playing in the buildings when they are built</l>
+               <l>we don't do much ourselves</l>
+               <l>but fuck and think</l>
+               <l>of the haunting Metro</l>
+               <l>and the one who didn't show up there</l>
+               <l>while we were waiting to become part of our century</l>
+               <l>just as you can't make a hat out of steel</l>
+               <l>and still wear it</l>
+               <l>who wears hats anyway</l>
+               <l>it is our tribe's custom</l>
+               <l>to beguile</l>
+               <pb n="32" xml:id="p32"/>
+               <l>how are you feeling in ancient September</l>
+               <l>I am feeling like a truck on a wet highway</l>
+               <l>how can you</l>
+               <l>you were made in the image of god</l>
+               <l>I was not</l>
+               <l>I was made in the image of a sissy truck-driver</l>
+               <l>and Jean Dubuffet painting his cows</l>
+               <l>"with a likeness burst in the memory"</l>
+               <l>apart from love (don't say it)</l>
+               <l>I am ashamed of my century</l>
+               <l>for being so entertaining</l>
+               <l>but I have to smile</l>
+            </lg>
+            <p rendition="#right"><date>1959</date></p>
+         </div>
+         <pb n="33" xml:id="p33"/>
+         <div type="poem">
+            <head>PERSONAL POEM</head>
+            <lg>
+               <l>Now when I walk around at lunchtime</l>
+               <l>I have only two charms in my pocket</l>
+               <l>an old Roman coin <persName>Mike Kanemitsu<note>Matsumi "Mike" Kanemitsu (1922-1992): American painter and lithographist. <ref target="https://en.wikipedia.org/wiki/Matsumi_Kanemitsu">Wikipedia</ref></note></persName> gave me</l>
+               <l>and a bolt-head that broke off a packing case</l>
+               <l>when I was in Madrid the others never</l>
+               <l>brought me too much luck though they did</l>
+               <l>help keep me in New York against coercion</l>
+               <l>but now I'm happy for a time and interested</l>
+            </lg>
+            <lg>
+               <l>I walk through the luminous humidity</l>
+               <l>passing the House of Seagram with its wet</l>
+               <l>and its loungers and the construction to</l>
+               <l>the left that closed the sidewalk if</l>
+               <l>I ever get to be a construction worker</l>
+               <l>I'd like to have a silver hat please</l>
+               <l>and get to Moriarty's where I wait for</l>
+               <l><persName>LeRoi<note>Amiri Baraka (1934-2014): American writer, critic, and friend of O'Hara. Baraka was born Everett LeRoi Jones, but changed his name after the assassination of Malcolm X in 1965. Baraka is mentioned in O'Hara's <ref target="https://genius.com/Frank-ohara-personism-a-manifesto-annotated">"Personism," </ref>one of the few statments of O'Hara's Poetics. <ref target="https://en.wikipedia.org/wiki/Amiri_Baraka">Wikipedia</ref></note></persName> and hear who wants to be a mover and</l>
+               <l>shaker the last five years my batting average</l>
+               <l>is .016 that's that, and LeRoi comes in</l>
+               <l>and tells me <persName>Miles Davis<note>Miles Dewey Davis III (1926-1991): American trumpeter, bandleader, and composer and one of the most influential jazz musicians of the 20th century.<ref target="https://en.wikipedia.org/wiki/Miles_Davis">Wikipedia</ref> </note></persName> was clubbed 12</l>
+               <l>times last night outside BIRDLAND by a cop</l>
+               <l>a lady asks us for a nickel for a terrible</l>
+               <l>disease but we don't give her one we</l>
+               <l>don't like terrible diseases, then</l>
+               <pb n="34" xml:id="p34"/>
+               <l>we go eat some fish and some ale it's</l>
+               <l>cool but crowded we don't like <persName>Lionel Trilling<note>Lionel Trilling (1905-1975): American literary critic.<ref target="https://en.wikipedia.org/wiki/Lionel_Trilling">Wikipedia</ref></note></persName></l>
+               <l>we decide, we like <persName>Don Allen<note>Donald Merriam Allen (1912-2004): American editor and publisher best known for publishing the anthology <hi rendition="#itl">The New American Poetry 1945-1960</hi> which included works by O'Hara and other figures of the New York school of poets. <ref target="https://en.wikipedia.org/wiki/Donald_Allen">Wikipedia</ref></note></persName> we don't like</l>
+               <l><persName>Henry James <note>Henry James (1843-1916): American novelist and trasitional figure between realism and modernism. <ref target="https://en.wikipedia.org/wiki/Henry_James">Wikipedia</ref></note></persName> so much we like <persName>Herman Melville<note>Herman Melville (1819-1891): American novelist and short story writer. <ref target="https://en.wikipedia.org/wiki/Herman_Melville">Wikipedia</ref></note></persName></l>
+               <l>we don't want to be in the poets' walk in</l>
+               <l>San Francisco even we just want to be rich</l>
+               <l>and walk on girders in our silver hats</l>
+               <l>I wonder if one person out of the 8,000,000 is</l>
+               <l>thinking of me as I shake hands with LeRoi</l>
+               <l>and buy a strap for my wristwatch and go</l>
+               <l>back to work happy at the thought possibly so</l>
+            </lg>
+            <p rendition="#right"><date>1959</date></p>
+            <pb n="35" xml:id="p35"/>
+         </div>
+         <div type="poem">
+            <head>ADIEU TO <persName>NORMAN <note>Norman Bluhm (1921-1999):  American abstract expressionist painter. Bluhm was a friend of O'Hara's, and collaborated with him on several poem/paintings which attempted to combine the gestural paintings of abstract expressionism with the studied casualness of O'Hara's language. <ref target="https://en.wikipedia.org/wiki/Norman_Bluhm">Wikipedia</ref></note></persName>, BON JOUR TO <persName>JOAN<note>Likely Joan Mitchell (1925-1992): Abstract expressionist painter and printmaker. <ref target="https://en.wikipedia.org/wiki/Joan_Mitchell">Wikipedia</ref></note></persName> AND <persName>JEAN-PAUL <note>Possibly Jean-Paul Riopelle (1923-2002: Canadian painter and sculptor. <ref target="https://en.wikipedia.org/wiki/Jean-Paul_Riopelle">Wikipedia</ref></note></persName></head>
+            <lg>
+               <l>It is 12 : 10 in New York and I am wondering</l>
+               <l>if I will finish this in time to meet Norman for lunch</l>
+               <l>ah lunch! I think I am going crazy</l>
+               <l>what with my terrible hangover and the weekend coming up</l>
+               <l>at excitement-prone <persName>Kenneth Koch's<note>Kenneth Koch (1925-2002): American poet and playwright. Koch was one of O'Hara's closest friends and a centeral figure in the New York School of poets. <ref target="https://en.wikipedia.org/wiki/Kenneth_Koch">Wikipedia</ref></note></persName></l>
+               <l>I wish I were staying in town and working on my poems</l>
+               <l>at Joan's studio for a new book by Grove Press</l>
+               <l>which they will probably not print</l>
+               <l>but it is good to be several floors up in the dead of night</l>
+               <l>wondering whether you are any good or not</l>
+               <l>and the only decision you can make is that you did it</l>
+            </lg>
+            <lg>
+               <l>yesterday I looked up the rue Fremicourt on a map</l>
+               <l>and was happy to find it like a bird</l>
+               <l>flying over Paris et ses environs</l>
+               <l>which unfortunately did not include Seine-et-Oise</l>
+               <l rendition="#right">which I don't know</l>
+               <l>as well as a number of other things</l>
+               <l>and <persName>Allen<note>Allen Ginsberg (1926-1997): poet, philospher, and leading figure in the beat movement on American counter-culture. <ref target="https://en.wikipedia.org/wiki/Allen_Ginsberg">Wikipedia</ref></note></persName> is back talking about god a lot</l>
+               <l>and Peter is back not talking very much</l>
+               <l>and <persName>Joe<note>Joe LeSuer (1924-2001): O'Hara's friend, housemate, and occassional lover.</note></persName> has a cold and is not coming to Kenneth's</l>
+               <l>although he is coming to lunch with Norman</l>
+               <l>I suspect he is making a distinction well, who isn't</l>
+            </lg>
+            <lg>
+               <l>I wish I were reeling around Paris</l>
+               <l>instead of reeling around New York</l>
+               <l>I wish I weren't reeling at all</l>
+               <l>it is Spring the ice has melted the Ricard is being poured</l>
+               <pb n="36" xml:id="p36"/>
+               <l>we are all happy and young and toothless</l>
+               <l>it is the same as old age</l>
+               <l>the only thing to do is simply continue</l>
+               <l>is that simple</l>
+               <l>yes, it is simple because it is the only thing to do</l>
+               <l>can you do it</l>
+               <l>yes, you can because it is the only thing to do</l>
+               <l>blue light over the Bois de Boulogne it continues</l>
+               <l>the Seine continues</l>
+               <l>the Louvre stays open it continues it hardly closes at all</l>
+               <l>the Bar Americain continues to be French</l>
+               <l><persName>de Gaulle<note>Charles de Gaulle (1890-1970): French general who lead the French Resistance against Germany. <ref target="https://en.wikipedia.org/wiki/Charles_de_Gaulle">Wikipedia</ref></note></persName> continues to be Algerian as does <persName>Camus<note>Albert Camus (1913-1960): French philosopher and writer, winner of the 1957 Nobel prize in Literature. <ref target="https://en.wikipedia.org/wiki/Albert_Camus">Wikipedia</ref></note></persName></l>
+               <l><persName>Shirley Goldfarb<note>Shirley Goldfarb (1925-1980): American painter and writer. <ref target="https://en.wikipedia.org/wiki/Shirley_Goldfarb">Wikipedia</ref></note></persName> continues to be Shirley Goldfarb</l>
+               <l>and <persName>Jane Hazan<note>Jane Freilicher (1924-2014): American painter and muse to many of the writers in O'Hara's circle. Freilicher married the painter Joe Hazan, but kept her the name Freilicher (from a previous marriage) hence O'Hara's joke. <ref target="https://en.wikipedia.org/wiki/Jane_Freilicher">Wikipedia</ref></note></persName> continues to be Jane Freilicher (I think!)</l>
+               <l>and <persName>Irving Sandler<note>Irving Sandler (1925-): American art critic and art historian who managed that Tanager Gallery. <ref target="https://en.wikipedia.org/wiki/Irving_Sandler">Wikipedia</ref></note></persName> continues to be the balayeur des artistes</l>
+               <l>and so do I (sometimes I think I'm "in love" with painting)</l>
+               <l>and surely the Piscine Deligny continues to have water in it</l>
+               <l>and the Flore continues to have tables and newspapers</l>
+               <l rendition="#right">and people under them</l>
+               <l>and surely we shall not continue to be unhappy</l>
+               <l>we shall be happy</l>
+               <l>but we shall continue to be ourselves everything</l>
+               <l rendition="#right">continues to be possible</l>
+               <l><persName>Rene Char<note>Rene Char (1907-1988): French poet and member of the french resistance. <ref target="https://en.wikipedia.org/wiki/Ren%C3%A9_Char">Wikipedia</ref></note></persName>, <persName>Pierre Reverdy<note>Pierre Reverdy (1889-1960): French poet and surrealist. <ref target="https://en.wikipedia.org/wiki/Pierre_Reverdy">Wikipedia</ref></note></persName>, <persName>Samuel Beckett<note>Samuel Beckett (1906-1989): Irish avant-garde writer. <ref target="https://en.wikipedia.org/wiki/Samuel_Beckett">Wikipedia</ref></note></persName> it is possible isn't it</l>
+               <l>I love Reverdy for saying yes, though I don't believe it</l>
+            </lg>
+            <l>1959</l>
+         </div>
+         <pb n="37" xml:id="p37"/>
+         <div type="poem">
+            <head>RHAPSODY</head>
+            <lg>
+               <l>515 Madison Avenue</l>
+               <l>door to heaven? portal i</l>
+               <l>stopped realities and eternal licentiousness</l>
+               <l>or at least the jungle of impossible eagerness</l>
+               <l>your marble is bronze and your lianas elevator cables</l>
+               <l>swinging from the myth of ascending</l>
+               <l>I would join</l>
+               <l>or declining the challenge of racial attractions</l>
+               <l>they zing on (into the lynch, dear friends)</l>
+               <l>while everywhere love is breathing draftily</l>
+               <l>like a doorway linking 53rd with 54th</l>
+               <l>the east-bound with the west-bound traffic by 8,000,000s</l>
+               <l>o midtown tunnels and the tunnels, too, of Holland</l>
+            </lg>
+            <lg>
+               <l>where is the summit where all aims are clear</l>
+               <l>the pin-point light upon a fear of lust</l>
+               <l>as agony's needlework grows up around the unicorn</l>
+               <l>and fences him for milk- and yoghurt-work</l>
+               <l>when I see <persName>Gianni<note>Gianni Bates: American photographer  and Joe LeSueur's lover.</note></persName> I know he's thinking of <persName>John Ericson<note>John Ericson (1925-): German-American actor</note></persName></l>
+               <l>playing the Rachmaninoff 2nd or <persName>Elizabeth Taylor<note>Elizabeth Taylor (1932-2011) British-American actress. <ref target="https://en.wikipedia.org/wiki/Elizabeth_Taylor">Wikipedia</ref></note></persName></l>
+               <l>taking sleeping-pills and <persName>Jane<note>Jane Freilicher (1924-2014): American painter and muse to many of the writers in O'Hara's circle. <ref target="https://en.wikipedia.org/wiki/Jane_Freilicher">Wikipedia</ref></note></persName> thinks of Manderley</l>
+               <l>and Irkutsk while I cough lightly in the smog of desire</l>
+               <l>and my eyes water achingly imitating the true blue</l>
+               <pb n="38" xml:id="p38"/>
+               <l>a sight of Manahatta in the towering needle</l>
+               <l>multi-faceted insight of the fiy in the stringless labyrinth</l>
+               <l>Canada plans a higher place than the Empire State Building</l>
+               <l>I am getting into a cab at 9th Street and 1st Avenue</l>
+               <l>and the Negro driver tells me about a $120 apartment</l>
+               <l>"where you can't walk across the floor after 10 at night</l>
+               <l>not even to pee, cause it keeps them awake downstairs"</l>
+               <l>no, I don't like that "well, I didn't take it"</l>
+               <l>perfect in the hot humid morning on my way to work</l>
+               <l>a little supper-club conversation for the mill of the gods</l>
+            </lg>
+            <lg>
+               <l>you were there always and you know all about these things</l>
+               <l>as indifferent as an encyclopedia with your calm brown eyes</l>
+               <l>it isn't enough to smile when you run the gauntlet</l>
+               <l>you've got to spit like Niagara Falls on everybody or</l>
+               <l>Victoria Falls or at least the beautiful urban fountains of Madrid</l>
+               <l>as the Niger joins the Gulf of Guinea near the Menemsha Bar</l>
+               <l>that is what you learn in the early morning passing</l>
+               <l rendition="#right">Madison Avenue</l>
+               <l>where you've never spent any time and stores eat up light</l>
+            </lg>
+            <lg>
+               <l>I have always wanted to be near it</l>
+               <l>though the day is long (and I don't mean Madison Avenue)</l>
+               <l>lying in a hammock on St. Mark's Place sorting my poems</l>
+               <l>in the rancid nourishment of this mountainous island</l>
+               <l>they are coming and we holy ones must go</l>
+               <l>is Tibet historically a part of China? as I historically</l>
+               <l>belong to the enormous bliss of American death</l>
+            </lg>
+            <p rendition="#right"><date>1959</date></p>
+         </div>
+         <pb n="39" xml:id="p39"/>
+         <div type="poem">
+            <head>HOTEL PARTICULIER</head>
+            <lg>
+               <l>How exciting it is</l>
+               <l rendition="#l-indent-03">not to be at Port Lligat</l>
+               <l>or learning Portuguese in Bilbao so you can go to Brazil</l>
+            </lg>
+            <lg>
+               <l><persName>Erik Satie <note>Eric Alfred Leslie Satie (1866-1925): French composer and pianist.<ref target="https://en.wikipedia.org/wiki/Erik_Satie">Wikipedia</ref></note></persName> made a great mistake learning Latin</l>
+               <l>the Brise Marine wasn't written in Sanskrit, baby</l>
+            </lg>
+            <lg>
+               <l>I had a teacher one whole summer who never told me anything</l>
+               <l rendition="#l-indent-05">and it was wonderful</l>
+            </lg>
+            <lg>
+               <l>and then there is the Bibliotheque Nationale, cuspidors,</l>
+               <l>glasses, anxiety</l>
+               <l rendition="#l-indent-03">you don't get crabs that way,</l>
+               <l>and what you don't know will hurt somebody else</l>
+            </lg>
+            <lg>
+               <l>how clear the air is, how low the moon, how flat the sun,</l>
+               <l>et cetera,</l>
+               <l rendition="#l-indent-02">just so you don't coin a phrase that changes</l>
+               <l>can be "rung" on</l>
+               <l>like les neiges d'antan and that sort of thing (oops!), (roll me over)!</l>
+            </lg>
+            <lg>
+               <l>is this the hostel where the lazy and fun-loving</l>
+               <l rendition="#l-indent-04">start up the mountain?</l>
+            </lg>
+            <p rendition="#right"><date>1960</date></p>
+         </div>
+         <pb n="40" xml:id="p40"/>
+         <div type="poem">
+            <head>CORNKIND</head>
+            <lg>
+               <l>So the rain falls</l>
+               <l>it drops all over the place</l>
+               <l>and where it finds a little rock pool</l>
+               <l>it fills it up with dirt</l>
+               <l>and the com grows</l>
+               <l>a green <persName>Bette Davis<note>Bette Davis (1908-1989): American actor of film, television, and theater.<ref target="https://en.wikipedia.org/wiki/Bette_Davis">Wikipedia</ref> </note></persName> sits under it</l>
+               <l>reading a volume of <persName>William Morris<note>William Morris (1834-1896): English artist, writer, and social actavist. <ref target="https://en.wikipedia.org/wiki/William_Morris">Wikipedia</ref></note></persName></l>
+               <l>oh fertility! beloved of the Western world</l>
+               <l>you aren't so popular in China</l>
+               <l>though they fuck too</l>
+            </lg>
+            <lg>
+               <l>and do I really want a son</l>
+               <l>to carry on my idiocy past the Homed Gates</l>
+               <l>poor kid <span> </span> a staggering load</l>
+            </lg>
+            <lg>
+               <l>yet it can happen casually</l>
+               <l>and he lifts a little of the load each day</l>
+               <l>as I become more and more idiotic</l>
+               <l>and grows to be a strong strong man</l>
+               <l>and one day carries as I die</l>
+               <l>my final idiocy and the very gates</l>
+               <l>into a future of his choice</l>
+            </lg>
+            <lg>
+               <l>but what of William Morris</l>
+               <l>what of you Million Worries</l>
+               <l>what of Bette Davis in</l>
+               <l>AN EVENING WITH WILLIAM MORRIS</l>
+               <l>or THE WORLD OF SAMUEL GREENBERG</l>
+               <pb n="41" xml:id="p41"/>
+               <l>what of <persName>Hart Crane<note>Harold Hart Crane (1899-1932): American poet. Crane, along with Walt Whitman and William Carlos Williams, was one of three poets O'Hara considered "better than the Movies." <ref target="https://en.wikipedia.org/wiki/Hart_Crane">Wikipedia</ref></note></persName></l>
+               <l>what of phonograph records and gin</l>
+            </lg>
+            <lg>
+               <l>what of "what of"</l>
+            </lg>
+            <lg>
+               <l>you are of me, that's what</l>
+               <l>and that's the meaning of fertility</l>
+               <l>hard and moist and moaning</l>
+            </lg>
+            <p rendition="#right"><date>1960</date></p>
+         </div>
+         <pb n="42" xml:id="p42"/>
+         <div type="poem">
+            <head>HOW TO GET THERE</head>
+            <lg>
+               <l>White the October air, no snow, easy to breathe</l>
+               <l>beneath the sky, lies, Ues everywhere writhing and gasping</l>
+               <l>clutching and tangling, it is not easy to breathe</l>
+               <l>hes building their tendrils into dim figures</l>
+               <l>who disappear down corridors in west-side apartments</l>
+               <l>into childhood's proof of being wanted, not abandoned, kidnapped</l>
+               <l>betrayal staving off loneliness, I see the fog lunge in</l>
+               <l>and hide it</l>
+               <l rendition="#l-indent-02">where are you?</l>
+               <l rendition="#l-indent-03">here I am on the sidewalk</l>
+               <l>under the moonlike lamplight</l>
+               <l>thinking how precious moss is</l>
+               <l>so unique and greenly crushable if you can find it</l>
+               <l>on the north side of the tree where the fog binds you</l>
+               <l>and then, tearing apart into soft white lies, spreads its</l>
+               <l> disease through the primal night of an everlasting winter</l>
+               <l>which nevertheless has heat in tubes, west-side and east-side</l>
+               <l>and its intricate individual pathways of white accompanied</l>
+               <l>by the ringing of telephone bells beside which someone sits in</l>
+               <l> silence denying their own number, never given out! nameless</l>
+               <l>like the sound of troika bells rushing past suffering</l>
+               <l>in the first storm, it is snowing now, it is already too late</l>
+               <l>the snow will go away, but nobody will be there</l>
+            </lg>
+            <lg>
+               <l>police cordons for lying political dignitaries ringing too</l>
+               <l>the world becomes a jangle</l>
+               <l rendition="#l-indent-03">from the index finger</l>
+               <l>to the vast empty houses filled with people, their echoes</l>
+               <pb n="43" xml:id="p43"/>
+               <l>of lies and the tendrils of fog trailing softly around their throats</l>
+               <l>now the phone can be answered, nobody calling, only an echo</l>
+               <l>all can confess to be home and waiting, all is the same</l>
+               <l>and we drift into the clear sky enthralled by our disappointment</l>
+               <l rendition="#l-indent-02">never to be alone again</l>
+               <l rendition="#l-indent-04">never to be loved</l>
+               <l>sailing through space : didn't I have you once for my self?</l>
+               <l rendition="#right">West Side?</l>
+               <l>for a couple of hours, but I am not that person</l>
+            </lg>
+            <p rendition="#right"><date>1960</date></p>
+         </div>
+         <pb n="44" xml:id="p44"/>
+         <div type="poem">
+            <head>A LITTLE TRAVEL DIARY</head>
+            <lg>
+               <l>Wending our way through the gambas, angulas,</l>
+               <l>the merluzas that taste like the Sea Post on Sunday</l>
+               <l>and the great quantities of huevos they take off</l>
+               <l>Spanish Naval officers' uniforms and put on plates,</l>
+               <l>and reach the gare de Francia in the gloaming</l>
+               <l>with my ton of books and John's ton of clothes bought</l>
+               <l>in a wild fit of enthusiasm in Madrid; all jumbled</l>
+               <l>together like life is a Jumble Shop</l>
+            </lg>
+            <lg>
+               <l rendition="#l-indent-05">of the theatre</l>
+               <l>in Spain they said nothing for foreigners</l>
+               <l>and we head in our lovely 1st class coach, shifting</l>
+               <l>and sagging, towards the northwest, while in other compartments</l>
+               <l>Dietrich and <persName>Erich von Stroheim<note>Eric von Stroheim (1985-1987): Austrian-American director and actor.<ref target="https://en.wikipedia.org/wiki/Erich_von_Stroheim">Wikipedia</ref></note></persName> share a sandwich of chorizos</l>
+               <l>and a bottle of Vichy Catalan, in the dining car</l>
+               <l>the travelling gentleman with linear mustache and many</l>
+               <l>many rings rolls his cigar around and drinks Martini y</l>
+               <l>ginebra, and <persName>Lillian Gish<note>Lillian Gish (1893-1993): American actor. Gish was once called "The First Lady of American Cinema" who pioneered many of the techneques of screen acting. <ref target="https://en.wikipedia.org/wiki/Lillian_Gish">Wikipedia</ref></note></persName> rolls on over the gorges</l>
+               <l>with a tear in her left front eye, comme <persName>Picasso<note>Pablo Picasso (1881-1973): Spanish painter and artist who co-founded the Cubist movement. <ref target="https://en.wikipedia.org/wiki/Pablo_Picasso">Wikipedia</ref></note></persName>,</l>
+               <l>through the night through the night, longitudinous</l>
+               <l>and affected with stars; the riverbeds so far below look</l>
+               <l>as a pig's tongue on a platter, and storms break over</l>
+               <l>San Sebastian, 40 foot waves drench us pleasantly and we see</l>
+               <l>a dead dog bloated as a fraise lolling beside the quai</l>
+               <l>and slowly pulling out to sea</l>
+               <l rendition="#l-indent-05">to Irun and Biarritz</l>
+               <l>we go, sapped of anxiety, and there for the first time</l>
+               <l>since arriving in Barcelona I can freely shit</l>
+               <l>and the surf is so high and the sun is so hot</l>
+               <l>and it was all built yesterday as everything should be</l>
+               <pb n="45" xml:id="p45"/>
+               <l>what a splendid country it is</l>
+               <l rendition="#l-indent-04">full of indecision and cognac</l>
+               <l>and bikinis, sens plastiques (ugh! hooray!); see the back</l>
+               <l>of the head of <persName>Bill Berkson<note> Bill Berkson (1939-2016): American poet, student of Kenneth Koch, and friend of O'Hara's. <ref target="https://en.wikipedia.org/wiki/Bill_Berkson">Wikipedia</ref></note></persName>, aux Deux Magots, (awk!) it gleams</l>
+               <l>like the moon through the smoke of the Renfe as we passed</l>
+               <l>through the endless tunnels and the silver vistas</l>
+               <l>of our quest for the rocher de la Vierge and salt spray</l>
+            </lg>
+            <p rendition="#right"><date>1960</date></p>
+         </div>
+         <pb n="46" xml:id="p46"/>
+         <div type="poem">
+            <head>FIVE POEMS</head>
+            <div type="part">
+               <l>Well now, hold on</l>
+               <l>maybe I won't go to sleep at all</l>
+               <l>and it'll be a beautiful white night</l>
+               <l>or else I'll collapse</l>
+               <l>completely from nerves and be calm</l>
+               <l>as a rug or a bottle of pills</l>
+               <l>or suddenly I'll be off Montauk</l>
+               <l>swimming and loving it and not caring where</l>
+               <lg><l rendition="#center">*****</l></lg>
+            </div>
+            <div type="part">
+               <l>an invitation to lunch</l>
+               <l>HOW DO YOU LIKE THAT?</l>
+               <l>when I only have 16 cents and 2</l>
+               <l>packages of yoghurt</l>
+               <l>there's a lesson in that, isn't there</l>
+               <l>like in Chinese poetry when a leaf falls?</l>
+               <l>hold off on the yoghurt till the very</l>
+               <l>last, when everything may improve</l>
+               <lg><l rendition="#center">*****</l></lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>at the Rond-Point they were eating</l>
+                  <l>a oyster, but here</l>
+                  <l>we were dropping by sculptures</l>
+                  <l>and seeing some paintings</l>
+                  <l>and the smasheroo-grates of Cadoret</l>
+                  <l>and music by <persName>Varese <note>Edgard Varèse (1883-1965): French-American Composer. <ref target="https://en.wikipedia.org/wiki/Edgard_Var%C3%A8se">Wikipedia</ref></note></persName>, too</l>
+                  <l>well <persName>Adolph Gottlieb <note>Adolph Gottlieb (1903-1974): American abstract expressionist artist. <ref target="https://en.wikipedia.org/wiki/Adolph_Gottlieb">Wikipedia</ref></note></persName> I guess you</l>
+                  <pb n="47" xml:id="p47"/>
+                  <l>are the hero of this day along with venison and <persName>Bill<note> Bill Berkson (1939-2016): American poet, student of Kenneth Koch, and friend of O'Hara's. <ref target="https://en.wikipedia.org/wiki/Bill_Berkson">Wikipedia</ref></note></persName></l>
+               </lg>
+               <lg>
+                  <l>I'll sleep on the yoghurt and dream of the Persian Gulf</l>
+               </lg>
+               <lg><l rendition="#center">*****</l></lg>
+            </div>
+            <div type="part">
+               <l>which I did it was wonderful</l>
+               <l>to be in bed again and the knock</l>
+               <l>on my door for once signified "hi there"</l>
+               <l>and on the deafening walk</l>
+               <l>through the ghettos where bombs have gone off lately</l>
+               <l>left by subway violators</l>
+               <l>I knew why I love taxis, yes</l>
+               <l>subways are only fun when you're feeling sexy</l>
+               <l>and who feels sexy after The Blue Angel</l>
+               <l>well maybe a little bit</l>
+             <lg>  <l rendition="#center">*****</l></lg>
+            </div>
+            <div type="part">
+               <l>I seem to be defying fate, or am I avoiding it?</l>
+               <p rendition="#right"><date>1960</date></p>
+            </div>
+            
+         </div>
+         <pb n="48" xml:id="p48"/>
+         <div type="poem">
+            <head>AVE MARIA</head>
+            <lg>
+               <l>Mothers of America</l>
+               <l rendition="#l-indent-03">let your kids go to the movies!</l>
+               <l>get them out of the house so they won't know what you're up to</l>
+               <l>it's true that fresh air is good for the body</l>
+               <l rendition="#l-indent-05">but what about the soul</l>
+               <l>that grows in darkness, embossed by silvery images</l>
+               <l>and when you grow old as grow old you must</l>
+               <l rendition="#l-indent-05"> they won't hate you</l>
+               <l>they won't criticise you they won't know</l>
+               <l rendition="#l-indent-03"> they'll be in some glamorous country</l>
+               <l>they first saw on a Saturday afternoon or playing hookey</l>
+            </lg>
+            <lg>
+               <l>they may even be grateful to you</l>
+               <l rendition="#l-indent-04">for their first sexual experience</l>
+               <l>which only cost you a quarter</l>
+               <l rendition="#l-indent-03"> and didn't upset the peaceful home</l>
+               <l>they will know where candy bars come from</l>
+               <l rendition="#l-indent-04">and gratuitous bags of popcorn </l>
+               <l>s gratuitous as leaving the movie before it's over with a pleasant stranger whose
+                  apartment is in the</l>
+               <l rendition="#l-indent-05">Heaven on Earth Bldg</l>
+               <l>near the Williamsburg Bridge</l>
+               <l rendition="#l-indent-03">oh mothers you will have made the little tykes</l>
+               <l>so happy because if nobody does pick them up in the movies</l>
+               <l>they won't know the difference</l>
+               <l rendition="#l-indent-03"> and if somebody does it'll be sheer gravy</l>
+               <l>and they'll have been truly entertained either way</l> <l>instead of hanging around the
+                  yard</l>
+               <l rendition="#l-indent-04">or up in their room</l>
+               <l rendition="#right">hating you</l>
+               <pb n="49" xml:id="p49"/>
+               <l>prematurely since you won't have done anything horribly</l>
+               <l rendition="#right">mean yet</l>
+               <l>except keeping them from the darker joys</l>
+               <l rendition="#right">it's unforgivable the latter</l>
+               <l>so don't blame me if you won't take this advice</l>
+               <l rendition="#right">and the family breaks up</l>
+               <l>and your children grow old and blind in front of a TV set</l>
+               <l rendition="#right">seeing</l>
+               <l>movies you wouldn't let them see when they were young</l>
+            </lg>
+            <p rendition="#right"><date>1960</date></p>
+         </div>
+         <pb n="50" xml:id="p50"/>
+         <div type="poem">
+            <head>PISTACHIO TREE AT CHATEAU NOIR</head>
+            <lg>
+               <l>Beaucoup de musique classique et moderne Guillaume and not</l>
+               <l>as one may imagine it sounds not in the ear</l>
+               <l>what went was attributed to wandering aimlessly off</l>
+               <l>what came arrived simply for itself and inflamed me</l>
+               <l>yet I do not explain what exactly makes me so happy today</l>
+               <l>any more than I can explain the unseasonal warmth</l>
+               <l>of my unhabitual heart pumping vulgarly the blood</l>
+               <l>of another I loved another and now my love is other</l>
+               <l>my love is in the movies downstairs and yesterday</l>
+               <l>bought ice cream and looked for a pigeon-menaced owl</l>
+               <l>mais, Guillaume, ou es-tu, Guillaume, comme les musiques</l>
+            </lg>
+            <lg>
+               <l>and like the set for <hi rendition="#itl">Rigoletto</hi> like the set for <hi rendition="#itl"
+                     >Roma</hi></l>
+               <l>like so many sets one's heart is torn like Berman's</l>
+               <l>spacious haunt where tenors walk in pumps and girls</l>
+               <l>in great big hats or none at all "or perhaps he recorded the panorama</l>
+               <l>of hills and valleys before the strangely</l>
+               <l>naked" and rain is turning the set into a dumpling</l>
+            </lg>
+            <lg>
+               <l>wherever I see a "while" I seem to lose a little time</l>
+               <l>and gradually my feet dragging I slow down the damn bus</l>
+               <l>it is because of you so I can watch you smile longer</l>
+               <l>that's what the Spring is and the elbow of noon walks</l>
+               <l>where did you go who did you see the children proclaim</l>
+               <l>and they too gradually fill the sepulchre with dolls</l>
+               <l>and the sepulchre jumps and jounces and turns pink with wrath</l>
+            </lg>
+            <p rendition="#right"><date>1961</date></p>
+         </div>
+         <pb n="51" xml:id="p51"/>
+         <div type="poem">
+            <head>AT KAMIN'S DANCE BOOKSHOP</head>
+            <epigraph rend="center">
+               <p rendition="#itl">to <persName>Vincent Warren<note>Vincent Paul Warren (1938-2017): Ballet dancer and O'Hara's partner. Warren and O'Hara met in the summer of 1959 and quickly fell in love. Warren appears numerous times in O'Hara's poems, occasionally under the pseudonym "St. Paul." <ref target="https://en.wikipedia.org/wiki/Vincent_Warren">Wikipedia</ref></note></persName></p>
+            </epigraph>
+            <l>Shade of <persName>Fanny Elssler <note>Fanny Elssler (1810-1884): Austrian ballerina of great fame. Warren, also a Ballet dancer, is compared to Elssler.<ref target="https://en.wikipedia.org/wiki/Fanny_Elssler">Wikipedia</ref></note></persName>! I dreamt that you passed over me last</l>
+            <l rendition="#right">night in sleep</l>
+            <l>was it you who was asleep or was it me? sweet shade</l>
+            <l>shade shade shill spade agony freak</l>
+            <l>geek you were not nor were you made of ribbons but of warm</l>
+            <l rendition="#right">moving flesh &amp; tulle</l>
+            <l>you were twining your left leg around your right as if your</l>
+            <l rendition="#right">right were me</l>
+            <l>I've never felt so wide awake</l>
+            <l>I seemed to be wearing tights entwined with your legs and a</l>
+            <l rendition="#right">big sash over my crotch</l>
+            <l>and a jewel in my left ear for luck</l>
+            <l>(to help me balance) and you were pulling me toward the floor</l>
+            <l rendition="#right">reaching for stars</l>
+            <l>it seemed to me that I was warm at last</l>
+            <l>and palpable not just a skein of lust dipped in the grand</l>
+            <l rendition="#right">appreciation of yours</l>
+            <l>where are you Fanny Elssler come back!</l>
+            <p rendition="#right"><date>1961</date></p>
+         </div>
+         <pb n="52" xml:id="p52"/>
+         <div type="poem">
+            <head>STEPS</head>
+            <lg>
+               <l>How funny you are today New York</l>
+               <l>like <persName>Ginger Rogers<note>Virginia Katherine Rogers (1911-1995): American actor, dancer and singer best known for performing in musicals. <ref target="https://en.wikipedia.org/wiki/Ginger_Rogers">Wikipedia</ref></note></persName> in <hi rendition="#itl">Swingtime</hi></l>
+               <l>and St. Bridget's steeple leaning a little to the left</l>
+            </lg>
+            <lg>
+               <l>here I have just jumped out of a bed full of V-days</l>
+               <l>(I got tired of D-days) and blue you there still</l>
+               <l>accepts me foolish and free</l>
+               <l>all I want is a room up there</l>
+               <l>and you in it</l>
+               <l>and even the traffic halt so thick is a way</l>
+               <l>for people to rub up against each other</l>
+               <l>and when their surgical appliances lock</l>
+               <l>they stay together</l>
+               <l>for the rest of the day (what a day)</l>
+               <l>I go by to check a slide and I say</l>
+               <l>that painting's not so blue</l>
+            </lg>
+            <lg>
+               <l>where's <persName>Lana Turner<note>Lana Turner (1921-1995): American actor famous for both her acting and her tumultuous  personal life. <ref target="https://en.wikipedia.org/wiki/Lana_Turner">Wikipedia</ref></note></persName></l>
+               <l>she's out eating</l>
+               <l>and <persName>Garbo's<note>Greta Garbo (1905-1990) Sweedish born American actress. <ref target="https://en.wikipedia.org/wiki/Greta_Garbo">Wikipedia</ref></note></persName> backstage at the Met</l>
+               <l>everyone's taking their coat off</l>
+               <l>so they can show a rib-cage to the rib-watchers</l>
+               <l>and the park's full of dancers and their tights and shoes</l>
+               <l>in little bags</l>
+               <l>who are often mistaken for worker-outers at the West Side Y</l>
+               <l>why not</l>
+               <l>the Pittsburgh Pirates shout because they won</l>
+               <l>and in a sense we're all winning</l>
+               <l>we're alive</l>
+               <pb n="53" xml:id="p53"/>
+               <l>the apartment was vacated by a gay couple</l>
+               <l>who moved to the country for fun</l>
+               <l>they moved a day too soon</l>
+               <l>even the stabbings are helping the population explosion</l>
+               <l>though in the wrong country</l>
+               <l>and all those liars have left the U N</l>
+               <l>the Seagram Building's no longer rivalled in interest</l>
+               <l>not that we need liquor (we just like it)</l>
+            </lg>
+            <lg>
+               <l>and the little box is out on the sidewalk</l>
+               <l>next to the delicatessen</l>
+               <l>so the old man can sit on it and drink beer</l>
+               <l>and get knocked off it by his wife later in the day</l>
+               <l>while the sun is still shining</l>
+            </lg>
+            <lg>
+               <l>oh god it's wonderful</l>
+               <l>to get out of bed</l>
+               <l>and drink too much coffee</l>
+               <l>and smoke too many cigarettes</l>
+               <l>and love you so much</l>
+            </lg>
+            <p rendition="#right"><date>1961</date></p>
+         </div>
+         <pb n="54" xml:id="p54"/>
+         <div type="poem">
+            <head>MARY DESTI'S ASS</head>
+            <lg>
+               <l>In Bayreuth once</l>
+               <l>we were very good friends of the <persName>Wagners<note>Possibly Wilhelm Richard Wagner(1813-1883): German composer.<ref target="https://en.wikipedia.org/wiki/Richard_Wagner">Wikipedia</ref>
+               </note></persName></l>
+               <l>and I stepped in once</l>
+               <l>for Isadora so perfectly</l>
+               <l>she would never allow me to dance again</l>
+               <l>that's the way it was in Bayreuth</l>
+            </lg>
+            <lg>
+               <l>the way it was in Hackensack</l>
+               <l>was different</l>
+               <l>there one never did anything</l>
+               <l>and everyone hated you anyway</l>
+               <l>it was fun, it was clear</l>
+               <l>you knew where you stood</l>
+            </lg>
+            <lg>
+               <l>in Boston you were never really standing</l>
+               <l>I was usually lying</l>
+               <l>it was amusing to be lying all</l>
+               <l>the time for everybody</l>
+               <l>it was like exercise</l>
+            </lg>
+            <lg>
+               <l>it means something to exercise</l>
+               <l>in Norfolk Virginia</l>
+               <l>it means you've been to bed with a Nigra</l>
+               <l>well it is exercise</l>
+               <l>the only difference is it's better than Boston</l>
+            </lg>
+            <pb n="55" xml:id="p55"/>
+            <lg>
+               <l>I was walking along the street</l>
+               <l>of Cincinnati</l>
+               <l>and I met <persName>Kenneth Koch's <note>Kenneth Koch (1925-2002): American poet and playwright. Koch was one of O'Hara's closest friends and a centeral figure in the New York School of poets. <ref target="https://en.wikipedia.org/wiki/Kenneth_Koch">Wikipedia</ref></note></persName> mother</l>
+               <l>fresh from the Istanbul Hilton</l>
+               <l>she liked me and I liked her</l>
+               <l>we both liked Istanbul</l>
+            </lg>
+            <lg>
+               <l>then in Waukegan I met a furniture manufacturer</l>
+               <l>and it wiped out all dreams of pleasantness from my mind</l>
+               <l>it was like being pushed down hard</l>
+               <l>on a chair</l>
+               <l>it was like something horrible you hadn't expected</l>
+               <l>which is the most horrible thing</l>
+            </lg>
+            <lg>
+               <l>and in Singapore I got a dreadful</l>
+               <l>disease it was amusing to have bumps</l>
+               <l>except they went into my veins</l>
+               <l>and rose to the surface like Vesuvius</l>
+               <l>getting cured was like learning to smoke</l>
+            </lg>
+            <lg>
+               <l>yet I always loved Baltimore</l>
+               <l>the porches which hurt your ass</l>
+               <l>no, they were the steps</l>
+               <l>well you have a wet ass anyway</l>
+               <l>if they'd only stop scrubbing</l>
+            </lg>
+            <lg>
+               <l>and Frisco where I saw</l>
+               <l><persName>Toumanova <note>Tamara Toumanova (1919-1996): Russian-born American Ballerina. The child of Russian exhiles, Toumanova began her career at 10. Toumanova and fellow Russian exiles  Irina Baronova and Tatiana Riabouchinska became known as "the baby ballerinas"</note></persName> "the baby ballerina" except</l>
+               <l>she looked like a cow</l>
+               <l>I didn't know the history of the ballet yet</l>
+               <l>not that that taught me much</l>
+            </lg>
+            <pb n="56" xml:id="p56"/>
+            <lg>
+               <l>now if you feel like you want to deal with</l>
+               <l>Tokyo</l>
+               <l>you've really got something to handle</l>
+               <l>it's like Times Square at midnight</l>
+               <l>you don't know where you're going</l>
+               <l>but you know</l>
+            </lg>
+            <lg>
+               <l>and then in Harbin I knew</l>
+               <l>how to behave it was glorious that</l>
+               <l>was love sneaking up on me through the snow</l>
+               <l>and I felt it was because of all</l>
+               <l>the postcards and the smiles and kisses and the grunts</l>
+               <l>that was love but I kept on traveling</l>
+            </lg>
+            <p rendition="#right"><date>1961</date></p>
+         </div>
+         <pb n="57" xml:id="p57"/>
+         <div type="poem">
+            <head><persName>ST. PAUL<note>Vincent Paul Warren (1938-2017): Ballet dancer and O'Hara's partner. Warren and O'Hara met in the summer of 1959 and quickly fell in love. Warren appears numerous times in O'Hara's poems, occasionally under the pseudonym "St. Paul." The name St. Paul was meant to tease Warren for his prudishness. Warren asked O'Hara not to use his full name in poems because he worried that his mother might, through reading O'Hara's poetry, discover her son was gay.<ref target="https://en.wikipedia.org/wiki/Vincent_Warren">Wikipedia</ref></note></persName> AND ALL THAT</head>
+            <l>Totally abashed and smiling</l>
+            <l rendition="#l-indent-05">I walk in</l>
+            <l rendition="#l-indent-05">sit down and</l>
+            <l rendition="#l-indent-05">face the frigidaire</l>
+            <l rendition="#l-indent-02">it's April</l>
+            <l rendition="#l-indent-02">no May</l>
+            <l rendition="#l-indent-02">it's May</l>
+            <l>such little things have to be established in morning</l>
+            <l>after the big things of night</l>
+            <l rendition="#l-indent-04">do you want me to come? when</l>
+            <l>I think of all the things I've been thinking of I feel insane</l>
+            <l>simply "life in Birmingham is hell"</l>
+            <l rendition="#l-indent-04"> simply "you will miss me</l>
+            <l rendition="#l-indent-05">but that's good"</l>
+            <l>when the tears of a whole generation are assembled</l>
+            <l>they will only fill a coflfee cup</l>
+            <l rendition="#l-indent-04">just because they evaporate</l>
+            <l>doesn't mean life has heat</l>
+            <l rend="double-inent"> "this various dream of living"</l>
+            <l>I am alive with you</l>
+            <l rendition="#l-indent-03">full of anxious pleasures and pleasurable anxiety</l>
+            <l>hardness and softness</l>
+            <l rendition="#l-indent-02">listening while you talk and talking while you read</l>
+            <l>I read what you read</l>
+            <l rendition="#l-indent-03">you do not read what I read</l>
+            <l>which is right, I am the one with the curiosity</l>
+            <l rendition="#l-indent-03">you read for some mysterious reason</l>
+            <l rend="triple indent">I read simply because I am a writer</l>
+            <l>the sun doesn't necessarily set, sometimes it just disappears</l>
+            <pb n="58" xml:id="p58"/>
+            <l rendition="#l-indent-02">when you're not here someone walks in and says</l>
+            <l rendition="#right">"hey,</l>
+            <l>there's no dancer in that bed"</l>
+            <l rend="right algin">O the Polish summers! those drafts!</l>
+            <l rendition="#l-indent-04">those black and white teeth!</l>
+            <l>you never come when you say you'll come but on the other hand</l>
+            <l rendition="#right">you do come</l>
+            <p rendition="#right"><date>1961</date></p>
+         </div>
+         <pb n="59" xml:id="p59"/>
+         <div type="poem">
+            <head>MEMOIR OF SERGEI O. . . .</head>
+            <l>My feet have never been comfortable</l>
+            <l>since I pulled them out of the Black Sea</l>
+            <l>and came to your foul</l>
+            <l>country what fatal day did I dry them off for</l>
+            <l>travel loathesome travel to a world</l>
+            <l>even older than the one I grew up in</l>
+            <l>what fatal day meanwhile back in France</l>
+            <l>they were stumbling towards the Bastille</l>
+            <l>and the Princesse de Lamballe</l>
+            <l>was shuddering as shudderingly as I</l>
+            <l>with a lot less to lose I still hated</l>
+            <l>to move sedentary as a roach of Tiflis</l>
+            <l>never again to go swimming in the nude</l>
+            <l>publicly little did I know how</l>
+            <l>awfulness could reach perfection abroad</l>
+            <l>I even thought I would see a Red Indian</l>
+            <l>all I saw was lipstick everything cov-</l>
+            <l>ered with grass or shrouds</l>
+            <l>pretty shrouds shot with silver and plasma</l>
+            <l>even the chairs are upholstered to a</l>
+            <l>smothering perfection of inanity</l>
+            <l>and there are no chandeliers and there</l>
+            <l>are no gates to the parks so you don't</l>
+            <l>know whether you're going in them or</l>
+            <l>coming out of them that's not relaxing</l>
+            <l>and so you can't really walk all you can</l>
+            <l>do is sit and drink coffee and brood</l>
+            <l>over the lost leaves and refreshing scum</l>
+            <l>of Georgia Georgia of my heritage</l>
+            <l>and dismay meanwhile back in my old</l>
+            <pb n="60" xml:id="p60"/>
+            <l>country they are renaming everything so</l>
+            <l>I can't even tell any more which ballet</l>
+            <l>company I am remembering with so much</l>
+            <l>pain and the same thing has started</l>
+            <l>here American Avenue Park Avenue South</l>
+            <l>Avenue of Chester Conklin Binnie Barnes</l>
+            <l>Boulevard Avenue of Toby Wing Barbara</l>
+            <l>Nichols Street where am I what is it</l>
+            <l>I can't even find a pond small enough</l>
+            <l>to drown in without being ostentatious</l>
+            <l>you are ruining your awful country and me</l>
+            <l>it is not new to do this it is terribly</l>
+            <l>democratic and ordinary and tired</l>
+            <p rendition="#right"><date>1961</date></p>
+         </div>
+         <pb n="61" xml:id="p61"/>
+         <div type="poem">
+            <head>YESTERDAY DOWN AT THE CANAL</head>
+            <l>You say that everything is very simple and interesting</l>
+            <l>it makes me feel very wistful, like reading a great Russian novel does</l>
+            <l>I am terribly bored sometimes it is like seeing a bad movie</l>
+            <l>other days, more often, it's like having an acute disease of the kidney</l>
+            <l>god knows it has nothing to do with the heart</l>
+            <l>nothing to do with people more interesting than myself</l>
+            <l>yak yak</l>
+            <l>that's an amusing thought how can anyone be more amusing than oneself</l>
+            <l>how can anyone fail to be</l>
+            <l>can I borrow your forty-five</l>
+            <l>I only need one bullet preferably silver</l>
+            <l>if you can't be interesting at least you can be a legend</l>
+            <l>(but I hate all that crap)</l>
+            <p rendition="#right"><date>1961</date></p>
+         </div>
+         <pb n="62" xml:id="p62"/>
+         <div type="poem">
+            <head>POEM EN FORME DE SAW</head>
+            <l>I ducked out of sight behind the saw-mill</l>
+            <l>nobody saw me because of the falls the gates the sluice the tourist boats</l>
+            <l>the children were trailing their fingers in the water</l>
+            <l>and the swans, regal and smarty, were nipping their "little" fingers</l>
+            <l>I heard one swan remark "That was a good nip</l>
+            <l>though they are not as interesting as sausages" and another</l>
+            <l>reply "Nor as tasty as those peasants we got away from the elephant that time"</l>
+            <l>but I didn't really care for conversation that day</l>
+            <l>I wanted to be alone</l>
+            <l>which is why I went to the mill in the first place</l>
+            <l>now I am alone and hate it</l>
+            <l>I don't want to just make boards for the rest of my life</l>
+            <l>I'm distressed</l>
+            <l>the water is very beautiful but you can't go into it</l>
+            <l>because of the gunk</l>
+            <l>and the dog is always rolling over, I like dogs on their "little" feet</l>
+            <l>I think I may scamper off to Winnipeg to see Raymond</l>
+            <l>but what'll happen to the mill</l>
+            <l>I see the cobwebs collecting already</l>
+            <l>and later those other webs, those awful predatory webs</l>
+            <l>if I stay right here I will eventually get into the newspapers</l>
+            <l>like Robert Frost</l>
+            <l>willow trees, willow trees they remind me of Desdemona</l>
+            <l>I'm so damned literary</l>
+            <l>and at the same time the waters rushing past remind me of nothing</l>
+            <l>I'm so damned empty</l>
+            <l>what is all this vessel shit anyway</l>
+            <l>we are all rushing down the River Happy Times</l>
+            <pb n="63" xml:id="p63"/>
+            <l>ducking poling bumping sinking and swimming</l>
+            <l>and we arrive at the beach</l>
+            <l>the chaff is sand</l>
+            <l>alone as a tree bumping another tree in a storm</l>
+            <l>that's not really being alone, is it, signed The Saw</l>
+            <p rendition="#right"><date>1961</date></p>
+         </div>
+         <pb n="64" xml:id="p64"/>
+         <div type="poem">
+            <head>FOR THE CHINESE NEW YEAR &amp; FOR <persName>BILL BERKSON<note> Bill Berkson (1939-2016): American poet, student of Kenneth Koch, and friend of O'Hara's. <ref target="https://en.wikipedia.org/wiki/Bill_Berkson">Wikipedia</ref></note></persName></head>
+            <epigraph>
+               <p><hi rendition="#itl">One or another Is lost, since we fall apart Endlessly, in one
+                  motion depart From each other.</hi> — <persName>D. H. Lawrence<note>David Herber Lawrence (1885-1930):English writer and painter. <ref target="https://en.wikipedia.org/wiki/D._H._Lawrence">Wikipeida</ref></note></persName></p>
+            </epigraph>
+           <div type="part"> <lg>
+               <l>Behind New York there's a face</l>
+               <l>and it's not Sibelius's with a cigar</l>
+               <l>it was red it was strange and hateful</l>
+               <l>and then I became a child again</l>
+               <l>like a nadir or a zenith or a nudnik</l>
+            </lg>
+            <lg>
+               <l>what do you think this is my youth</l>
+               <l>and the aged future that is sweeping me away</l>
+               <l>earless and gasless under the Sutton</l>
+               <l>and Beekman Places towards a hellish rage</l>
+               <l>it is there that face I fear under ramps</l>
+            </lg>
+            <lg>
+               <l>it is perhaps the period that ends</l>
+               <l>the problem as a proposition of days of days</l>
+               <l>just an attack on the feelings that stay</l>
+               <l>poised in the hurricane's center that</l>
+               <l>eye through which only camels can pass</l>
+            </lg>
+            <lg>
+               <l>but I do not mean that tenderness doesn't</l>
+               <l>linger like a Paris afternoon or a wart</l>
+               <l>something dumb and despicable that I love</l>
+               <l>because it is silent oh what difference</l>
+               <l>does it make me into some kind of space statistic</l>
+            </lg>
+              <pb n="65" xml:id="p65"/>
+            <lg>
+               <l>a lot is buried under that smile</l>
+               <l>a lot of sophistication gone down the drain</l>
+               <l>to become the mesh of a mythical fish</l>
+               <l>at which we never stare back never stare back</l>
+               <l>where there is so much downright forgery</l>
+            </lg>
+            <lg>
+               <l>under that I find it restful like a bush</l>
+               <l>some people are outraged by cleanliness</l>
+               <l>I hate the lack of smells myself and yet I stay</l>
+               <l>it is better than being actually present</l>
+               <l>and the stare can swim away into the past</l>
+            </lg>
+            <lg>
+               <l>can adorn it with easy convictions rat</l>
+               <l>cow tiger rabbit dragon snake horse sheep</l>
+               <l>monkey rooster dog and pig "Flower Drum Song"</l>
+               <l>so that nothing is vain not the gelded sand</l>
+               <l>not the old spangled lotus not my fly</l>
+            </lg>
+            <lg>
+               <l>which I have thought about but never really</l>
+               <l>looked at well that's a certain orderliness</l>
+               <l>of personality "if you're brought up Protestant</l>
+               <l>enough a Catholic" oh shit on the beaches so</l>
+               <l>what if I did look up your trunks and see it</l></lg></div>
+            <div type="part">
+            <l>II</l>
+            <lg>
+               <l>then the parallel becomes an eagle parade</l>
+               <l>of Busby Berkeleyites marching marching half-toe</l>
+               <l>I suppose it's the happiest moment in infinity</l>
+               <l>because we're dissipated and tired and fond no</l>
+               <l>I don't think psychoanalysis shrinks the spleen</l>
+            </lg>
+               <pb n="66" xml:id="p66"/>
+            <lg>
+               <l>here we are and what the hell are we going to do</l>
+               <l>with it we are going to blow it up like daddy did</l>
+               <l>only us I really think we should go up for a change</l>
+               <l>I'm tired of always going down what price glory</l>
+               <l>it's one of those timeless priceless words like come</l>
+            </lg>
+            <lg>
+               <l>well now how does your conscience feel about that</l>
+               <l>would you rather explore tomorrow with a sponge</l>
+               <l>there's no need to look for a target you're it</l>
+               <l>like in childhood when the going was aimed at a</l>
+               <l>sandwich it all depends on which three of us are there</l>
+            </lg>
+            <lg>
+               <l>but here come the prophets with their loosening nails</l>
+               <l>it is only as blue as the lighting under the piles</l>
+               <l>I have something portentous to say to you but which</l>
+               <l>of the papier-mache languages do you understand you</l>
+               <l>don't dare to take it off paper much less put it on</l>
+            </lg>
+            <lg>
+               <l>yes it is strange that everyone fucks and every-</l>
+               <l>one mentions it and it's boring too that faded floor</l>
+               <l>how many teeth have chewed a little piece of the lover's</l>
+               <l>flesh how many teeth are there in the world it's like</l>
+               <l><persName>Harpo Marx<note>Arthur "Harpo" Marx (1888-1964): American comedian and second-oldest of the Marx Brothers. Unlike his brothers Groucho and Chico, Harpo never talked in performances and instead relied on visual comedy and pantomime. <ref target="https://en.wikipedia.org/wiki/Harpo_Marx">Wikipedia</ref></note></persName> smiling at a million pianos call that Africa</l>
+            </lg>
+            <lg>
+               <l>call it New Guinea call it Poughkeepsie I guess</l>
+               <l>it's love I guess the season of renunciation is at "hand"</l>
+               <l>the final fatal hour of turpitude and logic demise</l>
+               <l>is when you miss getting rid of something delouse</l>
+               <l>is when you don't louse something up which way is the inn</l>
+            </lg></div>
+            <pb n="67" xml:id="p67"/>
+            <div type="part"><l>III</l>
+            <lg>
+               <l>I'm looking for a million-dollar heart in a carton</l>
+               <l>of frozen strawberries like the Swedes where is sunny England</l>
+               <l>and those fields where they still-birth the wars why</l>
+               <l>did they suddenly stop playing why is Venice a Summer</l>
+               <l>Festival and not New York were you born in America</l>
+            </lg>
+            <lg>
+               <l>the inscrutable passage of a lawn-mower punctuates</l>
+               <l>the newly installed Muzack in the Shubert Theatre am I nuts</l>
+               <l>or is this the happiest moment of my life who's arguing it's</l>
+               <l>I mean 'tis lawd sakes it took daddy a long time to have</l>
+               <l>that accident so Ant Grace could get completely into black</l>
+            </lg>
+            <lg>
+               <l>didn't you know we was all going to be Zen Buddhists after</l>
+               <l>what we did you sure don't know much about war-guilt</l>
+               <l>or nothin and the peach trees continued to rejoice around</l>
+               <l>the prick which was for once authorized by our Congress</l>
+               <l>though inactive what if it had turned out to be a volcano</l>
+            </lg>
+            <lg>
+               <l>that's a mulatto of another nationality of marble</l>
+               <l>it's time for dessert I don't care what street this is</l>
+               <l>you're not telling me to take a tour are you</l>
+               <l>1 don't want to look at any fingernails or any toes</l>
+               <l>I just want to go on being subtle and dead like life</l>
+            </lg>
+            <lg>
+               <l>I'm not naturally so detached but I think</l>
+               <l>they might send me up any minute so I try to be free</l>
+               <l>you know we've all sinned a lot against science</l>
+               <l>so we really ought to be available as an apple on a bough</l>
+               <l>pleasant thought fresh air free love cross-pollenization</l>
+            </lg>
+               <pb n="68" xml:id="p68"/>
+            <lg>
+               <l>oh oh god how I'd love to dream let alone sleep it's night</l>
+               <l>the soft air wraps me like a swarm it's raining and I have</l>
+               <l>a cold I am a real human being with real ascendancies</l>
+               <l>and a certain amount of rapture what do you do with a kid</l>
+               <l>like me if you don't eat me I'll have to eat myself</l>
+            </lg>
+            <lg>
+               <l>it's a strange curse my "generation" has we're all</l>
+               <l>like the flowers in the Agassiz Museum perpetually ardent</l>
+               <l>don't touch me because when I tremble it makes a noise</l>
+               <l>like a Chinese wind-bell it's that I'm seismographic is all</l>
+               <l>and when a Jesuit has stared you down for ever after you clink</l>
+            </lg>
+            <lg>
+               <l>I wonder if I've really scrutinized this experience like</l>
+               <l>you're supposed to have if you can type there's not much</l>
+               <l>soup left on my sleeve energy creativity guts ponderableness</l>
+               <l>lent is coming in imponderableness "I'd like to die smiling" ugh</l>
+               <l>and a very small tiptoe is crossing the threshold away</l>
+            </lg>
+            <lg>
+               <l>whither <persName>Lumumba<note>Patrice Émery Lumumba (1925-1961): Congolese independence leader and first Prime Minister of the Republic of the Congo. Lumumba was deposed and imprisoned by a military coup mere months after assuming office and was later exicuted by his captors. <ref target="https://en.wikipedia.org/wiki/Patrice_Lumumba">Wikipedia</ref></note></persName> whither oh whither <persName>Gauguin<note>Paul Gauguin (1848-1903): French Post-Impressionist painter.<ref target="https://en.wikipedia.org/wiki/Paul_Gauguin">Wikipedia</ref></note></persName></l>
+               <l>I have often tried to say goodbye to strange fantoms I</l>
+               <l>read about in the newspapers and have always succeeded</l>
+               <l>though the ones at "home" are dependent on Dependable</l>
+               <l>Laboratory and Sales Company on Pulaski Street strange</l>
+            </lg>
+            <lg>
+               <l>I think it's goodbye to a lot of things like Christmas</l>
+               <l>and the Mediterranean and halos and meteorites and villages</l>
+               <l>full of damned children well it's goodbye then as in Strauss</l>
+               <l>or some other desperately theatrical venture it's goodbye</l>
+               <l>to lunch to love to evil things and to the ultimate good as "well"</l>
+            </lg>
+               <pb n="69" xml:id="p69"/>
+            <lg>
+               <l>the strange career of a personality begins at five and ends</l>
+               <l>forty minutes later in a fog the rest is just a lot of stranded</l>
+               <l>ships honking their horns full of joy-seeking cadets in bloomers</l>
+               <l>and beards it's okay with me but must they cheer while they honk</l>
+               <l>it seems that breath could easily fill a balloon and drift away</l>
+            </lg>
+            <lg>
+               <l>scaring the locusts in the straggling grey of living dumb</l>
+               <l>exertions then the useful noise would come of doom of data</l>
+               <l>turned to elegant decoration like a strangling prince once ordered</l>
+               <l>no there is no precedent of history no history nobody came before</l>
+               <l>nobody will ever come before and nobody ever was that man</l>
+            </lg>
+            <lg>
+               <l>you will not die not knowing this is true this year</l>
+            </lg>
+            <p rendition="#right"><date>1961</date></p></div>
+         </div>
+         <pb n="70" xml:id="p70"/>
+         <div type="poem">
+            <head>POEM</head>
+            <l><persName>Lana Turner<note>Lana Turner (1921-1995): American actor famous for both her acting and her tumultuous  personal life. This poem likely refers to a story in the New York Post from February 9th, 1962 entitled "Lana Faints; in Hospital"<ref target="https://en.wikipedia.org/wiki/Lana_Turner">Wikipedia</ref></note></persName> has collapsed!</l>
+            <l>I was trotting along and suddenly</l>
+            <l>it started raining and snowing</l>
+            <l>and you said it was hailing</l>
+            <l>but hailing hits you on the head</l>
+            <l>hard so it was really snowing and</l>
+            <l>raining and I was in such a hurry</l>
+            <l>to meet you but the traffic</l>
+            <l>was acting exactly like the sky</l>
+            <l>and suddenly I see a headline</l>
+            <l>LANA TURNER HAS COLLAPSED!</l>
+            <l>there is no snow in Hollywood</l>
+            <l>there is no rain in California</l>
+            <l>I have been to lots of parties</l>
+            <l>and acted perfectly disgraceful</l>
+            <l>but I never actually collapsed</l>
+            <l>oh Lana Turner we love you get up</l>
+            <p rendition="#right"><date>1962</date></p>
+         </div>
+         <pb n="71" xml:id="p71"/>
+         <div type="poem">
+            <head>GALANTA</head>
+            <l>A Strange den or music room</l>
+            <l rendition="#l-indent-05">childhood</l>
+            <l>dream of Persian grass configured distilled</l>
+            <l>first hardon milky mess</l>
+            <l rendition="#l-indent-04">the about-to-be</l>
+            <l>dead surrounding the already surrounded folk-</l>
+            <l>hero with a veil of automobile accidents</l>
+            <l>broken cocktail glasses</l>
+            <l rend="triple indent">oh Sally</l>
+            <l>is still acting the mise en scene of her</l>
+            <l>great grandmother's embroidered graveyard</l>
+            <l>while I</l>
+            <l rendition="#l-indent-02">my asiatic tendencies have taken me</l>
+            <l>to the Baghdad of neurasthenia and</l>
+            <l>false objectivity</l>
+            <l rendition="#l-indent-03">faint hope for a familial</l>
+            <l>contrast for a far-reaching decadence</l>
+            <l>which presupposes unnatural unselfishness</l>
+            <l>your sweet yellow hair</l>
+            <l rendition="#l-indent-04">among the mosques</l>
+            <l>the faint tribal twitch of your altered</l>
+            <l>blue eyes</l>
+            <l rendition="#l-indent-02">when Canaan was reached you</l>
+            <l>called me France we threw sand in our eyes</l>
+            <l>and ran naked</l>
+            <l rendition="#l-indent-03">down the street of our awful</l>
+            <l>progenitors</l>
+            <l rendition="#l-indent-02">when life is fantastic there</l>
+            <l>is no chance for make-believe how lucky</l>
+            <l>the French bourgeois pain</l>
+            <pb n="72" xml:id="p72"/>
+            <l rendition="#l-indent-05">could be if we</l>
+            <l>were children again and ever^-thing uninteresting</l>
+            <l>you never had a chance to be</l>
+            <l rendition="#l-indent-05"> <persName>Emma Bovary<note>Emma Bovary: Protagonist of the novel Madame Bovary by Gustave Flaubert.</note></persName></l>
+            <l>nor I <persName>Julien Sorel<note>Julien Sorel: Protagonist of The Red and the Black by Stendhal</note></persName> in that attic in the States</l>
+            <l>and now</l>
+            <l rendition="#l-indent-02">I remember you only through American</l>
+            <l>Folk Art opening near the Fonda del Sol</l>
+            <l>where are you Sally with your practicality</l>
+            <l>and bottles of fireflies</l>
+            <l rendition="#l-indent-04">blinking on</l>
+            <l>and off for footlights</l>
+            <p rendition="#right"><date>1962</date></p>
+         </div>
+         <pb n="73" xml:id="p73"/>
+         <div type="poem">
+            <head>FANTASY</head>
+            <epigraph>
+               <p>(<hi rendition="#itl">dedicated to the health of <persName>Allen Ginsberg<note>Allen Ginsberg (1926-1997): poet, philospher, and leading figure in the beat movement on American counter-culture. <ref target="https://en.wikipedia.org/wiki/Allen_Ginsberg">Wikipedia</ref></note></persName></hi>)</p>
+            </epigraph>
+            <lg>
+               <l>How do you like the music of <persName>Adolph <note>Adolph Deutsch (1897-1980): English American composer, conductor and arranger. Deutsch's music often acted as accompaniment of silent films. <ref target="https://en.wikipedia.org/wiki/Adolph_Deutsch">Wikipedia</ref></note></persName></l>
+               <l rendition="#l-indent-05"><persName>Deutsch<note>Adolph Deutsch (1897-1980): English American composer, conductor and arranger. Deutsch's music often acted as accompaniment of silent films.<ref target="https://en.wikipedia.org/wiki/Adolph_Deutsch">Wikipedia</ref></note></persName>? I like it,</l>
+               <l>I like it better than <persName>Max Steiner's<note>Maximilian Steiner (1888-1971): Austrian-American composer for theatre and films. <ref target="https://en.wikipedia.org/wiki/Max_Steine">Wikipedia</ref></note></persName>. Take his</l>
+               <l>score for <hi rendition="#itl">Northern Pursuit</hi>, the Helmut Dantyne theme</l>
+               <l>was . . .</l>
+               <l rendition="#l-indent-02">and then the window fell on my hand. <persName>Errol<note>Errol Flynn (1909-1959): Australian-American film actor who primarily played romantic leads. <ref target="https://en.wikipedia.org/wiki/Errol_Flynn">Wikipedia</ref></note></persName></l>
+               <l><persName>Flynn<note>Errol Flynn (1909-1959): Australian-American film actor who primarily played romantic leads. <ref target="https://en.wikipedia.org/wiki/Errol_Flynn">Wikipedia</ref></note></persName> was skiing by. Down</l>
+               <l rendition="#l-indent-04">down down went the grim</l>
+               <l>grey submarine under the "cold" ice.</l>
+               <l rendition="#l-indent-05">Helmut was</l>
+               <l>safely ashore, on the ice.</l>
+               <l rendition="#l-indent-04">What dreams, what incredible</l>
+               <l>fantasies of snow farts will this all lead to?</l>
+               <l rendition="#l-indent-05">I</l>
+               <l>don't know, I have stopped thinking like a sled dog.</l>
+            </lg>
+            <lg>
+               <l>The main thing is to tell a story.</l>
+               <l rendition="#l-indent-04"> It is almost</l>
+               <l>very important. Imagine</l>
+               <l rendition="#l-indent-04">throwing away the avalanche</l>
+               <l>so early in the movie. I am the only spy left in Canada,</l>
+               <l rendition="#l-indent-02">but just because I'm alone in the snow</l>
+               <l>doesn't necessarily mean I'm a Nazi.</l>
+               <l rendition="#l-indent-05"> Let's see,</l>
+               <l>two aspirins a vitamin G tablet and some baking soda</l>
+               <l>should do the trick, that's practically an</l>
+               <l rendition="#l-indent-05"> Alka</l>
+               <pb n="74" xml:id="p74"/>
+               <l>Seltzer. Allen come out of the bathroom</l>
+               <l rendition="#l-indent-05">and take it.</l>
+               <l>I think someone put butter on my skis instead</l>
+               <l>of wax.</l>
+               <l rendition="#l-indent-02">Ouch. The leanto is falling over in the</l>
+               <l>firs, and there is another fatter spy here. They</l>
+               <l>didn't tell me they sent</l>
+               <l rendition="#l-indent-04">him. Well, that takes care</l>
+               <l>of him, boy were those huskies hungry.</l>
+               <l rendition="#l-indent-05">Allen,</l>
+               <l>are you feeling any better? Yes, I'm crazy about <persName>Helmut Dantyne<note>Helmut Dantyne (1918-1982): Austrian-born American Actor who specialized in portraying Nazis in American films. <ref target="https://en.wikipedia.org/wiki/Helmut_Dantine">Wikipedia</ref></note></persName></l>
+               <l rendition="#l-indent-03">but I'm glad that Canada will remain</l>
+               <l>free. Just free, that's all, never argue with the movies.</l>
+            </lg>
+            <p rendition="#right"><date>1964</date></p>
+         </div>
+      </body>
+   </text>
+</TEI>
