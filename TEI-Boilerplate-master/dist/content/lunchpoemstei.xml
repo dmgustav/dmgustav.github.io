@@ -90,7 +90,7 @@
             <moduleRef key="namesdates" except=""/>
             <moduleRef key="verse" except=""/>
          </schemaSpec>
-         <pb n="7" xml:id="p7" facs="../images/lunchpoems_Pg7.pdf"/>
+         <pb n="7" xml:id="p7" facs="../images/p7.jpg"/>
          <div type="poem">
             <head>MUSIC</head>
             <l>If I rest for a moment near The Equestrian</l>
@@ -115,7 +115,7 @@
             <l>But no more fountains and no more rain,</l>
             <l>and the stores stay open terribly late.</l>
          </div>
-         <pb n="8" xml:id="p8"/>
+         <pb n="8" xml:id="p8" facs="../images/p8.jpg"/>
          <div type="poem">
             <head>ALMA</head>
             <epigraph>
@@ -157,7 +157,7 @@
                <lg>
                   <l>amidst the acorns with nails</l>
                   <l>stuck through them by passionate</l>
-                  <pb n="9" xml:id="p9"/>
+                  <pb n="9" xml:id="p9" facs="../images/p9.jpg"/>
                   <l>parents, castanets! Caucasian tales!</l>
                   <l>their prodigality proportionate:</l>
                </lg>
@@ -191,7 +191,7 @@
                   she pondered the inscrutable meagerness of divine Providence, always humming,
                   always shifting a little, never missing a beat. She guested one season at the
                   height of her nostalgia with the Metropolitan Opera Ballet in Salammbo; her </p>
-               <pb n="10" xml:id="p10"/>
+               <pb n="10" xml:id="p10" facs="../images/p10.jpg"/>
                <p>father
                   seemed very close in all that oriental splendor of bamboo and hotel palms and
                   stale sweat and bracelets, an engagement of tears. In the snow, in her white fox
@@ -221,7 +221,7 @@
                <p rendition="#right"><date>1953</date></p>
             </div>
          </div>
-         <pb n="11" xml:id="p11"/>
+         <pb n="11" xml:id="p11" facs="../images/p11.jpg"/>
          <div type="poem">
             <head>ON RACHMANINOFFS BIRTHDAY</head>
             <l>Quick! a last poem before I go</l>
@@ -239,7 +239,7 @@
             <l>on the soup, let it burn. So it's back.</l>
             <l>You'll never be mentally sober.</l>
          </div>
-         <pb n="12" xml:id="p12"/>
+         <pb n="12" xml:id="p12" facs="../images/p12.jpg"/>
          <div type="poem">
             <head>POEM</head>
             <lg>
@@ -280,7 +280,7 @@
                <l>of my face, which had grown preternaturally pure.</l>
                <l>Once I destroyed a man's idea of himself to have him.</l>
             </lg>
-            <pb n="13" xml:id="p13"/>
+            <pb n="13" xml:id="p13" facs="../images/p13.jpg"/>
             <lg rendition="#l-indent-02">
                <l>If I'd had a samovar then</l>
                <l>I'd have made him tea</l>
@@ -311,7 +311,7 @@
             </lg>
             <p rendition="#right"><date>1954</date></p>
          </div>
-         <pb n="14" xml:id="p14"/>
+         <pb n="14" xml:id="p14" facs="../images/p14.jpg"/>
          <div type="poem">
             <head>ON THE WAY TO SAN REMO</head>
             <lg>
@@ -354,7 +354,7 @@
                <l>far away lips upon a dusty armpit</l>
                <l>the nostrils are full of tears</l>
             </lg>
-            <pb n="15" xml:id="p15"/>
+            <pb n="15" xml:id="p15" facs="../images/p15.jpg"/>
             <lg>
                <l>High fidelity reposed in a box a hand on the windowpane</l>
                <l>the sweet calm the violin strings tie a young man's hair</l>
@@ -367,7 +367,7 @@
             </lg>
             <p rendition="#right"><date>1954</date></p>
          </div>
-         <pb n="16" xml:id="p16"/>
+         <pb n="16" xml:id="p16" facs="../images/p16.jpg"/>
          <div type="poem">
             <!-- Come back to -->
             <head>2 POEMS FROM THE OHARA MONOGATARI</head>
@@ -410,7 +410,7 @@
                   <l>I don't see the ocean under my stilts</l>
                   <l>as I poke along</l>
                </lg>
-               <pb n="17" xml:id="p17"/>
+               <pb n="17" xml:id="p17" facs="../images/p17.jpg"/>
                <lg>
                   <l>hands on ankles feet on wrists</l>
                   <l>naked in thought</l>
@@ -427,7 +427,7 @@
             </div>
             
          </div>
-         <pb n="18" xml:id="p18"/>
+         <pb n="18" xml:id="p18" facs="../images/p18.jpg"/>
          <div type="poem">
             <head>A STEP AWAY FROM THEM</head>
             <lg>
@@ -465,7 +465,7 @@
                <l>I stop for a cheeseburger at JULIET'S</l>
                <l>CORNER. Giulietta Masina, wife of</l>
                <l> <persName>Federico Fellini<note n="6">Federico Fellini (1920-1993): Italian film director and screenwriter <ref target="https://en.wikipedia.org/wiki/Federico_Fellini">Wikipedia</ref></note></persName>, <hi rendition="#itl" xml:lang="it">e bell' attrice.</hi></l>
-               <pb n="19" xml:id="p19"/>
+               <pb n="19" xml:id="p19" facs="../images/p19.jpg"/>
                <l>And chocolate malted. A lady in</l>
                <l>foxes on such a day puts her poodle</l>
                <l>in a cab.</l>
@@ -491,7 +491,7 @@
             </lg>
             <p rendition="#right"><date>1956</date></p>
          </div>
-         <pb n="20" xml:id="p20"/>
+         <pb n="20" xml:id="p20" facs="../images/p20.jpg"/>
          <div type="poem">
             <head>CAMBRIDGE</head>
             <l>It is still raining and the yellow-green cotton fruit</l>
@@ -513,7 +513,7 @@
             <l>abandoned to the rain. Secretly, I shall go to work on it.</l>
             <l>1956</l>
          </div>
-         <pb n="21" xml:id="p21"/>
+         <pb n="21" xml:id="p21" facs="../images/p21.jpg"/>
          <div type="poem">
             <head>POEM</head>
             <l>Instant coffee with slightly sour cream</l>
@@ -526,7 +526,7 @@
             <l>Is this love, now that the first love</l>
             <l>has finally died, where there were no impossibilities?</l>
          </div>
-         <pb n="22" xml:id="p22"/>
+         <pb n="22" xml:id="p22" facs="../images/p22.jpg"/>
          <div type="poem">
             <head>THREE AIRS</head>
             <epigraph>
@@ -567,7 +567,7 @@
                   <l>the poplars which see only, watery, themselves</l>
                </lg>
             </div>
-            <pb n="23" xml:id="p23"/>
+            <pb n="23" xml:id="p23" facs="../images/p23.jpg"/>
             <div type="part">
                <l>3.</l>
                <lg>
@@ -588,7 +588,7 @@
                <p rendition="#right"><date>1958</date></p>
             </div>
          </div>
-         <pb n="24" xml:id="p24"/>
+         <pb n="24" xml:id="p24" facs="../images/p24.jpg"/>
          <div type="poem">
             <head>IMAGE OF THE BUDDHA PREACHING</head>
             <lg>
@@ -624,7 +624,7 @@
                <l rendition="#right">friendship</l>
                <l>waning now the West Wall by virtue of two rolls per capita</l>
                <l>and the flagship BERLIN is joining its "white fleet" on the Rhine</l>
-               <pb n="25" xml:id="p25"/>
+               <pb n="25" xml:id="p25" facs="../images/p25.jpg"/>
                <l>though better schools and model cars are wanting, still still oh</l>
                <l rendition="#right">Essen</l>
                <l rendition="#l-indent-02"><persName>Nataraja<note n="16">Nataraja: depection of the god Shiva as the lord of the dance. <ref target="https://en.wikipedia.org/wiki/Nataraja">https://en.wikipedia.org/wiki/Nataraja</ref></note></persName> dances on the dwarf</l>
@@ -637,7 +637,7 @@
             </lg>
             <p rendition="#right"><date>1959</date></p>
          </div>
-         <pb n="26" xml:id="p26"/>
+         <pb n="26" xml:id="p26" facs="../images/p26.jpg"/>
          <div type="poem">
             <head>SONG</head>
             <lg>
@@ -667,7 +667,7 @@
             </lg>
             <l>1959</l>
          </div>
-         <pb n="27" xml:id="p27"/>
+         <pb n="27" xml:id="p27" facs="../images/p27.jpg"/>
          <div type="poem">
             <head>THE <persName>DAY LADY<note n="17">Billie Holiday (1915-1959): American Jazz musician and singer. Holiday, born Eleanora Fagan, was also known as "lady day" and O'Hara's title puns off this nickname. <ref target="https://en.wikipedia.org/wiki/Billie_Holiday">Wikipedia</ref></note></persName> DIED</head>
             <lg>
@@ -710,7 +710,7 @@
             </lg>
             <p rendition="#right"><date>1959</date></p>
          </div>
-         <pb n="28" xml:id="p28"/>
+         <pb n="28" xml:id="p28" facs="../images/p28.jpg"/>
          <div type="poem">
             <head>POEM</head>
             <lg>
@@ -728,7 +728,7 @@
             </lg>
             <p rendition="#right"><date>1959</date></p>
          </div>
-         <pb n="29" xml:id="p29"/>
+         <pb n="29" xml:id="p29" facs="../images/p29.jpg"/>
          <div type="poem">
             <head>POEM</head>
             <lg>
@@ -764,7 +764,7 @@
                <l>where does the evil of the year go</l>
                <l rendition="#right">when September takes New York</l>
                <l>and turns it into ozone stalagmites</l>
-               <pb n="30" xml:id="p30"/>
+               <pb n="30" xml:id="p30" facs="../images/p30.jpg"/>
                <l rendition="#l-indent-05">deposits of light</l>
                <l rendition="#l-indent-05">so I get back up</l>
                <l>make coffee, and read <persName>Francois Villon<note n="29">François Villon (1431-1463): French poet who had numerous encounters with governmental authorities. <ref target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Villon">Wikipedia</ref></note></persName>, his life, so dark</l>
@@ -779,7 +779,7 @@
             </lg>
             <p rendition="#right"><date>1959</date></p>
          </div>
-         <pb n="31" xml:id="p31"/>
+         <pb n="31" xml:id="p31" facs="../images/p31.jpg"/>
          <div type="poem">
             <head>NAPHTHA</head>
             <lg>
@@ -815,7 +815,7 @@
                <l>who wears hats anyway</l>
                <l>it is our tribe's custom</l>
                <l>to beguile</l>
-               <pb n="32" xml:id="p32"/>
+               <pb n="32" xml:id="p32" facs="../images/p32.jpg"/>
                <l>how are you feeling in ancient September</l>
                <l>I am feeling like a truck on a wet highway</l>
                <l>how can you</l>
@@ -831,7 +831,7 @@
             </lg>
             <p rendition="#right"><date>1959</date></p>
          </div>
-         <pb n="33" xml:id="p33"/>
+         <pb n="33" xml:id="p33" facs="../images/p33.jpg"/>
          <div type="poem">
             <head>PERSONAL POEM</head>
             <lg>
@@ -860,7 +860,7 @@
                <l>a lady asks us for a nickel for a terrible</l>
                <l>disease but we don't give her one we</l>
                <l>don't like terrible diseases, then</l>
-               <pb n="34" xml:id="p34"/>
+               <pb n="34" xml:id="p34" facs="../images/p34.jpg"/>
                <l>we go eat some fish and some ale it's</l>
                <l>cool but crowded we don't like <persName>Lionel Trilling<note n="36">Lionel Trilling (1905-1975): American literary critic.<ref target="https://en.wikipedia.org/wiki/Lionel_Trilling">Wikipedia</ref></note></persName></l>
                <l>we decide, we like <persName>Don Allen<note n="37">Donald Merriam Allen (1912-2004): American editor and publisher best known for publishing the anthology <hi rendition="#itl">The New American Poetry 1945-1960</hi> which included works by O'Hara and other figures of the New York school of poets. <ref target="https://en.wikipedia.org/wiki/Donald_Allen">Wikipedia</ref></note></persName> we don't like</l>
@@ -874,7 +874,7 @@
                <l>back to work happy at the thought possibly so</l>
             </lg>
             <p rendition="#right"><date>1959</date></p>
-            <pb n="35" xml:id="p35"/>
+            <pb n="35" xml:id="p35" facs="../images/p35.jpg"/>
          </div>
          <div type="poem">
             <head>ADIEU TO <persName>NORMAN <note n="39">Norman Bluhm (1921-1999):  American abstract expressionist painter. Bluhm was a friend of O'Hara's, and collaborated with him on several poem/paintings which attempted to combine the gestural paintings of abstract expressionism with the studied casualness of O'Hara's language. <ref target="https://en.wikipedia.org/wiki/Norman_Bluhm">Wikipedia</ref></note></persName>, BON JOUR TO <persName>JOAN<note>Likely Joan Mitchell (1925-1992): Abstract expressionist painter and printmaker. <ref target="https://en.wikipedia.org/wiki/Joan_Mitchell">Wikipedia</ref></note></persName> AND <persName>JEAN-PAUL <note>Possibly Jean-Paul Riopelle (1923-2002: Canadian painter and sculptor. <ref target="https://en.wikipedia.org/wiki/Jean-Paul_Riopelle">Wikipedia</ref></note></persName></head>
@@ -909,7 +909,7 @@
                <l>instead of reeling around New York</l>
                <l>I wish I weren't reeling at all</l>
                <l>it is Spring the ice has melted the Ricard is being poured</l>
-               <pb n="36" xml:id="p36"/>
+               <pb n="36" xml:id="p36" facs="../images/p36.jpg"/>
                <l>we are all happy and young and toothless</l>
                <l>it is the same as old age</l>
                <l>the only thing to do is simply continue</l>
@@ -938,7 +938,7 @@
             </lg>
             <l>1959</l>
          </div>
-         <pb n="37" xml:id="p37"/>
+         <pb n="37" xml:id="p37" facs="../images/p37.jpg"/>
          <div type="poem">
             <head>RHAPSODY</head>
             <lg>
@@ -966,7 +966,7 @@
                <l>taking sleeping-pills and <persName>Jane<note n="50">Jane Freilicher (1924-2014): American painter and muse to many of the writers in O'Hara's circle. <ref target="https://en.wikipedia.org/wiki/Jane_Freilicher">Wikipedia</ref></note></persName> thinks of Manderley</l>
                <l>and Irkutsk while I cough lightly in the smog of desire</l>
                <l>and my eyes water achingly imitating the true blue</l>
-               <pb n="38" xml:id="p38"/>
+               <pb n="38" xml:id="p38" facs="../images/p38.jpg"/>
                <l>a sight of Manahatta in the towering needle</l>
                <l>multi-faceted insight of the fiy in the stringless labyrinth</l>
                <l>Canada plans a higher place than the Empire State Building</l>
@@ -1000,7 +1000,7 @@
             </lg>
             <p rendition="#right"><date>1959</date></p>
          </div>
-         <pb n="39" xml:id="p39"/>
+         <pb n="39" xml:id="p39" facs="../images/p39.jpg"/>
          <div type="poem">
             <head>HOTEL PARTICULIER</head>
             <lg>
@@ -1035,7 +1035,7 @@
             </lg>
             <p rendition="#right"><date>1960</date></p>
          </div>
-         <pb n="40" xml:id="p40"/>
+         <pb n="40" xml:id="p40" facs="../images/p40.jpg"/>
          <div type="poem">
             <head>CORNKIND</head>
             <lg>
@@ -1070,7 +1070,7 @@
                <l>what of Bette Davis in</l>
                <l>AN EVENING WITH WILLIAM MORRIS</l>
                <l>or THE WORLD OF SAMUEL GREENBERG</l>
-               <pb n="41" xml:id="p41"/>
+               <pb n="41" xml:id="p41" facs="../images/p41.jpg"/>
                <l>what of <persName>Hart Crane<note n="54">Harold Hart Crane (1899-1932): American poet. Crane, along with Walt Whitman and William Carlos Williams, was one of three poets O'Hara considered "better than the Movies." <ref target="https://en.wikipedia.org/wiki/Hart_Crane">Wikipedia</ref></note></persName></l>
                <l>what of phonograph records and gin</l>
             </lg>
@@ -1084,7 +1084,7 @@
             </lg>
             <p rendition="#right"><date>1960</date></p>
          </div>
-         <pb n="42" xml:id="p42"/>
+         <pb n="42" xml:id="p42" facs="../images/p42.jpg"/>
          <div type="poem">
             <head>HOW TO GET THERE</head>
             <lg>
@@ -1117,7 +1117,7 @@
                <l>the world becomes a jangle</l>
                <l rendition="#l-indent-03">from the index finger</l>
                <l>to the vast empty houses filled with people, their echoes</l>
-               <pb n="43" xml:id="p43"/>
+               <pb n="43" xml:id="p43" facs="../images/p43.jpg"/>
                <l>of lies and the tendrils of fog trailing softly around their throats</l>
                <l>now the phone can be answered, nobody calling, only an echo</l>
                <l>all can confess to be home and waiting, all is the same</l>
@@ -1130,7 +1130,7 @@
             </lg>
             <p rendition="#right"><date>1960</date></p>
          </div>
-         <pb n="44" xml:id="p44"/>
+         <pb n="44" xml:id="p44" facs="../images/p44.jpg"/>
          <div type="poem">
             <head>A LITTLE TRAVEL DIARY</head>
             <lg>
@@ -1165,7 +1165,7 @@
                <l>since arriving in Barcelona I can freely shit</l>
                <l>and the surf is so high and the sun is so hot</l>
                <l>and it was all built yesterday as everything should be</l>
-               <pb n="45" xml:id="p45"/>
+               <pb n="45" xml:id="p45" facs="../images/p45.jpg"/>
                <l>what a splendid country it is</l>
                <l rendition="#l-indent-04">full of indecision and cognac</l>
                <l>and bikinis, sens plastiques (ugh! hooray!); see the back</l>
@@ -1176,7 +1176,7 @@
             </lg>
             <p rendition="#right"><date>1960</date></p>
          </div>
-         <pb n="46" xml:id="p46"/>
+         <pb n="46" xml:id="p46" facs="../images/p46.jpg"/>
          <div type="poem">
             <head>FIVE POEMS</head>
             <div type="part">
@@ -1210,7 +1210,7 @@
                   <l>and the smasheroo-grates of Cadoret</l>
                   <l>and music by <persName>Varese <note n="59">Edgard Varèse (1883-1965): French-American Composer. <ref target="https://en.wikipedia.org/wiki/Edgard_Var%C3%A8se">Wikipedia</ref></note></persName>, too</l>
                   <l>well <persName>Adolph Gottlieb <note n="60">Adolph Gottlieb (1903-1974): American abstract expressionist artist. <ref target="https://en.wikipedia.org/wiki/Adolph_Gottlieb">Wikipedia</ref></note></persName> I guess you</l>
-                  <pb n="47" xml:id="p47"/>
+                  <pb n="47" xml:id="p47" facs="../images/p47.jpg"/>
                   <l>are the hero of this day along with venison and <persName>Bill<note n="61"> Bill Berkson (1939-2016): American poet, student of Kenneth Koch, and friend of O'Hara's. <ref target="https://en.wikipedia.org/wiki/Bill_Berkson">Wikipedia</ref></note></persName></l>
                </lg>
                <lg>
@@ -1237,7 +1237,7 @@
             </div>
             
          </div>
-         <pb n="48" xml:id="p48"/>
+         <pb n="48" xml:id="p48" facs="../images/p48.jpg"/>
          <div type="poem">
             <head>AVE MARIA</head>
             <lg>
@@ -1272,7 +1272,7 @@
                   yard</l>
                <l rendition="#l-indent-04">or up in their room</l>
                <l rendition="#right">hating you</l>
-               <pb n="49" xml:id="p49"/>
+               <pb n="49" xml:id="p49" facs="../images/p49.jpg"/>
                <l>prematurely since you won't have done anything horribly</l>
                <l rendition="#right">mean yet</l>
                <l>except keeping them from the darker joys</l>
@@ -1285,7 +1285,7 @@
             </lg>
             <p rendition="#right"><date>1960</date></p>
          </div>
-         <pb n="50" xml:id="p50"/>
+         <pb n="50" xml:id="p50" facs="../images/p50.jpg"/>
          <div type="poem">
             <head>PISTACHIO TREE AT CHATEAU NOIR</head>
             <lg>
@@ -1321,7 +1321,7 @@
             </lg>
             <p rendition="#right"><date>1961</date></p>
          </div>
-         <pb n="51" xml:id="p51"/>
+         <pb n="51" xml:id="p51" facs="../images/p51.jpg"/>
          <div type="poem">
             <head>AT KAMIN'S DANCE BOOKSHOP</head>
             <epigraph rend="center">
@@ -1347,7 +1347,7 @@
             <l>where are you Fanny Elssler come back!</l>
             <p rendition="#right"><date>1961</date></p>
          </div>
-         <pb n="52" xml:id="p52"/>
+         <pb n="52" xml:id="p52" facs="../images/p52.jpg"/>
          <div type="poem">
             <head>STEPS</head>
             <lg>
@@ -1382,7 +1382,7 @@
                <l>the Pittsburgh Pirates shout because they won</l>
                <l>and in a sense we're all winning</l>
                <l>we're alive</l>
-               <pb n="53" xml:id="p53"/>
+               <pb n="53" xml:id="p53" facs="../images/p53.jpg"/>
                <l>the apartment was vacated by a gay couple</l>
                <l>who moved to the country for fun</l>
                <l>they moved a day too soon</l>
@@ -1408,7 +1408,7 @@
             </lg>
             <p rendition="#right"><date>1961</date></p>
          </div>
-         <pb n="54" xml:id="p54"/>
+         <pb n="54" xml:id="p54" facs="../images/p54.jpg"/>
          <div type="poem">
             <head>MARY DESTI'S ASS</head>
             <lg>
@@ -1442,7 +1442,7 @@
                <l>well it is exercise</l>
                <l>the only difference is it's better than Boston</l>
             </lg>
-            <pb n="55" xml:id="p55"/>
+            <pb n="55" xml:id="p55" facs="../images/p55.jpg"/>
             <lg>
                <l>I was walking along the street</l>
                <l>of Cincinnati</l>
@@ -1480,7 +1480,7 @@
                <l>I didn't know the history of the ballet yet</l>
                <l>not that that taught me much</l>
             </lg>
-            <pb n="56" xml:id="p56"/>
+            <pb n="56" xml:id="p56" facs="../images/p56.jpg"/>
             <lg>
                <l>now if you feel like you want to deal with</l>
                <l>Tokyo</l>
@@ -1499,7 +1499,7 @@
             </lg>
             <p rendition="#right"><date>1961</date></p>
          </div>
-         <pb n="57" xml:id="p57"/>
+         <pb n="57" xml:id="p57" facs="../images/p57.jpg"/>
          <div type="poem">
             <head><persName>ST. PAUL<note n="70">Vincent Paul Warren (1938-2017): Ballet dancer and O'Hara's partner. Warren and O'Hara met in the summer of 1959 and quickly fell in love. Warren appears numerous times in O'Hara's poems, occasionally under the pseudonym "St. Paul." The name St. Paul was meant to tease Warren for his prudishness. Warren asked O'Hara not to use his full name in poems because he worried that his mother might, through reading O'Hara's poetry, discover her son was gay.<ref target="https://en.wikipedia.org/wiki/Vincent_Warren">Wikipedia</ref></note></persName> AND ALL THAT</head>
             <l>Totally abashed and smiling</l>
@@ -1531,7 +1531,7 @@
             <l rendition="#l-indent-03">you read for some mysterious reason</l>
             <l rend="triple indent">I read simply because I am a writer</l>
             <l>the sun doesn't necessarily set, sometimes it just disappears</l>
-            <pb n="58" xml:id="p58"/>
+            <pb n="58" xml:id="p58" facs="../images/p58.jpg"/>
             <l rendition="#l-indent-02">when you're not here someone walks in and says</l>
             <l rendition="#right">"hey,</l>
             <l>there's no dancer in that bed"</l>
@@ -1541,7 +1541,7 @@
             <l rendition="#right">you do come</l>
             <p rendition="#right"><date>1961</date></p>
          </div>
-         <pb n="59" xml:id="p59"/>
+         <pb n="59" xml:id="p59" facs="../images/p59.jpg"/>
          <div type="poem">
             <head>MEMOIR OF SERGEI O. . . .</head>
             <l>My feet have never been comfortable</l>
@@ -1574,7 +1574,7 @@
             <l>over the lost leaves and refreshing scum</l>
             <l>of Georgia Georgia of my heritage</l>
             <l>and dismay meanwhile back in my old</l>
-            <pb n="60" xml:id="p60"/>
+            <pb n="60" xml:id="p60" facs="../images/p60.jpg"/>
             <l>country they are renaming everything so</l>
             <l>I can't even tell any more which ballet</l>
             <l>company I am remembering with so much</l>
@@ -1590,7 +1590,7 @@
             <l>democratic and ordinary and tired</l>
             <p rendition="#right"><date>1961</date></p>
          </div>
-         <pb n="61" xml:id="p61"/>
+         <pb n="61" xml:id="p61" facs="../images/p61.jpg"/>
          <div type="poem">
             <head>YESTERDAY DOWN AT THE CANAL</head>
             <l>You say that everything is very simple and interesting</l>
@@ -1608,7 +1608,7 @@
             <l>(but I hate all that crap)</l>
             <p rendition="#right"><date>1961</date></p>
          </div>
-         <pb n="62" xml:id="p62"/>
+         <pb n="62" xml:id="p62" facs="../images/p62.jpg"/>
          <div type="poem">
             <head>POEM EN FORME DE SAW</head>
             <l>I ducked out of sight behind the saw-mill</l>
@@ -1639,7 +1639,7 @@
             <l>I'm so damned empty</l>
             <l>what is all this vessel shit anyway</l>
             <l>we are all rushing down the River Happy Times</l>
-            <pb n="63" xml:id="p63"/>
+            <pb n="63" xml:id="p63" facs="../images/p63.jpg"/>
             <l>ducking poling bumping sinking and swimming</l>
             <l>and we arrive at the beach</l>
             <l>the chaff is sand</l>
@@ -1647,7 +1647,7 @@
             <l>that's not really being alone, is it, signed The Saw</l>
             <p rendition="#right"><date>1961</date></p>
          </div>
-         <pb n="64" xml:id="p64"/>
+         <pb n="64" xml:id="p64" facs="../images/p64.jpg"/>
          <div type="poem">
             <head>FOR THE CHINESE NEW YEAR &amp; FOR <persName>BILL BERKSON<note n="71"> Bill Berkson (1939-2016): American poet, student of Kenneth Koch, and friend of O'Hara's. <ref target="https://en.wikipedia.org/wiki/Bill_Berkson">Wikipedia</ref></note></persName></head>
             <epigraph>
@@ -1682,7 +1682,7 @@
                <l>because it is silent oh what difference</l>
                <l>does it make me into some kind of space statistic</l>
             </lg>
-              <pb n="65" xml:id="p65"/>
+              <pb n="65" xml:id="p65" facs="../images/p65.jpg"/>
             <lg>
                <l>a lot is buried under that smile</l>
                <l>a lot of sophistication gone down the drain</l>
@@ -1719,7 +1719,7 @@
                <l>because we're dissipated and tired and fond no</l>
                <l>I don't think psychoanalysis shrinks the spleen</l>
             </lg>
-               <pb n="66" xml:id="p66"/>
+               <pb n="66" xml:id="p66" facs="../images/p66.jpg"/>
             <lg>
                <l>here we are and what the hell are we going to do</l>
                <l>with it we are going to blow it up like daddy did</l>
@@ -1755,7 +1755,7 @@
                <l>is when you miss getting rid of something delouse</l>
                <l>is when you don't louse something up which way is the inn</l>
             </lg></div>
-            <pb n="67" xml:id="p67"/>
+            <pb n="67" xml:id="p67" facs="../images/p67.jpg"/>
             <div type="part"><l>III</l>
             <lg>
                <l>I'm looking for a million-dollar heart in a carton</l>
@@ -1792,7 +1792,7 @@
                <l>so we really ought to be available as an apple on a bough</l>
                <l>pleasant thought fresh air free love cross-pollenization</l>
             </lg>
-               <pb n="68" xml:id="p68"/>
+               <pb n="68" xml:id="p68" facs="../images/p68.jpg"/>
             <lg>
                <l>oh oh god how I'd love to dream let alone sleep it's night</l>
                <l>the soft air wraps me like a swarm it's raining and I have</l>
@@ -1828,7 +1828,7 @@
                <l>or some other desperately theatrical venture it's goodbye</l>
                <l>to lunch to love to evil things and to the ultimate good as "well"</l>
             </lg>
-               <pb n="69" xml:id="p69"/>
+               <pb n="69" xml:id="p69" facs="../images/p69.jpg"/>
             <lg>
                <l>the strange career of a personality begins at five and ends</l>
                <l>forty minutes later in a fog the rest is just a lot of stranded</l>
@@ -1848,7 +1848,7 @@
             </lg>
             <p rendition="#right"><date>1961</date></p></div>
          </div>
-         <pb n="70" xml:id="p70"/>
+         <pb n="70" xml:id="p70" facs="../images/p70.jpg"/>
          <div type="poem">
             <head>POEM</head>
             <l><persName>Lana Turner<note n="75">Lana Turner (1921-1995): American actor famous for both her acting and her tumultuous  personal life. This poem likely refers to a story in the New York Post from February 9th, 1962 entitled "Lana Faints; in Hospital"<ref target="https://en.wikipedia.org/wiki/Lana_Turner">Wikipedia</ref></note></persName> has collapsed!</l>
@@ -1870,7 +1870,7 @@
             <l>oh Lana Turner we love you get up</l>
             <p rendition="#right"><date>1962</date></p>
          </div>
-         <pb n="71" xml:id="p71"/>
+         <pb n="71" xml:id="p71" facs="../images/p71.jpg"/>
          <div type="poem">
             <head>GALANTA</head>
             <l>A Strange den or music room</l>
@@ -1903,7 +1903,7 @@
             <l rendition="#l-indent-02">when life is fantastic there</l>
             <l>is no chance for make-believe how lucky</l>
             <l>the French bourgeois pain</l>
-            <pb n="72" xml:id="p72"/>
+            <pb n="72" xml:id="p72" facs="../images/p72.jpg"/>
             <l rendition="#l-indent-05">could be if we</l>
             <l>were children again and ever^-thing uninteresting</l>
             <l>you never had a chance to be</l>
@@ -1918,7 +1918,7 @@
             <l>and off for footlights</l>
             <p rendition="#right"><date>1962</date></p>
          </div>
-         <pb n="73" xml:id="p73"/>
+         <pb n="73" xml:id="p73" facs="../images/p73.jpg"/>
          <div type="poem">
             <head>FANTASY</head>
             <epigraph>
@@ -1953,7 +1953,7 @@
                <l>two aspirins a vitamin G tablet and some baking soda</l>
                <l>should do the trick, that's practically an</l>
                <l rendition="#l-indent-05"> Alka</l>
-               <pb n="74" xml:id="p74"/>
+               <pb n="74" xml:id="p74" facs="../images/p74.jpg"/>
                <l>Seltzer. Allen come out of the bathroom</l>
                <l rendition="#l-indent-05">and take it.</l>
                <l>I think someone put butter on my skis instead</l>
