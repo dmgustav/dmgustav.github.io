@@ -80,7 +80,50 @@
                American Poetry, and City Lights Journal, to all of whom the author and publisher
                offer their thanks.</p>
          </div>
+         <div type="toc">
+        <list>
+          <head type="sectionTOC">Poems </head>
+          <item>Music<ptr target="#p7"/></item>
+           <item>Alma<ptr target="#"/></item>
+           <item>On Rachmaninoff’s Birthday<ptr target="#"/></item>
+           <item>Poem [I watched an armory combing its bronze bricks]<ptr target="#"/></item>
+           <item>On the Way to the San Remo<ptr target="#"/></item>
+           <item>2 Poems from the Ohara Monogatari<ptr target="#"/></item>
+           <item>A Step Away from Them<ptr target="#"/></item>
+           <item>Cambridge<ptr target="#"/></item>
+           <item>Poem (Instant coffee with slightly sour cream)<ptr target="#"/></item>
+           <item>Three Airs<ptr target="#"/></item>
+           <item>Image of the Buddha Preaching<ptr target="#"/></item>
+           <item>Song [Is it dirty]<ptr target="#"/></item>
+           <item>The Day Lady Died<ptr target="#"/></item>
+           <item>Poem [Wouldn’t it be funny]<ptr target="#"/></item>
+           <item>Poem [Khrushchev is coming on the right day!]<ptr target="#"/></item>
+           <item>Naphtha<ptr target="#"/></item>
+           <item>Personal Poem<ptr target="#"/></item>
+           <item>Adieu to Norman, Bon Jour to Joan and Jean-Paul<ptr target="#"/></item>
+           <item>Rhapsody<ptr target="#"/></item>
+           <item>Hôtel Particulier<ptr target="#"/></item>
+           <item>Cornkind<ptr target="#"/></item>
+           <item>How To Get There<ptr target="#"/></item>
+           <item>A Little Travel Diary<ptr target="#"/></item>
+           <item>Five Poems<ptr target="#"/></item>
+           <item>Ave Maria<ptr target="#"/></item>
+           <item>Pistachio Tree at Château Noir<ptr target="#"/></item>
+           <item>At Kamin’s Dance Bookshop<ptr target="#"/></item>
+           <item>Steps<ptr target="#"/></item>
+           <item>Mary Desti’s Ass <ptr target="#"/></item>
+           <item>St. Paul and All That<ptr target="#"/></item>
+           <item>Memoir of Sergei O. . . .<ptr target="#"/></item>
+           <item>Yesterday Down at the Canal<ptr target="#"/></item>
+           <item>Poem en Forme de Saw<ptr target="#"/></item>
+           <item>For the Chinese New Year & for Bill Berkson<ptr target="#"/></item>
+           <item>Poem [Lana Turner has collapsed!]<ptr target="#"/></item>
+           <item>Galanta<ptr target="#"/></item>
+           <item>Fantasy<ptr target="#"/></item>
+
+        </list>
       </front>
+       
       <body>
          <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
             <moduleRef key="core" except=""/>
