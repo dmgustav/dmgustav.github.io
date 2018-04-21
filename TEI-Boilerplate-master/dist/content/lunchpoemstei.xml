@@ -1965,7 +1965,7 @@
          <div type="poem">
             <head>FANTASY</head>
             <epigraph>
-               <p>(<hi rendition="#itl">dedicated to the health of <persName>Allen Ginsberg<note n="78">Allen Ginsberg (1926-1997): poet, philospher, and leading figure in the beat movement on American counter-culture. <ref target="https://en.wikipedia.org/wiki/Allen_Ginsberg">Wikipedia</ref></note></persName></hi>)</p>
+               <p>(<hi rendition="#itl">dedicated to the health of </hi><persName><hi rendition="#itl">Allen Ginsberg</hi><note n="78">Allen Ginsberg (1926-1997): poet, philospher, and leading figure in the beat movement on American counter-culture. <ref target="https://en.wikipedia.org/wiki/Allen_Ginsberg">Wikipedia</ref></note></persName>)</p>
             </epigraph>
             <lg>
                <l>How do you like the music of <persName>Adolph </persName></l>
