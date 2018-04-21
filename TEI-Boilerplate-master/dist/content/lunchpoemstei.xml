@@ -116,11 +116,12 @@
            <item>Memoir of Sergei O. . . .<ptr target="#p59"/></item>
            <item>Yesterday Down at the Canal<ptr target="#p61"/></item>
            <item>Poem en Forme de Saw<ptr target="#p62"/></item>
-           <item>For the Chinese New Year & for Bill Berkson<ptr target="#p64"/></item>
+           <item>For the Chinese New Year &amp; for Bill Berkson<ptr target="#p64"/></item>
            <item>Poem [Lana Turner has collapsed!]<ptr target="#p70"/></item>
            <item>Galanta<ptr target="#p71"/></item>
            <item>Fantasy<ptr target="#p73"/></item>
         </list>
+         </div>
       </front>
        
       <body>
@@ -1211,7 +1212,7 @@
                <l>what a splendid country it is</l>
                <l rendition="#l-indent-04">full of indecision and cognac</l>
                <l>and bikinis, sens plastiques (ugh! hooray!); see the back</l>
-               <l>of the head of <persName>Bill Berkson<note n=""58> Bill Berkson (1939-2016): American poet, student of Kenneth Koch, and friend of O'Hara's. <ref target="https://en.wikipedia.org/wiki/Bill_Berkson">Wikipedia</ref></note></persName>, aux Deux Magots, (awk!) it gleams</l>
+               <l>of the head of <persName>Bill Berkson<note n="58"> Bill Berkson (1939-2016): American poet, student of Kenneth Koch, and friend of O'Hara's. <ref target="https://en.wikipedia.org/wiki/Bill_Berkson">Wikipedia</ref></note></persName>, aux Deux Magots, (awk!) it gleams</l>
                <l>like the moon through the smoke of the Renfe as we passed</l>
                <l>through the endless tunnels and the silver vistas</l>
                <l>of our quest for the rocher de la Vierge and salt spray</l>
