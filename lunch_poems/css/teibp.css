@@ -98,14 +98,8 @@ li a:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
 }
-@-webkit-keyframes block-in {
-  from {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  to {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-}
+
+
 .blocker {
   z-index: 10000;
   position: fixed;
@@ -764,7 +758,7 @@ figure > head {
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   width: 85%;
-  font-family: 'libreBaskerville',, Cochin, Georgia, Serif;
+  font-family: 'libreBaskerville', Cochin, Georgia, Serif;
   font-size: 14pt;
 }
 headItem {
@@ -1881,9 +1875,9 @@ html {
   margin-left: 2em;
   margin-right: 2em;
   padding: 2.5em;
-  font-family: 'libreBaskerville',, Cochin, Georgia, Serif;
+  font-family: 'libreBaskerville', Cochin, Georgia, Serif;
   font-size: 14pt;
-  background-color: #EBEBEB;
+  background-color: #fffdef;
   color: #292929;
   width: 70%;
   height:100%;
@@ -1900,40 +1894,12 @@ position: absolute;
   font-size: 12pt;
   clear: both;
 }
-a:link,
-a:visited,
-a:active {
-  color: #5f0000;
-  text-decoration: none;
-}
+
 a:hover {
-  color: #5f0000;
+  color: #e83a0d;
   text-decoration: underline;
 }
-#teibpToolbox {
-  left: 56em;
-  top: 25px;
-  position: fixed;
-  font-size: 70%;
-  margin-right: 1em;
-  padding: 1em;
-  border-radius: 15px;
-  border: 1px solid #AAA;
-  background: #FAFAFA;
-  font-family: Arvo, Verdana, sans-serif;
-  text-align: justify;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  width: 12em;
-}
-#teibpToolbox h1 {
-  font-weight: bold;
-  font-size: 115%;
-  margin-top: 0;
-  margin-bottom: .5em;
-  border-bottom: 1px solid #AAA;
-}
+
 /* xml-serialization */
 .eg-element {
   color: #0165c8;

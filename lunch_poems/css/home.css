@@ -65,6 +65,8 @@ li a {
 /* When you mouse over the navigation links, change their color */
 li a:hover {
     color: #e83a0d;
+text-decoration: underline;
+
 }
 .footer a:hover {
     color: #0092CB;
