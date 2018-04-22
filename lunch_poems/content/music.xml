@@ -57,7 +57,7 @@
     <text>
         <body>
             <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
-                <pb n="7" xml:id="p7" facs="../images/p7.png"/>
+               
                 <head>MUSIC</head>
                 <l>If I rest for a moment near The Equestrian</l>
                 <l>pausing for a liver sausage sandwich in the Mayflower Shoppe,</l>
@@ -80,6 +80,7 @@
                 <l>put to some use before all those coloured lights come on!</l>
                 <l>But no more fountains and no more rain,</l>
                 <l>and the stores stay open terribly late.</l>
+                <pb n="7" xml:id="p7" facs="../images/p7.png"/>
             </div>
         </body>
     </text>

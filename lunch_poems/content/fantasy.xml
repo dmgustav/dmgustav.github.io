@@ -1,10 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt><note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note></notesStmt><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition><rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition><rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition><rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition><rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition><rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition><rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition><rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition><rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><pb n="73" xml:id="p73" facs="../images/p73.png"/><head>FANTASY</head><epigraph><p>(<hi rendition="#itl">dedicated to the health of </hi><persName><hi rendition="#itl">Allen Ginsberg</hi><note n="78">Allen Ginsberg (1926-1997): poet, philospher, and leading figure in the beat movement on American counter-culture. <ref target="https://en.wikipedia.org/wiki/Allen_Ginsberg">Wikipedia</ref></note></persName>)</p></epigraph><lg><l>How do you like the music of <persName>Adolph </persName></l><l rendition="#l-indent-05"><persName>Deutsch?<note n="79">Adolph Deutsch (1897-1980): English American composer, conductor and arranger. Deutsch's music often acted as accompaniment of silent films.<ref target="https://en.wikipedia.org/wiki/Adolph_Deutsch">Wikipedia</ref></note></persName> I like it,</l><l>I like it better than <persName>Max Steiner's.<note n="80">Maximilian Steiner (1888-1971): Austrian-American composer for theatre and films. <ref target="https://en.wikipedia.org/wiki/Max_Steine">Wikipedia</ref></note></persName> Take his</l><l>score for <hi rendition="#itl">Northern Pursuit</hi>, the Helmut Dantyne theme</l><l>was . . .</l><l rendition="#l-indent-02">and then the window fell on my hand. <persName>Errol</persName></l><l><persName>Flynn<note n="81">Errol Flynn (1909-1959): Australian-American film actor who primarily played romantic leads. <ref target="https://en.wikipedia.org/wiki/Errol_Flynn">Wikipedia</ref></note></persName> was skiing by. Down</l><l rendition="#l-indent-04">down down went the grim</l><l>grey submarine under the "cold" ice.</l><l rendition="#l-indent-05">Helmut was</l><l>safely ashore, on the ice.</l><l rendition="#l-indent-04">What dreams, what incredible</l><l>fantasies of snow farts will this all lead to?</l><l rendition="#l-indent-05">I</l><l>don't know, I have stopped thinking like a sled dog.</l></lg><lg><l>The main thing is to tell a story.</l><l rendition="#l-indent-04"> It is almost</l><l>very important. Imagine</l><l rendition="#l-indent-04">throwing away the avalanche</l><l>so early in the movie. I am the only spy left in Canada,</l><l rendition="#l-indent-02">but just because I'm alone in the snow</l><l>doesn't necessarily mean I'm a Nazi.</l><l rendition="#l-indent-05"> Let's see,</l><l>two aspirins a vitamin G tablet and some baking soda</l><l>should do the trick, that's practically an</l><l rendition="#l-indent-05"> Alka</l><pb n="74" xml:id="p74" facs="../images/p74.png"/><l>Seltzer. Allen come out of the bathroom</l><l rendition="#l-indent-05">and take it.</l><l>I think someone put butter on my skis instead</l><l>of wax.</l><l rendition="#l-indent-02">Ouch. The leanto is falling over in the</l><l>firs, and there is another fatter spy here. They</l><l>didn't tell me they sent</l><l rendition="#l-indent-04">him. Well, that takes care</l><l>of him, boy were those huskies hungry.</l><l rendition="#l-indent-05">Allen,</l><l>are you feeling any better? Yes, I'm crazy about <persName>Helmut Dantyne<note n="82">Helmut Dantyne (1918-1982): Austrian-born American Actor who specialized in portraying Nazis in American films. <ref target="https://en.wikipedia.org/wiki/Helmut_Dantine">Wikipedia</ref></note></persName></l><l rendition="#l-indent-03">but I'm glad that Canada will remain</l><l>free. Just free, that's all, never argue with the movies.</l></lg><p rendition="#right"><date>1964</date></p></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="ns">Digital edition created by David Gustavsen for Z656</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </rendition>
+                <rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition>
+                <rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </rendition>
+                <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css"> display:block;
+                    padding-left:4em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css"> display:block;
+                    padding-left:5em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css"> display:block;
+                    padding-left:10em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css"> display:block;
+                    padding-left:15em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css"> display:block;
+                    padding-left:20em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css"> display:block;
+                    padding-left:25em; text-indent:-2em; </rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                
+                <head>FANTASY</head>
+                <epigraph>
+                    <p>(<hi rendition="#itl">dedicated to the health of </hi><persName><hi
+                                rendition="#itl">Allen Ginsberg</hi><note n="78">Allen Ginsberg
+                                (1926-1997): poet, philospher, and leading figure in the beat
+                                movement on American counter-culture. <ref
+                                    target="https://en.wikipedia.org/wiki/Allen_Ginsberg"
+                                    >Wikipedia</ref></note></persName>)</p>
+                </epigraph>
+                <lg>
+                    <l>How do you like the music of <persName>Adolph </persName></l>
+                    <l rendition="#l-indent-05"><persName>Deutsch?<note n="79">Adolph Deutsch
+                                (1897-1980): English American composer, conductor and arranger.
+                                Deutsch's music often acted as accompaniment of silent films.<ref
+                                    target="https://en.wikipedia.org/wiki/Adolph_Deutsch"
+                                    >Wikipedia</ref></note></persName> I like it,</l>
+                    <l>I like it better than <persName>Max Steiner's.<note n="80">Maximilian Steiner
+                                (1888-1971): Austrian-American composer for theatre and films. <ref
+                                    target="https://en.wikipedia.org/wiki/Max_Steine"
+                                    >Wikipedia</ref></note></persName> Take his</l>
+                    <l>score for <hi rendition="#itl">Northern Pursuit</hi>, the Helmut Dantyne
+                        theme</l>
+                    <l>was . . .</l>
+                    <l rendition="#l-indent-02">and then the window fell on my hand.
+                            <persName>Errol</persName></l>
+                    <l><persName>Flynn<note n="81">Errol Flynn (1909-1959): Australian-American film
+                                actor who primarily played romantic leads. <ref
+                                    target="https://en.wikipedia.org/wiki/Errol_Flynn"
+                                    >Wikipedia</ref></note></persName> was skiing by. Down</l>
+                    <l rendition="#l-indent-04">down down went the grim</l>
+                    <l>grey submarine under the "cold" ice.</l>
+                    <l rendition="#l-indent-05">Helmut was</l>
+                    <l>safely ashore, on the ice.</l>
+                    <l rendition="#l-indent-04">What dreams, what incredible</l>
+                    <l>fantasies of snow farts will this all lead to?</l>
+                    <l rendition="#l-indent-05">I</l>
+                    <l>don't know, I have stopped thinking like a sled dog.</l>
+                </lg>
+                <lg>
+                    <l>The main thing is to tell a story.</l>
+                    <l rendition="#l-indent-04"> It is almost</l>
+                    <l>very important. Imagine</l>
+                    <l rendition="#l-indent-04">throwing away the avalanche</l>
+                    <l>so early in the movie. I am the only spy left in Canada,</l>
+                    <l rendition="#l-indent-02">but just because I'm alone in the snow</l>
+                    <l>doesn't necessarily mean I'm a Nazi.</l>
+                    <l rendition="#l-indent-05"> Let's see,</l>
+                    <l>two aspirins a vitamin G tablet and some baking soda</l>
+                    <l>should do the trick, that's practically an</l>
+                    <l rendition="#l-indent-05"> Alka</l>
+                    <pb n="73" xml:id="p73" facs="../images/p73.png"/>
+                    <l>Seltzer. Allen come out of the bathroom</l>
+                    <l rendition="#l-indent-05">and take it.</l>
+                    <l>I think someone put butter on my skis instead</l>
+                    <l>of wax.</l>
+                    <l rendition="#l-indent-02">Ouch. The leanto is falling over in the</l>
+                    <l>firs, and there is another fatter spy here. They</l>
+                    <l>didn't tell me they sent</l>
+                    <l rendition="#l-indent-04">him. Well, that takes care</l>
+                    <l>of him, boy were those huskies hungry.</l>
+                    <l rendition="#l-indent-05">Allen,</l>
+                    <l>are you feeling any better? Yes, I'm crazy about <persName>Helmut
+                                Dantyne<note n="82">Helmut Dantyne (1918-1982): Austrian-born
+                                American Actor who specialized in portraying Nazis in American
+                                films. <ref target="https://en.wikipedia.org/wiki/Helmut_Dantine"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l rendition="#l-indent-03">but I'm glad that Canada will remain</l>
+                    <l>free. Just free, that's all, never argue with the movies.</l>
+                </lg>
+                <p rendition="#right">
+                    <date>1964</date>
+                </p>
+                <pb n="74" xml:id="p74" facs="../images/p74.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

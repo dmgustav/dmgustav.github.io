@@ -1,10 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt><note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note></notesStmt><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition><rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition><rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition><rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition><rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition><rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition><rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition><rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition><rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><pb n="71" xml:id="p71" facs="../images/p71.png"/><head>GALANTA</head><l>A Strange den or music room</l><l rendition="#l-indent-05">childhood</l><l>dream of Persian grass configured distilled</l><l>first hardon milky mess</l><l rendition="#l-indent-04">the about-to-be</l><l>dead surrounding the already surrounded folk-</l><l>hero with a veil of automobile accidents</l><l>broken cocktail glasses</l><l rend="triple indent">oh Sally</l><l>is still acting the mise en scene of her</l><l>great grandmother's embroidered graveyard</l><l>while I</l><l rendition="#l-indent-02">my asiatic tendencies have taken me</l><l>to the Baghdad of neurasthenia and</l><l>false objectivity</l><l rendition="#l-indent-03">faint hope for a familial</l><l>contrast for a far-reaching decadence</l><l>which presupposes unnatural unselfishness</l><l>your sweet yellow hair</l><l rendition="#l-indent-04">among the mosques</l><l>the faint tribal twitch of your altered</l><l>blue eyes</l><l rendition="#l-indent-02">when Canaan was reached you</l><l>called me France we threw sand in our eyes</l><l>and ran naked</l><l rendition="#l-indent-03">down the street of our awful</l><l>progenitors</l><l rendition="#l-indent-02">when life is fantastic there</l><l>is no chance for make-believe how lucky</l><l>the French bourgeois pain</l><pb n="72" xml:id="p72" facs="../images/p72.png"/><l rendition="#l-indent-05">could be if we</l><l>were children again and ever^-thing uninteresting</l><l>you never had a chance to be</l><l rendition="#l-indent-05"><persName>Emma Bovary<note n="76">Emma Bovary: Protagonist of the novel Madame Bovary by Gustave Flaubert.</note></persName></l><l>nor I <persName>Julien Sorel<note n="77">Julien Sorel: Protagonist of The Red and the Black by Stendhal</note></persName> in that attic in the States</l><l>and now</l><l rendition="#l-indent-02">I remember you only through American</l><l>Folk Art opening near the Fonda del Sol</l><l>where are you Sally with your practicality</l><l>and bottles of fireflies</l><l rendition="#l-indent-04">blinking on</l><l>and off for footlights</l><p rendition="#right"><date>1962</date></p></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="ns">Digital edition created by David Gustavsen for Z656</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </rendition>
+                <rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition>
+                <rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </rendition>
+                <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css"> display:block;
+                    padding-left:4em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css"> display:block;
+                    padding-left:5em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css"> display:block;
+                    padding-left:10em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css"> display:block;
+                    padding-left:15em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css"> display:block;
+                    padding-left:20em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css"> display:block;
+                    padding-left:25em; text-indent:-2em; </rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                
+                <head>GALANTA</head>
+                <l>A Strange den or music room</l>
+                <l rendition="#l-indent-05">childhood</l>
+                <l>dream of Persian grass configured distilled</l>
+                <l>first hardon milky mess</l>
+                <l rendition="#l-indent-04">the about-to-be</l>
+                <l>dead surrounding the already surrounded folk-</l>
+                <l>hero with a veil of automobile accidents</l>
+                <l>broken cocktail glasses</l>
+                <l rend="triple indent">oh Sally</l>
+                <l>is still acting the mise en scene of her</l>
+                <l>great grandmother's embroidered graveyard</l>
+                <l>while I</l>
+                <l rendition="#l-indent-02">my asiatic tendencies have taken me</l>
+                <l>to the Baghdad of neurasthenia and</l>
+                <l>false objectivity</l>
+                <l rendition="#l-indent-03">faint hope for a familial</l>
+                <l>contrast for a far-reaching decadence</l>
+                <l>which presupposes unnatural unselfishness</l>
+                <l>your sweet yellow hair</l>
+                <l rendition="#l-indent-04">among the mosques</l>
+                <l>the faint tribal twitch of your altered</l>
+                <l>blue eyes</l>
+                <l rendition="#l-indent-02">when Canaan was reached you</l>
+                <l>called me France we threw sand in our eyes</l>
+                <l>and ran naked</l>
+                <l rendition="#l-indent-03">down the street of our awful</l>
+                <l>progenitors</l>
+                <l rendition="#l-indent-02">when life is fantastic there</l>
+                <l>is no chance for make-believe how lucky</l>
+                <l>the French bourgeois pain</l>
+                <pb n="71" xml:id="p71" facs="../images/p71.png"/>
+                <l rendition="#l-indent-05">could be if we</l>
+                <l>were children again and ever^-thing uninteresting</l>
+                <l>you never had a chance to be</l>
+                <l rendition="#l-indent-05">
+                    <persName>Emma Bovary<note n="76">Emma Bovary: Protagonist of the novel Madame
+                            Bovary by Gustave Flaubert.</note></persName>
+                </l>
+                <l>nor I <persName>Julien Sorel<note n="77">Julien Sorel: Protagonist of The Red and
+                            the Black by Stendhal</note></persName> in that attic in the States</l>
+                <l>and now</l>
+                <l rendition="#l-indent-02">I remember you only through American</l>
+                <l>Folk Art opening near the Fonda del Sol</l>
+                <l>where are you Sally with your practicality</l>
+                <l>and bottles of fireflies</l>
+                <l rendition="#l-indent-04">blinking on</l>
+                <l>and off for footlights</l>
+                <p rendition="#right">
+                    <date>1962</date>
+                </p>
+                <pb n="72" xml:id="p72" facs="../images/p72.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

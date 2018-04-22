@@ -1,10 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt><note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note></notesStmt><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition><rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition><rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition><rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition><rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition><rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition><rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition><rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition><rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><pb n="59" xml:id="p59" facs="../images/p59.png"/><head>MEMOIR OF SERGEI O. . . .</head><l>My feet have never been comfortable</l><l>since I pulled them out of the Black Sea</l><l>and came to your foul</l><l>country what fatal day did I dry them off for</l><l>travel loathesome travel to a world</l><l>even older than the one I grew up in</l><l>what fatal day meanwhile back in France</l><l>they were stumbling towards the Bastille</l><l>and the Princesse de Lamballe</l><l>was shuddering as shudderingly as I</l><l>with a lot less to lose I still hated</l><l>to move sedentary as a roach of Tiflis</l><l>never again to go swimming in the nude</l><l>publicly little did I know how</l><l>awfulness could reach perfection abroad</l><l>I even thought I would see a Red Indian</l><l>all I saw was lipstick everything cov-</l><l>ered with grass or shrouds</l><l>pretty shrouds shot with silver and plasma</l><l>even the chairs are upholstered to a</l><l>smothering perfection of inanity</l><l>and there are no chandeliers and there</l><l>are no gates to the parks so you don't</l><l>know whether you're going in them or</l><l>coming out of them that's not relaxing</l><l>and so you can't really walk all you can</l><l>do is sit and drink coffee and brood</l><l>over the lost leaves and refreshing scum</l><l>of Georgia Georgia of my heritage</l><l>and dismay meanwhile back in my old</l><pb n="60" xml:id="p60" facs="../images/p60.png"/><l>country they are renaming everything so</l><l>I can't even tell any more which ballet</l><l>company I am remembering with so much</l><l>pain and the same thing has started</l><l>here American Avenue Park Avenue South</l><l>Avenue of Chester Conklin Binnie Barnes</l><l>Boulevard Avenue of Toby Wing Barbara</l><l>Nichols Street where am I what is it</l><l>I can't even find a pond small enough</l><l>to drown in without being ostentatious</l><l>you are ruining your awful country and me</l><l>it is not new to do this it is terribly</l><l>democratic and ordinary and tired</l><p rendition="#right"><date>1961</date></p></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="ns">Digital edition created by David Gustavsen for Z656</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </rendition>
+                <rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition>
+                <rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </rendition>
+                <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css"> display:block;
+                    padding-left:4em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css"> display:block;
+                    padding-left:5em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css"> display:block;
+                    padding-left:10em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css"> display:block;
+                    padding-left:15em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css"> display:block;
+                    padding-left:20em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css"> display:block;
+                    padding-left:25em; text-indent:-2em; </rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+               
+                <head>MEMOIR OF SERGEI O. . . .</head>
+                <l>My feet have never been comfortable</l>
+                <l>since I pulled them out of the Black Sea</l>
+                <l>and came to your foul</l>
+                <l>country what fatal day did I dry them off for</l>
+                <l>travel loathesome travel to a world</l>
+                <l>even older than the one I grew up in</l>
+                <l>what fatal day meanwhile back in France</l>
+                <l>they were stumbling towards the Bastille</l>
+                <l>and the Princesse de Lamballe</l>
+                <l>was shuddering as shudderingly as I</l>
+                <l>with a lot less to lose I still hated</l>
+                <l>to move sedentary as a roach of Tiflis</l>
+                <l>never again to go swimming in the nude</l>
+                <l>publicly little did I know how</l>
+                <l>awfulness could reach perfection abroad</l>
+                <l>I even thought I would see a Red Indian</l>
+                <l>all I saw was lipstick everything cov-</l>
+                <l>ered with grass or shrouds</l>
+                <l>pretty shrouds shot with silver and plasma</l>
+                <l>even the chairs are upholstered to a</l>
+                <l>smothering perfection of inanity</l>
+                <l>and there are no chandeliers and there</l>
+                <l>are no gates to the parks so you don't</l>
+                <l>know whether you're going in them or</l>
+                <l>coming out of them that's not relaxing</l>
+                <l>and so you can't really walk all you can</l>
+                <l>do is sit and drink coffee and brood</l>
+                <l>over the lost leaves and refreshing scum</l>
+                <l>of Georgia Georgia of my heritage</l>
+                <l>and dismay meanwhile back in my old</l>
+                <pb n="59" xml:id="p59" facs="../images/p59.png"/>  
+                <l>country they are renaming everything so</l>
+                <l>I can't even tell any more which ballet</l>
+                <l>company I am remembering with so much</l>
+                <l>pain and the same thing has started</l>
+                <l>here American Avenue Park Avenue South</l>
+                <l>Avenue of Chester Conklin Binnie Barnes</l>
+                <l>Boulevard Avenue of Toby Wing Barbara</l>
+                <l>Nichols Street where am I what is it</l>
+                <l>I can't even find a pond small enough</l>
+                <l>to drown in without being ostentatious</l>
+                <l>you are ruining your awful country and me</l>
+                <l>it is not new to do this it is terribly</l>
+                <l>democratic and ordinary and tired</l>
+                <p rendition="#right">
+                    <date>1961</date>
+                </p>
+                <pb n="60" xml:id="p60" facs="../images/p60.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

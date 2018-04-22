@@ -1,10 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt><note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note></notesStmt><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition><rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition><rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition><rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition><rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition><rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition><rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition><rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition><rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><pb n="11" xml:id="p11" facs="../images/p11.png"/><head>ON RACHMANINOFFS BIRTHDAY</head><l>Quick! a last poem before I go</l><l>off my rocker. Oh <persName>Rachmaninoff!<note n="4">Sergei Rachmaninoff (1873-1943): Russian pianist, composer and conductor. <ref target="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff">Wikipedia</ref></note></persName></l><l>Onset, Massachusetts. Is it the fig-newton</l><l>playing the horn? Thundering windows</l><l>of hell, will your tubes ever break</l><l>into powder? Oh my palace of oranges,</l><l>junk shop, staples, umber, basalt;</l><l>I'm a child again when I was really</l><l>miserable, a grope pizzicato. My pocket</l><l>of rhinestone, yoyo, carpenter's pencil,</l><l>amethyst, hypo, campaign button,</l><l>is the room full of smoke? Shit</l><l>on the soup, let it burn. So it's back.</l><l>You'll never be mentally sober.</l></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="ns">Digital edition created by David Gustavsen for Z656</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </rendition>
+                <rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition>
+                <rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </rendition>
+                <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css"> display:block;
+                    padding-left:4em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css"> display:block;
+                    padding-left:5em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css"> display:block;
+                    padding-left:10em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css"> display:block;
+                    padding-left:15em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css"> display:block;
+                    padding-left:20em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css"> display:block;
+                    padding-left:25em; text-indent:-2em; </rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                
+                <head>ON RACHMANINOFFS BIRTHDAY</head>
+                <l>Quick! a last poem before I go</l>
+                <l>off my rocker. Oh <persName>Rachmaninoff!<note n="4">Sergei Rachmaninoff
+                            (1873-1943): Russian pianist, composer and conductor. <ref
+                                target="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff"
+                                >Wikipedia</ref></note></persName></l>
+                <l>Onset, Massachusetts. Is it the fig-newton</l>
+                <l>playing the horn? Thundering windows</l>
+                <l>of hell, will your tubes ever break</l>
+                <l>into powder? Oh my palace of oranges,</l>
+                <l>junk shop, staples, umber, basalt;</l>
+                <l>I'm a child again when I was really</l>
+                <l>miserable, a grope pizzicato. My pocket</l>
+                <l>of rhinestone, yoyo, carpenter's pencil,</l>
+                <l>amethyst, hypo, campaign button,</l>
+                <l>is the room full of smoke? Shit</l>
+                <l>on the soup, let it burn. So it's back.</l>
+                <l>You'll never be mentally sober.</l>
+                <pb n="11" xml:id="p11" facs="../images/p11.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,10 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt><note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note></notesStmt><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition><rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition><rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition><rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition><rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition><rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition><rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition><rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition><rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><pb n="24" xml:id="p24" facs="../images/p24.png"/><head>IMAGE OF THE BUDDHA PREACHING</head><lg><l>I am very happy to be here at the <placeName>Villa Hügel<note n="13">Villa Hügel: a 19th century mansion in Essen, Germany. The Villa currently houses the Ruhr Cultural Foundation</note></placeName></l><l>and <persName>Prime Minister Nehr <note n="14">Jawaharlal Nehru (1889-1964) The first Prime Minister of India. <ref target="https://en.wikipedia.org/wiki/Jawaharlal_Nehru">Wikipedia</ref></note></persName>u has asked me to greet the people of</l><l rendition="#right">Essen</l><l>and to tell you how powerfully affected we in India</l><l>have been by Germany's philosophy, traditions and mythology</l><l>though our lucidity and our concentration on archetypes</l><l>puts us in a class by ourself</l><l rendition="#right">" for in this world of storm and stress "</l><l> — 5,000 years of Indian art! just think of it, oh Essen!</l><l>is this a calmer region of thought, " a reflection of the mind </l><l>through the ages "?</l><l rendition="#l-indent-03"><persName>Max Müller, <note n="15">Friedrich Max Müller (1823-1900): German-born English philologist who developed the western acadmic field of Indian Studies.</note></persName> " primus inter pares " among</l><l rendition="#right">Indologists</l><l>remember our byword, Mokshamula, I rejoice in the fact of 900</l><l rendition="#right">exhibits</l></lg><lg><l>I deeply appreciate filling the gaps, oh Herr Doktor Heinrich</l><l rendition="#right">Goetz!</l><l>and the research purring onward in Pakistan and Ceylon and</l><l rendition="#right">Afghanistan</l><l>soapstone, terracotta-Indus, terracotta-Maurya, terracotta Sunga,</l><l rendition="#l-indent-02">terracotta-Andhra, terracotta fragments famous Bharhut</l><l rendition="#right">Stupa</l><l>Kushana, Ghandara, Gupta, Hindu and Jain, Secco, Ajanta,</l><l rendition="#right">Villa Hügel!</l></lg><lg><l>Anglo-German trade will prosper by Swansea-Mannheim</l><l rendition="#right">friendship</l><l>waning now the West Wall by virtue of two rolls per capita</l><l>and the flagship BERLIN is joining its "white fleet" on the Rhine</l><pb n="25" xml:id="p25" facs="../images/p25.png"/><l>though better schools and model cars are wanting, still still oh</l><l rendition="#right">Essen</l><l rendition="#l-indent-02"><persName>Nataraja<note n="16">Nataraja: depection of the god Shiva as the lord of the dance. <ref target="https://en.wikipedia.org/wiki/Nataraja">https://en.wikipedia.org/wiki/Nataraja</ref></note></persName> dances on the dwarf</l><l rendition="#l-indent-02">and unlike their fathers</l><l rendition="#l-indent-02">Germany's highschool pupils love the mathematics</l></lg><lg rendition="#l-indent-02"><l>which is hopeful of a new delay in terror</l><l>I don't think</l></lg><p rendition="#right"><date>1959</date></p></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="ns">Digital edition created by David Gustavsen for Z656</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </rendition>
+                <rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition>
+                <rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </rendition>
+                <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css"> display:block;
+                    padding-left:4em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css"> display:block;
+                    padding-left:5em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css"> display:block;
+                    padding-left:10em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css"> display:block;
+                    padding-left:15em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css"> display:block;
+                    padding-left:20em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css"> display:block;
+                    padding-left:25em; text-indent:-2em; </rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                
+                <head>IMAGE OF THE BUDDHA PREACHING</head>
+                <lg>
+                    <l>I am very happy to be here at the <placeName>Villa Hügel<note n="13">Villa
+                                Hügel: a 19th century mansion in Essen, Germany. The Villa currently
+                                houses the Ruhr Cultural Foundation</note></placeName></l>
+                    <l>and <persName>Prime Minister Nehr <note n="14">Jawaharlal Nehru (1889-1964)
+                                The first Prime Minister of India. <ref
+                                    target="https://en.wikipedia.org/wiki/Jawaharlal_Nehru"
+                                    >Wikipedia</ref></note></persName>u has asked me to greet the
+                        people of</l>
+                    <l rendition="#right">Essen</l>
+                    <l>and to tell you how powerfully affected we in India</l>
+                    <l>have been by Germany's philosophy, traditions and mythology</l>
+                    <l>though our lucidity and our concentration on archetypes</l>
+                    <l>puts us in a class by ourself</l>
+                    <l rendition="#right">" for in this world of storm and stress "</l>
+                    <l> — 5,000 years of Indian art! just think of it, oh Essen!</l>
+                    <l>is this a calmer region of thought, " a reflection of the mind </l>
+                    <l>through the ages "?</l>
+                    <l rendition="#l-indent-03"><persName>Max Müller, <note n="15">Friedrich Max
+                                Müller (1823-1900): German-born English philologist who developed
+                                the western acadmic field of Indian Studies.</note></persName> "
+                        primus inter pares " among</l>
+                    <l rendition="#right">Indologists</l>
+                    <l>remember our byword, Mokshamula, I rejoice in the fact of 900</l>
+                    <l rendition="#right">exhibits</l>
+                </lg>
+                <lg>
+                    <l>I deeply appreciate filling the gaps, oh Herr Doktor Heinrich</l>
+                    <l rendition="#right">Goetz!</l>
+                    <l>and the research purring onward in Pakistan and Ceylon and</l>
+                    <l rendition="#right">Afghanistan</l>
+                    <l>soapstone, terracotta-Indus, terracotta-Maurya, terracotta Sunga,</l>
+                    <l rendition="#l-indent-02">terracotta-Andhra, terracotta fragments famous
+                        Bharhut</l>
+                    <l rendition="#right">Stupa</l>
+                    <l>Kushana, Ghandara, Gupta, Hindu and Jain, Secco, Ajanta,</l>
+                    <l rendition="#right">Villa Hügel!</l>
+                </lg>
+                <lg>
+                    <l>Anglo-German trade will prosper by Swansea-Mannheim</l>
+                    <l rendition="#right">friendship</l>
+                    <l>waning now the West Wall by virtue of two rolls per capita</l>
+                    <l>and the flagship BERLIN is joining its "white fleet" on the Rhine</l>
+                    <pb n="24" xml:id="p24" facs="../images/p24.png"/> 
+                    <l>though better schools and model cars are wanting, still still oh</l>
+                    <l rendition="#right">Essen</l>
+                    <l rendition="#l-indent-02"><persName>Nataraja<note n="16">Nataraja: depection
+                                of the god Shiva as the lord of the dance. <ref
+                                    target="https://en.wikipedia.org/wiki/Nataraja"
+                                    >https://en.wikipedia.org/wiki/Nataraja</ref></note></persName>
+                        dances on the dwarf</l>
+                    <l rendition="#l-indent-02">and unlike their fathers</l>
+                    <l rendition="#l-indent-02">Germany's highschool pupils love the mathematics</l>
+                </lg>
+                <lg rendition="#l-indent-02">
+                    <l>which is hopeful of a new delay in terror</l>
+                    <l>I don't think</l>
+                </lg>
+                <p rendition="#right">
+                    <date>1959</date>
+                </p>
+                <pb n="25" xml:id="p25" facs="../images/p25.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,27 +1,216 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt><note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note></notesStmt><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition><rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition><rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition><rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition><rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition><rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition><rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition><rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition><rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><pb n="8" xml:id="p8" facs="../images/p8.png"/><head>ALMA</head><epigraph><p rendition="#itl"> "Est-elle almee? . . . aux premieres heures bleues Se detruira-t-elle
-                  comme les fleurs feues. . . /'<note n="1">"Is she an Egyptian dancer? ... in the first blue hours will she destroy herself like deceased flowers..." - Rimbaud <hi rendition="#itl">Est-elle almee?...</hi> translated by John Kinsella</note></p><p> — Rimbaud.</p></epigraph><div type="part"><l>1</l><lg><l>The sun, perhaps three of them, one black one red, you know,</l><l>and her dancing all the time, fanning the purple sky getting</l><l>purple, her fancy white skin quite unoriental to the dirty child-</l><l>ren's round eyes standing in circles munching muffins, the cock</l><l>roaches like nuggets half hid in the bran. Boy! how are you,</l><l><persName>Prester John?<note n="2">Prester John: Legendary Christian king said to have ruled over a lost Christian nation in Asia <ref target="https://en.wikipedia.org/wiki/Prester_John">Wikipedia</ref></note></persName> the smile of the river, so searching, so enamelled.</l></lg></div><div type="part"><l>2</l><lg><l>What mention of the King?</l><l>the spinning wheel still turns,</l><l>the apples rot to the singing.</l><l>Ale est e on winter sojourns</l></lg><lg><l>is nice at Nice. Wander,</l><l>my dear sacred Pontiff, do dare</l><l>to murder minutely and ponder</l><l>what is the bloody affair</l></lg><lg><l>inside the heart of the weak</l><l>dancer, whose one toe is worth</l><l>inestimable, the gang, the cheek</l><l>of it! it's too dear, her birth</l></lg><lg><l>amidst the acorns with nails</l><l>stuck through them by passionate</l><pb n="9" xml:id="p9" facs="../images/p9.png"/><l>parents, castanets! Caucasian tales!</l><l>their prodigality proportionate:</l></lg><lg><l>"Sacred Heart, oh Heart so sick,</l><l>make Detroit more wholly thine,</l><l>all with greeds and scabs so thick</l><l>that Judas Priest must make a sign."</l></lg><lg><l>Thus he to bed and we to rise</l><l>and Alma singing like a loon.</l><l>Her dancing toenails in her eyes.</l><l>Her pa was dead on the <placeName>River Gaboon<note>River Gaboon: Portuguese name for the estuary which flows through Libreville, Gabon</note></placeName>.</l></lg></div><div type="part"><l>3</l><p style="prosepoem"> Detroit was founded on the great near waterways next to Canada
-                  which was friendly and immediately gained for herself the appellation "the Detroit
-                  of Thermopylaes", a name which has stuck to this day wherever ballroom dancing is
-                  held in proper esteem. Let me remind you of that great wrist movement, the
-                  enjambement schizophrene, a particularly satisfying variation of which may be made
-                  by adding a little tomato paste. Great success. While in Detroit accused of
-                  starting the Chicago fire. Millions of roses from Russians. Alma had come a long
-                  way, she opened a jewelry shop, her name became a household word, she'd invented
-                  an arch-supporter.</p><p style="prosepoem"> How often she thought of her father! the castle, the
-                  kitchen-garden, the hollihocks and the mill stream beyond curving gently as a
-                  parenthesis. Many a bitter tear was shed by her on the boards of this theatre as
-                  she pondered the inscrutable meagerness of divine Providence, always humming,
-                  always shifting a little, never missing a beat. She guested one season at the
-                  height of her nostalgia with the Metropolitan Opera Ballet in Salammbo; her </p><pb n="10" xml:id="p10" facs="../images/p10.png"/><p>father
-                  seemed very close in all that oriental splendor of bamboo and hotel palms and
-                  stale sweat and bracelets, an engagement of tears. In the snow, in her white fox
-                  fur wraps, how more beautiful than <persName>Mary Garden! <note n="3">Mary Garden (1874-1967): Scottish opera soprano famed for her beauty. <ref target="https://en.wikipedia.org/wiki/Mary_Garden">Wikipedia</ref></note></persName></p></div><div type="part"><l>4</l><lg><l>Onward to the West. "Where I came from,</l><l>where I'm going. Indian country." Gold.</l><l>Oh say can you see Alma. The darling</l><l>of Them. All her friends were artists.</l><l>They alone have memories. They alone</l><l>love flowers. They alone give parties</l><l>and die. Poor Alma. They alone.</l></lg><lg><l>She died,</l><l>and it was as if all the jewels in the world</l><l>had heaved a sigh. The seismograph</l><l>at Fordham University registered, for once,</l><l>a spiritual note. How like a sliver</l><l>in her own short fat muscular foot.</l><l>She loved the Western World, though</l><l>there are some who say she isn't really dead.</l></lg><p rendition="#right"><date>1953</date></p></div></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+              <teiHeader>
+                            <fileDesc>
+                                          <titleStmt>
+                                                  <title>Lunch Poems</title>
+                                                  <author>Frank O'Hara</author>
+                                                  <respStmt>
+                                                  <resp>Created using XSLT from EPUB, encoded by </resp>
+                                                  <name>David Gustavsen</name>
+                                                  </respStmt>
+                                          </titleStmt>
+                                          <publicationStmt>
+                                                  <publisher>City Lights Books</publisher>
+                                                  <date>1964</date>
+                                          </publicationStmt>
+                                          <seriesStmt>
+                                                  <p>Pocket Poets Series: Number 19</p>
+                                          </seriesStmt>
+                                          <notesStmt>
+                                                  <note type="ns">Digital edition created by David
+                                                  Gustavsen for Z656</note>
+                                          </notesStmt>
+                                          <sourceDesc>
+                                                  <p>Created using XSLT from an EPUB then edited for
+                                                  consistancy</p>
+                                          </sourceDesc>
+                            </fileDesc>
+                            <encodingDesc>
+                                          <schemaSpec ident="myTEI" docLang="en" prefix="tei_"
+                                                  xml:lang="en">
+                                                  <moduleRef key="core" except=""/>
+                                                  <moduleRef key="tei" except=""/>
+                                                  <moduleRef key="header" except=""/>
+                                                  <moduleRef key="textstructure" except=""/>
+                                                  <moduleRef key="namesdates" except=""/>
+                                                  <moduleRef key="verse" except=""/>
+                                          </schemaSpec>
+                                          <tagsDecl>
+                                                  <rendition xml:id="center" n="tiebp:center"
+                                                  scheme="css"> display:block; text-align:center;
+                                                  margin-left:auto; margin-right:auto; </rendition>
+                                                  <rendition xml:id="itl" n="tiebp:itl" scheme="css"
+                                                  > font-style: italic; </rendition>
+                                                  <rendition xml:id="right" n="teibp:right"
+                                                  scheme="css"> text-align:right; </rendition>
+                                                  <rendition xml:id="l-indent-01"
+                                                  n="tiebp:l-indent-01" scheme="css"> display:block;
+                                                  padding-left:4em; text-indent:-2em; </rendition>
+                                                  <rendition xml:id="l-indent-02"
+                                                  n="tiebp:l-indent-02" scheme="css"> display:block;
+                                                  padding-left:5em; text-indent:-2em; </rendition>
+                                                  <rendition xml:id="l-indent-03"
+                                                  n="tiebp:l-indent-03" scheme="css"> display:block;
+                                                  padding-left:10em; text-indent:-2em; </rendition>
+                                                  <rendition xml:id="l-indent-04"
+                                                  n="tiebp:l-indent-04" scheme="css"> display:block;
+                                                  padding-left:15em; text-indent:-2em; </rendition>
+                                                  <rendition xml:id="l-indent-05"
+                                                  n="tiebp:l-indent-05" scheme="css"> display:block;
+                                                  padding-left:20em; text-indent:-2em; </rendition>
+                                                  <rendition xml:id="l-indent-06"
+                                                  n="tiebp:l-indent-06" scheme="css"> display:block;
+                                                  padding-left:25em; text-indent:-2em; </rendition>
+                                          </tagsDecl>
+                            </encodingDesc>
+              </teiHeader>
+              <text>
+                            <body>
+                                          <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                                                 
+                                                  <head>ALMA</head>
+                                                  <epigraph>
+                                                  <p rendition="#itl"> "Est-elle almee? . . . aux
+                                                  premieres heures bleues Se detruira-t-elle comme
+                                                  les fleurs feues. . . /'<note n="1">"Is she an
+                                                  Egyptian dancer? ... in the first blue hours will
+                                                  she destroy herself like deceased flowers..." -
+                                                  Rimbaud <hi rendition="#itl">Est-elle
+                                                  almee?...</hi> translated by John
+                                                  Kinsella</note></p>
+                                                  <p> — Rimbaud.</p>
+                                                  </epigraph>
+                                                  <div type="part">
+                                                  <l>1</l>
+                                                  <lg>
+                                                  <l>The sun, perhaps three of them, one black one
+                                                  red, you know,</l>
+                                                  <l>and her dancing all the time, fanning the
+                                                  purple sky getting</l>
+                                                  <l>purple, her fancy white skin quite unoriental
+                                                  to the dirty child-</l>
+                                                  <l>ren's round eyes standing in circles munching
+                                                  muffins, the cock</l>
+                                                  <l>roaches like nuggets half hid in the bran. Boy!
+                                                  how are you,</l>
+                                                  <l><persName>Prester John?<note n="2">Prester
+                                                  John: Legendary Christian king said to have ruled
+                                                  over a lost Christian nation in Asia <ref
+                                                  target="https://en.wikipedia.org/wiki/Prester_John"
+                                                  >Wikipedia</ref></note></persName> the smile of
+                                                  the river, so searching, so enamelled.</l>
+                                                  </lg>
+                                                  </div>
+                                                  <div type="part">
+                                                  <l>2</l>
+                                                  <lg>
+                                                  <l>What mention of the King?</l>
+                                                  <l>the spinning wheel still turns,</l>
+                                                  <l>the apples rot to the singing.</l>
+                                                  <l>Ale est e on winter sojourns</l>
+                                                  </lg>
+                                                  <lg>
+                                                  <l>is nice at Nice. Wander,</l>
+                                                  <l>my dear sacred Pontiff, do dare</l>
+                                                  <l>to murder minutely and ponder</l>
+                                                  <l>what is the bloody affair</l>
+                                                  </lg>
+                                                  <lg>
+                                                  <l>inside the heart of the weak</l>
+                                                  <l>dancer, whose one toe is worth</l>
+                                                  <l>inestimable, the gang, the cheek</l>
+                                                  <l>of it! it's too dear, her birth</l>
+                                                  </lg>
+                                                  <lg>
+                                                  <l>amidst the acorns with nails</l>
+                                                  <l>stuck through them by passionate</l>
+                                                                <pb n="8" xml:id="p8" facs="../images/p8.png"/>
+                                                  <l>parents, castanets! Caucasian tales!</l>
+                                                  <l>their prodigality proportionate:</l>
+                                                  </lg>
+                                                  <lg>
+                                                  <l>"Sacred Heart, oh Heart so sick,</l>
+                                                  <l>make Detroit more wholly thine,</l>
+                                                  <l>all with greeds and scabs so thick</l>
+                                                  <l>that Judas Priest must make a sign."</l>
+                                                  </lg>
+                                                  <lg>
+                                                  <l>Thus he to bed and we to rise</l>
+                                                  <l>and Alma singing like a loon.</l>
+                                                  <l>Her dancing toenails in her eyes.</l>
+                                                  <l>Her pa was dead on the <placeName>River
+                                                  Gaboon<note>River Gaboon: Portuguese name for the
+                                                  estuary which flows through Libreville,
+                                                  Gabon</note></placeName>.</l>
+                                                  </lg>
+                                                  </div>
+                                                  <div type="part">
+                                                  <l>3</l>
+                                                  <p style="prosepoem"> Detroit was founded on the
+                                                  great near waterways next to Canada which was
+                                                  friendly and immediately gained for herself the
+                                                  appellation "the Detroit of Thermopylaes", a name
+                                                  which has stuck to this day wherever ballroom
+                                                  dancing is held in proper esteem. Let me remind
+                                                  you of that great wrist movement, the enjambement
+                                                  schizophrene, a particularly satisfying variation
+                                                  of which may be made by adding a little tomato
+                                                  paste. Great success. While in Detroit accused of
+                                                  starting the Chicago fire. Millions of roses from
+                                                  Russians. Alma had come a long way, she opened a
+                                                  jewelry shop, her name became a household word,
+                                                  she'd invented an arch-supporter.</p>
+                                                  <p style="prosepoem"> How often she thought of her
+                                                  father! the castle, the kitchen-garden, the
+                                                  hollihocks and the mill stream beyond curving
+                                                  gently as a parenthesis. Many a bitter tear was
+                                                  shed by her on the boards of this theatre as she
+                                                  pondered the inscrutable meagerness of divine
+                                                  Providence, always humming, always shifting a
+                                                  little, never missing a beat. She guested one
+                                                  season at the height of her nostalgia with the
+                                                  Metropolitan Opera Ballet in Salammbo; her </p>
+                                                                <pb n="9" xml:id="p9" facs="../images/p9.png"/>  
+                                                  <p>father seemed very close in all that oriental
+                                                  splendor of bamboo and hotel palms and stale sweat
+                                                  and bracelets, an engagement of tears. In the
+                                                  snow, in her white fox fur wraps, how more
+                                                  beautiful than <persName>Mary Garden! <note n="3"
+                                                  >Mary Garden (1874-1967): Scottish opera soprano
+                                                  famed for her beauty. <ref
+                                                  target="https://en.wikipedia.org/wiki/Mary_Garden"
+                                                  >Wikipedia</ref></note></persName></p>
+                                                  </div>
+                                                  <div type="part">
+                                                  <l>4</l>
+                                                  <lg>
+                                                  <l>Onward to the West. "Where I came from,</l>
+                                                  <l>where I'm going. Indian country." Gold.</l>
+                                                  <l>Oh say can you see Alma. The darling</l>
+                                                  <l>of Them. All her friends were artists.</l>
+                                                  <l>They alone have memories. They alone</l>
+                                                  <l>love flowers. They alone give parties</l>
+                                                  <l>and die. Poor Alma. They alone.</l>
+                                                  </lg>
+                                                  <lg>
+                                                  <l>She died,</l>
+                                                  <l>and it was as if all the jewels in the
+                                                  world</l>
+                                                  <l>had heaved a sigh. The seismograph</l>
+                                                  <l>at Fordham University registered, for once,</l>
+                                                  <l>a spiritual note. How like a sliver</l>
+                                                  <l>in her own short fat muscular foot.</l>
+                                                  <l>She loved the Western World, though</l>
+                                                  <l>there are some who say she isn't really
+                                                  dead.</l>
+                                                  </lg>
+                                                  <p rendition="#right">
+                                                  <date>1953</date>
+                                                  </p>
+                                                                <pb n="10" xml:id="p10" facs="../images/p10.png"/>
+                                                  </div>
+                                          </div>
+                            </body>
+              </text>
+</TEI>

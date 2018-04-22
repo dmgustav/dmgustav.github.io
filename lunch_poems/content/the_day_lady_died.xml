@@ -1,11 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt><note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note></notesStmt><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition><rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition><rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition><rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition><rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition><rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition><rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition><rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition><rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><pb n="27" xml:id="p27" facs="../images/p27.png"/><head>THE <persName>DAY LADY<note n="17">Billie Holiday (1915-1959): American Jazz musician and singer. Holiday, born Eleanora Fagan, was also known as "lady day" and O'Hara's title puns off this nickname. <ref target="https://en.wikipedia.org/wiki/Billie_Holiday">Wikipedia</ref></note></persName> DIED</head><lg><l>It is 12 : 20 in New York a Friday</l><l>three days after Bastille day, yes</l><l>it is 1959 and I go get a shoeshine</l><l>because I will get off the 4 : 19 in Easthampton</l><l>at 7 : 15 and then go straight to dinner</l><l>and I don't know the people who will feed me</l></lg><lg><l>I walk up the muggy street beginning to sun</l><l>and have a hamburger and a malted and buy</l><l>an ugly NEW WORLD WRITING to see what the poets</l><l>in Ghana are doing these days</l><l rend="tripple-indent">I go on to the bank</l><l>and Miss Stillwagon (first name Linda I once heard)</l><l>doesn't even look up my balance for once in her life</l><l>and in the GOLDEN GRIFFIN I get a little <persName>Verlaine <note n="18">Paul Verlain (1844-1896): French Poet and part of the Decadent movement which, as its name implies, prized excess. <ref target="https://en.wikipedia.org/wiki/Paul_Verlaine">Wikipeida</ref></note></persName></l><l>for <persName>Patsy<note n="19">Likely Patsy Southgate (1928-1998): Writer and translator. Southgate was an important social figure in the New York and Paris literary communities</note></persName> with drawings by <persName>Bonnard <note>Pierre Bonnard (1867-1947): French Painter and Printmaker. Bonnard was a founding member of the Post-Impressionist school of paining. <ref target="https://en.wikipedia.org/wiki/Pierre_Bonnard">Wikipeida</ref></note></persName> although I do</l><l>think of Hesiod, trans. <persName>Richmond Lattimore<note n="20">Richmond Lattimore (1906-1984): American poet known for his translations of classical Greek epics.<ref target="https://en.wikipedia.org/wiki/Richmond_Lattimore">Wikipedia</ref></note></persName></l><l>or <persName>Brendan Behan's <note n="21">Brendan Francis Aidan Behan (1923-1964): Irish poet and playwright. <ref target="https://en.wikipedia.org/wiki/Brendan_Behan">Wikipedia</ref></note></persName> new play or <hi rendition="#itl">Le Balcon</hi> or <hi rend="irl">Les
-                     Negres</hi></l><l>of Genet, but I don't, I stick with Verlaine</l><l>after practically going to sleep with quandariness</l></lg><lg><l>and for <persName>Mike<note n="22">Likely Michael Goldberg (1924-2007): American Painter and friend of O'Hara's known for action paintings, abstractions, and still-lives. Goldberg is the same painter referenced in O'Hara's poem <ref target="https://www.poets.org/poetsorg/poem/why-i-am-not-painter">"Why I am not a painter"</ref>. <ref target="https://en.wikipedia.org/wiki/Michael_Goldberg_(painter)">Wikipedia</ref></note></persName> I just stroll into the PARK LANE</l><l>Liquor Store and ask for a bottle of Strega and</l><l>then I go back where I came from to 6th Avenue</l><l>and the tobacconist in the Ziegfeld Theatre and</l><l>casually ask for a carton of Gauloises and a carton</l><l>of Picayunes, and a NEW YORK POST with her face on it</l></lg><lg><l>and I am sweating a lot by now and thinking of</l><l>leaning on the John door in the <placeName>5 SPOT<note n="23">Famous jazz club in the Bowery neighbourhood of New York City. <ref target="https://en.wikipedia.org/wiki/Five_Spot_Caf%C3%A9">Wikipedia</ref></note></placeName></l><l>while she whispered a song along the keyboard</l><l>to <persName>Mal Waldron <note n="24">Mal Waldron (1925-2002): Jazz musician and house pianist for Prestige Records whose work appears on many albums in the late 50s. <ref target="https://en.wikipedia.org/wiki/Mal_Waldron">Wikipedia</ref></note></persName> and everyone and I stopped breathing</l></lg><p rendition="#right"><date>1959</date></p></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="ns">Digital edition created by David Gustavsen for Z656</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </rendition>
+                <rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition>
+                <rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </rendition>
+                <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css"> display:block;
+                    padding-left:4em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css"> display:block;
+                    padding-left:5em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css"> display:block;
+                    padding-left:10em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css"> display:block;
+                    padding-left:15em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css"> display:block;
+                    padding-left:20em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css"> display:block;
+                    padding-left:25em; text-indent:-2em; </rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                
+                <head>THE <persName>DAY LADY<note n="17">Billie Holiday (1915-1959): American Jazz
+                            musician and singer. Holiday, born Eleanora Fagan, was also known as
+                            "lady day" and O'Hara's title puns off this nickname. <ref
+                                target="https://en.wikipedia.org/wiki/Billie_Holiday"
+                                >Wikipedia</ref></note></persName> DIED</head>
+                <lg>
+                    <l>It is 12 : 20 in New York a Friday</l>
+                    <l>three days after Bastille day, yes</l>
+                    <l>it is 1959 and I go get a shoeshine</l>
+                    <l>because I will get off the 4 : 19 in Easthampton</l>
+                    <l>at 7 : 15 and then go straight to dinner</l>
+                    <l>and I don't know the people who will feed me</l>
+                </lg>
+                <lg>
+                    <l>I walk up the muggy street beginning to sun</l>
+                    <l>and have a hamburger and a malted and buy</l>
+                    <l>an ugly NEW WORLD WRITING to see what the poets</l>
+                    <l>in Ghana are doing these days</l>
+                    <l rend="tripple-indent">I go on to the bank</l>
+                    <l>and Miss Stillwagon (first name Linda I once heard)</l>
+                    <l>doesn't even look up my balance for once in her life</l>
+                    <l>and in the GOLDEN GRIFFIN I get a little <persName>Verlaine <note n="18">Paul
+                                Verlain (1844-1896): French Poet and part of the Decadent movement
+                                which, as its name implies, prized excess. <ref
+                                    target="https://en.wikipedia.org/wiki/Paul_Verlaine"
+                                    >Wikipeida</ref></note></persName></l>
+                    <l>for <persName>Patsy<note n="19">Likely Patsy Southgate (1928-1998): Writer
+                                and translator. Southgate was an important social figure in the New
+                                York and Paris literary communities</note></persName> with drawings
+                        by <persName>Bonnard <note>Pierre Bonnard (1867-1947): French Painter and
+                                Printmaker. Bonnard was a founding member of the Post-Impressionist
+                                school of paining. <ref
+                                    target="https://en.wikipedia.org/wiki/Pierre_Bonnard"
+                                    >Wikipeida</ref></note></persName> although I do</l>
+                    <l>think of Hesiod, trans. <persName>Richmond Lattimore<note n="20">Richmond
+                                Lattimore (1906-1984): American poet known for his translations of
+                                classical Greek epics.<ref
+                                    target="https://en.wikipedia.org/wiki/Richmond_Lattimore"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l>or <persName>Brendan Behan's <note n="21">Brendan Francis Aidan Behan
+                                (1923-1964): Irish poet and playwright. <ref
+                                    target="https://en.wikipedia.org/wiki/Brendan_Behan"
+                                    >Wikipedia</ref></note></persName> new play or <hi
+                            rendition="#itl">Le Balcon</hi> or <hi rend="irl">Les Negres</hi></l>
+                    <l>of Genet, but I don't, I stick with Verlaine</l>
+                    <l>after practically going to sleep with quandariness</l>
+                </lg>
+                <lg>
+                    <l>and for <persName>Mike<note n="22">Likely Michael Goldberg (1924-2007):
+                                American Painter and friend of O'Hara's known for action paintings,
+                                abstractions, and still-lives. Goldberg is the same painter
+                                referenced in O'Hara's poem <ref
+                                    target="https://www.poets.org/poetsorg/poem/why-i-am-not-painter"
+                                    >"Why I am not a painter"</ref>. <ref
+                                    target="https://en.wikipedia.org/wiki/Michael_Goldberg_(painter)"
+                                    >Wikipedia</ref></note></persName> I just stroll into the PARK
+                        LANE</l>
+                    <l>Liquor Store and ask for a bottle of Strega and</l>
+                    <l>then I go back where I came from to 6th Avenue</l>
+                    <l>and the tobacconist in the Ziegfeld Theatre and</l>
+                    <l>casually ask for a carton of Gauloises and a carton</l>
+                    <l>of Picayunes, and a NEW YORK POST with her face on it</l>
+                </lg>
+                <lg>
+                    <l>and I am sweating a lot by now and thinking of</l>
+                    <l>leaning on the John door in the <placeName>5 SPOT<note n="23">Famous jazz
+                                club in the Bowery neighbourhood of New York City. <ref
+                                    target="https://en.wikipedia.org/wiki/Five_Spot_Caf%C3%A9"
+                                    >Wikipedia</ref></note></placeName></l>
+                    <l>while she whispered a song along the keyboard</l>
+                    <l>to <persName>Mal Waldron <note n="24">Mal Waldron (1925-2002): Jazz musician
+                                and house pianist for Prestige Records whose work appears on many
+                                albums in the late 50s. <ref
+                                    target="https://en.wikipedia.org/wiki/Mal_Waldron"
+                                    >Wikipedia</ref></note></persName> and everyone and I stopped
+                        breathing</l>
+                </lg>
+                <p rendition="#right">
+                    <date>1959</date>
+                </p>
+                <pb n="27" xml:id="p27" facs="../images/p27.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

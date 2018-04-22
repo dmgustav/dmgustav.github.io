@@ -1,10 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt><note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note></notesStmt><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition><rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition><rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition><rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition><rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition><rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition><rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition><rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition><rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><pb n="52" xml:id="p52" facs="../images/p52.png"/><head>STEPS</head><lg><l>How funny you are today New York</l><l>like <persName>Ginger Rogers<note n="64">Virginia Katherine Rogers (1911-1995): American actor, dancer and singer best known for performing in musicals. <ref target="https://en.wikipedia.org/wiki/Ginger_Rogers">Wikipedia</ref></note></persName> in <hi rendition="#itl">Swingtime</hi></l><l>and St. Bridget's steeple leaning a little to the left</l></lg><lg><l>here I have just jumped out of a bed full of V-days</l><l>(I got tired of D-days) and blue you there still</l><l>accepts me foolish and free</l><l>all I want is a room up there</l><l>and you in it</l><l>and even the traffic halt so thick is a way</l><l>for people to rub up against each other</l><l>and when their surgical appliances lock</l><l>they stay together</l><l>for the rest of the day (what a day)</l><l>I go by to check a slide and I say</l><l>that painting's not so blue</l></lg><lg><l>where's <persName>Lana Turner<note n="65">Lana Turner (1921-1995): American actor famous for both her acting and her tumultuous  personal life. <ref target="https://en.wikipedia.org/wiki/Lana_Turner">Wikipedia</ref></note></persName></l><l>she's out eating</l><l>and <persName>Garbo's<note n="66">Greta Garbo (1905-1990) Sweedish born American actress. <ref target="https://en.wikipedia.org/wiki/Greta_Garbo">Wikipedia</ref></note></persName> backstage at the Met</l><l>everyone's taking their coat off</l><l>so they can show a rib-cage to the rib-watchers</l><l>and the park's full of dancers and their tights and shoes</l><l>in little bags</l><l>who are often mistaken for worker-outers at the West Side Y</l><l>why not</l><l>the Pittsburgh Pirates shout because they won</l><l>and in a sense we're all winning</l><l>we're alive</l><pb n="53" xml:id="p53" facs="../images/p53.png"/><l>the apartment was vacated by a gay couple</l><l>who moved to the country for fun</l><l>they moved a day too soon</l><l>even the stabbings are helping the population explosion</l><l>though in the wrong country</l><l>and all those liars have left the U N</l><l>the Seagram Building's no longer rivalled in interest</l><l>not that we need liquor (we just like it)</l></lg><lg><l>and the little box is out on the sidewalk</l><l>next to the delicatessen</l><l>so the old man can sit on it and drink beer</l><l>and get knocked off it by his wife later in the day</l><l>while the sun is still shining</l></lg><lg><l>oh god it's wonderful</l><l>to get out of bed</l><l>and drink too much coffee</l><l>and smoke too many cigarettes</l><l>and love you so much</l></lg><p rendition="#right"><date>1961</date></p></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="ns">Digital edition created by David Gustavsen for Z656</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </rendition>
+                <rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition>
+                <rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </rendition>
+                <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css"> display:block;
+                    padding-left:4em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css"> display:block;
+                    padding-left:5em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css"> display:block;
+                    padding-left:10em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css"> display:block;
+                    padding-left:15em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css"> display:block;
+                    padding-left:20em; text-indent:-2em; </rendition>
+                <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css"> display:block;
+                    padding-left:25em; text-indent:-2em; </rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+               
+                <head>STEPS</head>
+                <lg>
+                    <l>How funny you are today New York</l>
+                    <l>like <persName>Ginger Rogers<note n="64">Virginia Katherine Rogers
+                                (1911-1995): American actor, dancer and singer best known for
+                                performing in musicals. <ref
+                                    target="https://en.wikipedia.org/wiki/Ginger_Rogers"
+                                    >Wikipedia</ref></note></persName> in <hi rendition="#itl"
+                            >Swingtime</hi></l>
+                    <l>and St. Bridget's steeple leaning a little to the left</l>
+                </lg>
+                <lg>
+                    <l>here I have just jumped out of a bed full of V-days</l>
+                    <l>(I got tired of D-days) and blue you there still</l>
+                    <l>accepts me foolish and free</l>
+                    <l>all I want is a room up there</l>
+                    <l>and you in it</l>
+                    <l>and even the traffic halt so thick is a way</l>
+                    <l>for people to rub up against each other</l>
+                    <l>and when their surgical appliances lock</l>
+                    <l>they stay together</l>
+                    <l>for the rest of the day (what a day)</l>
+                    <l>I go by to check a slide and I say</l>
+                    <l>that painting's not so blue</l>
+                </lg>
+                <lg>
+                    <l>where's <persName>Lana Turner<note n="65">Lana Turner (1921-1995): American
+                                actor famous for both her acting and her tumultuous personal life.
+                                    <ref target="https://en.wikipedia.org/wiki/Lana_Turner"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l>she's out eating</l>
+                    <l>and <persName>Garbo's<note n="66">Greta Garbo (1905-1990) Sweedish born
+                                American actress. <ref
+                                    target="https://en.wikipedia.org/wiki/Greta_Garbo"
+                                    >Wikipedia</ref></note></persName> backstage at the Met</l>
+                    <l>everyone's taking their coat off</l>
+                    <l>so they can show a rib-cage to the rib-watchers</l>
+                    <l>and the park's full of dancers and their tights and shoes</l>
+                    <l>in little bags</l>
+                    <l>who are often mistaken for worker-outers at the West Side Y</l>
+                    <l>why not</l>
+                    <l>the Pittsburgh Pirates shout because they won</l>
+                    <l>and in a sense we're all winning</l>
+                    <l>we're alive</l>
+                    <pb n="52" xml:id="p52" facs="../images/p52.png"/>   
+                    <l>the apartment was vacated by a gay couple</l>
+                    <l>who moved to the country for fun</l>
+                    <l>they moved a day too soon</l>
+                    <l>even the stabbings are helping the population explosion</l>
+                    <l>though in the wrong country</l>
+                    <l>and all those liars have left the U N</l>
+                    <l>the Seagram Building's no longer rivalled in interest</l>
+                    <l>not that we need liquor (we just like it)</l>
+                </lg>
+                <lg>
+                    <l>and the little box is out on the sidewalk</l>
+                    <l>next to the delicatessen</l>
+                    <l>so the old man can sit on it and drink beer</l>
+                    <l>and get knocked off it by his wife later in the day</l>
+                    <l>while the sun is still shining</l>
+                </lg>
+                <lg>
+                    <l>oh god it's wonderful</l>
+                    <l>to get out of bed</l>
+                    <l>and drink too much coffee</l>
+                    <l>and smoke too many cigarettes</l>
+                    <l>and love you so much</l>
+                </lg>
+                <p rendition="#right">
+                    <date>1961</date>
+                </p>
+                <pb n="53" xml:id="p53" facs="../images/p53.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>
