@@ -74,7 +74,7 @@
 					<h2 align="center">Table of Contents</h2>
 					<ul>
 						<li><a href="../home.html">Home</a></li>
-						<li><a href="/lunchpoemstei.xml">Full Book</a></li>
+						<li><a href="lunchpoemstei.xml">Full Book</a></li>
 						<p></p>
 						<h3>Poems</h3>
 						<li><a href="music.xml">Music</a></li>
