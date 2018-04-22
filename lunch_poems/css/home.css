@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {list-style: none;}
+.main {
+	display: inline;
+	margin-left: 15%;
+	padding: 15px;
+	float: left;
+	height: 93%;
+	margin-bottom: 30px;
+	
+	
+/* The side navigation menu */
+	
+}
+.sidenav h2{color: white;
+	text-decoration-line: underline;
+	font-weight: bolder;}
+
+.sidenav h3{color: white;
+	text-decoration-line: underline;
+	font-weight: bolder;
+}
+.sidenav {
+	display: inline;
+    height: 85%; /* 100% Full-height */
+    width: 15%; 
+    position: fixed; 
+   margin-top: 30px;
+   float: left;
+    left: 0;
+	margin-bottom: 30px;
+    background-color: #0092CB;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.footer {
+   display: block;
+	position: fixed;
+	margin-top: 10px;
+	height: 7%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e83a0d;
+    color: #FFFCFF;
+	padding-left: 16%;
+    text-align: left;}
+
+/* The navigation menu links */
+li a {
+    padding: 8px 8px 8px 32px;
+    display: block;
+	text-decoration: none;
+    font-size: 14px;
+    color: #FFFCFF;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+li a:hover {
+    color: #e83a0d;
+}
+.footer a:hover {
+    color: #0092CB;
+}
