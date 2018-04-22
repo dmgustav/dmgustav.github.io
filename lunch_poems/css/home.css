@@ -27,10 +27,10 @@ ul {list-style: none;}
 .sidenav {
 	font-family: 'libreBaskerville';
 	display: inline;
-    height: 85%; /* 100% Full-height */
+    height: 100%; /* 100% Full-height */
     width: 15%; 
     position: fixed; 
-   margin-top: 30px;
+   
    float: left;
     left: 0;
 	margin-bottom: 30px;
