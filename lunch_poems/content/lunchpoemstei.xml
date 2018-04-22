@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<?xml-stylesheet type="text/xsl" href="teibpfulltext.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
@@ -90,7 +90,7 @@
         <list>
           <head type="sectionTOC">Poems </head>
           <item><ref target="#p7">Music</ref></item>
-           <item><ref target="#8">Alma</ref></item>
+           <item><ref target="#p8">Alma</ref></item>
            <item><ref target="#p11">On Rachmaninoff’s Birthday</ref></item>
            <item><ref target="#p12">Poem [I watched an armory combing its bronze bricks]</ref></item>
            <item><ref target="#p14">On the Way to the San Remo</ref></item>
