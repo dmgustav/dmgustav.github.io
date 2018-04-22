@@ -1,8 +1,10 @@
 @charset "utf-8";
+@font-face{ font-family: 'libreBaskerville';
+src:url(LibreBaskerville-Regular.ttf)}
 /* CSS Document */
 
 ul {list-style: none;}
-.main {
+.main { font-family: 'libreBaskerville';
 	display: inline;
 	margin-left: 15%;
 	padding: 15px;
@@ -10,10 +12,10 @@ ul {list-style: none;}
 	height: 93%;
 	margin-bottom: 30px;
 	
-	
+	}
 /* The side navigation menu */
 	
-}
+
 .sidenav h2{color: white;
 	text-decoration-line: underline;
 	font-weight: bolder;}
@@ -23,6 +25,7 @@ ul {list-style: none;}
 	font-weight: bolder;
 }
 .sidenav {
+	font-family: 'libreBaskerville';
 	display: inline;
     height: 85%; /* 100% Full-height */
     width: 15%; 
