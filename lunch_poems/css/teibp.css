@@ -1883,8 +1883,8 @@ html {
 img {
   border: 1px solid #AAA;
 }
-footer{
-display: none;
+footer {
+
 position: absolute;
   margin-top: 1em;
   border-top: 1px solid #292929;
@@ -2025,3 +2025,18 @@ a.fn:hover span.footnoteinline{
     outline-width: 1px;
     outline-color: #CCCCCC;
 }
+ul { list-style-type: none;
+    
+}
+li a {
+    padding: 8px 8px 8px 32px;
+    display: block;
+	text-decoration: none;
+    font-size: 14px;
+    color: #FFFCFF;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+li a:hover {
+    color: #e83a0d;
