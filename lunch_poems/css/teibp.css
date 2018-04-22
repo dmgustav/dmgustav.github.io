@@ -25,7 +25,32 @@
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
+/*add sidenav*/
+.sidenav h2{color: white;
+	text-decoration-line: underline;
+	font-weight: bolder;}
 
+.sidenav h3{color: white;
+	text-decoration-line: underline;
+	font-weight: bolder;
+}
+.sidenav {
+	display: inline;
+    height: 85%; /* 100% Full-height */
+    width: 15%; 
+    position: fixed; 
+   margin-top: 30px;
+   float: left;
+    left: 0;
+	margin-bottom: 30px;
+    background-color: #0092CB;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+li a:hover {
+    color: #e83a0d;
+}
 /* US Style Quotes */
 .quotesUS {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
@@ -685,6 +710,13 @@ TEI head {
 body > head {
   font-size: 180%;
   text-indent: -0.5em;
+}
+#tei_wrapper {
+display: inline;
+float: left;
+    margin-left: 15%;
+    padding-left: 5%;
+    height: 100%
 }
 div > head {
   font-size: 170%;
@@ -1377,7 +1409,7 @@ resp {
   /* Empty Rule Set */
 }
 respStmt {
-  display: block;
+  display: none;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1838,23 +1870,27 @@ html > body {
 html {
   margin: 0;
   padding: 0;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 14pt;
   background-color: #EBEBEB;
   color: #292929;
-  width: 33em;
+  width: 70%;
+  height:100%;
 }
 img {
   border: 1px solid #AAA;
 }
 footer {
+
+position: absolute;
   margin-top: 1em;
   border-top: 1px solid #292929;
   padding-top: .5em;
   font-size: 12pt;
+  clear: both;
 }
 a:link,
 a:visited,
