@@ -354,7 +354,7 @@
 
 			<script src="{$lessJS}"></script>
 			<link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
-			<link id="customcss" rel="stylesheet" type="text/css" href="{$customCSS}"/>
+		
 
 			<xsl:call-template name="tagUsage2style"/>
 			<xsl:call-template name="rendition2style"/>
