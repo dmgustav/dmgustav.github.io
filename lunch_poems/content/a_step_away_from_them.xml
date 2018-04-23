@@ -1,9 +1,153 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>A STEP AWAY FROM THEM</head><lg><l>It's my lunch hour, so I go</l><l>for a walk among the hum-colored</l><l>cabs. First, down the sidewalk</l><l>where laborers feed their dirty</l><l>glistening torsos sandwiches</l><l>and Coca-Cola, with yellow helmets</l><l>on. They protect them from falling</l><l>bricks, I guess. Then onto the</l><l>avenue where skirts are flipping</l><l>above heels and blow up over</l><l>grates. The sun is hot, but the</l><l>cabs stir up the air. I look</l><l>at bargains in wristwatches. There</l><l>are cats playing in sawdust.</l></lg><lg><l rendition="#right">On</l><l>to Times Square, where the sign</l><l>blows smoke over my head, and higher</l><l>the waterfall pours lightly. A</l><l>Negro stands in a doorway with a</l><l>toothpick, languorously agitating.</l><l>A blonde chorus girl clicks: he</l><l>smiles and rubs his chin. Everything</l><l>suddenly honks: it is 12:40 of</l><l>a Thursday.</l></lg><lg><l rendition="#l-indent-03">Neon in daylight is a</l><l>great pleasure, as <persName>Edwin Denby<note n="5">Edwin Denby (1903-1983): American writer of dance criticism and poetry.|<ref target="https://en.wikipedia.org/wiki/Edwin_Denby_(poet)">Wikipedia</ref></note></persName> would</l><l>write, as are light bulbs in daylight.</l><l>I stop for a cheeseburger at JULIET'S</l><l>CORNER. Giulietta Masina, wife of</l><l><persName>Federico Fellini,<note n="6">Federico Fellini (1920-1993): Italian film director and screenwriter.|<ref target="https://en.wikipedia.org/wiki/Federico_Fellini">Wikipedia</ref></note></persName><hi rendition="#itl" xml:lang="it">e bell' attrice.</hi></l><pb n="18" xml:id="p18" facs="../images/p18.png"/><l>And chocolate malted. A lady in</l><l>foxes on such a day puts her poodle</l><l>in a cab.</l></lg><lg><l>There are several Puerto</l><l>Ricans on the avenue today, which</l><l>makes it beautiful and warm. First</l><l><persName>Bunny<note n="7">V.R. "Bunny" Lang (1924-1956): Poet, actor, and editor of the <hi rendition="#itl">Chicago Review</hi>. Lang and O'Hara met during O'Hara college years at Harvard, where they became close friends. Many of O'Hara's poems were originally sent in letters to Lang, and she appears frequently in these poems.| </note></persName> died, then <persName>John Latouche, <note n="8">John La Touche (1914-1956): American lyricist and bookwriter for the musical theater.|<ref target="https://en.wikipedia.org/wiki/John_La_Touche_(lyricist)">Wikipedia</ref></note></persName></l><l>then <persName>Jackson Pollock.<note n="9">Jackson Pollock (1912-1956): American Painter and leader in the abstract expressionist movement. Pollock was both a close friend and artistic icon of O'Hara's. After his death, O'Hara would write a monograph on Pollock and his paintings. Furthermore, several of O'Hara's poems are either inspired by or make direct reference to Pollock's work. |<ref target="https://en.wikipedia.org/wiki/Jackson_Pollock">Wikipedia</ref></note></persName> But is the</l><l>earth as full as life was full, of them?</l><l>And one has eaten and one walks,</l><l>past the magazines with nudes</l><l>and the posters for BULLFIGHT and the Manhattan Storage Warehouse,</l><l>which they'll soon tear down. I</l><l>used to think they had the Armory</l><l>Show there.</l></lg><lg><l>A glass of papaya juice</l><l>and back to work. My heart is in my</l><l>pocket, it is Poems by <persName>Pierre Reverdy.<note n="10">Pierre Reverdy (1889-1960): French poet and surrealist. |<ref target="https://en.wikipedia.org/wiki/Pierre_Reverdy">Wikipedia</ref></note></persName></l></lg><p rendition="#right"><date>1956</date></p><pb n="19" xml:id="p19" facs="../images/p19.png"/></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt/>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
+                <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
+                <tei:rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </tei:rendition>
+                <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                    display:block; padding-left:4em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                    display:block; padding-left:5em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                    display:block; padding-left:10em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                    display:block; padding-left:15em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                    display:block; padding-left:20em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                    display:block; padding-left:25em; text-indent:-2em; </tei:rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                <head>A STEP AWAY FROM THEM</head>
+                <lg>
+                    <l>It's my lunch hour, so I go</l>
+                    <l>for a walk among the hum-colored</l>
+                    <l>cabs. First, down the sidewalk</l>
+                    <l>where laborers feed their dirty</l>
+                    <l>glistening torsos sandwiches</l>
+                    <l>and Coca-Cola, with yellow helmets</l>
+                    <l>on. They protect them from falling</l>
+                    <l>bricks, I guess. Then onto the</l>
+                    <l>avenue where skirts are flipping</l>
+                    <l>above heels and blow up over</l>
+                    <l>grates. The sun is hot, but the</l>
+                    <l>cabs stir up the air. I look</l>
+                    <l>at bargains in wristwatches. There</l>
+                    <l>are cats playing in sawdust.</l>
+                </lg>
+                <lg>
+                    <l rendition="#right">On</l>
+                    <l>to Times Square, where the sign</l>
+                    <l>blows smoke over my head, and higher</l>
+                    <l>the waterfall pours lightly. A</l>
+                    <l>Negro stands in a doorway with a</l>
+                    <l>toothpick, languorously agitating.</l>
+                    <l>A blonde chorus girl clicks: he</l>
+                    <l>smiles and rubs his chin. Everything</l>
+                    <l>suddenly honks: it is 12:40 of</l>
+                    <l>a Thursday.</l>
+                </lg>
+                <lg>
+                    <l rendition="#l-indent-03">Neon in daylight is a</l>
+                    <l>great pleasure, as <persName>Edwin Denby<note n="5">Edwin Denby (1903-1983):
+                                American writer of dance criticism and poetry.|<ref
+                                    target="https://en.wikipedia.org/wiki/Edwin_Denby_(poet)"
+                                    >Wikipedia</ref></note></persName> would</l>
+                    <l>write, as are light bulbs in daylight.</l>
+                    <l>I stop for a cheeseburger at JULIET'S</l>
+                    <l>CORNER. Giulietta Masina, wife of</l>
+                    <l>
+                        <persName>Federico Fellini,<note n="6">Federico Fellini (1920-1993): Italian
+                                film director and screenwriter.|<ref
+                                    target="https://en.wikipedia.org/wiki/Federico_Fellini"
+                                    >Wikipedia</ref></note></persName>
+                        <hi rendition="#itl" xml:lang="it">e bell' attrice.</hi>
+                    </l>
+                    <pb n="18" xml:id="p18" facs="../images/p18.png"/>
+                    <l>And chocolate malted. A lady in</l>
+                    <l>foxes on such a day puts her poodle</l>
+                    <l>in a cab.</l>
+                </lg>
+                <lg>
+                    <l rendition="#l-indent-01">There are several Puerto</l>
+                    <l>Ricans on the avenue today, which</l>
+                    <l>makes it beautiful and warm. First</l>
+                    <l><persName>Bunny<note n="7">V.R. "Bunny" Lang (1924-1956): Poet, actor, and
+                                editor of the <hi rendition="#itl">Chicago Review</hi>. Lang and
+                                O'Hara met during O'Hara college years at Harvard, where they became
+                                close friends. Many of O'Hara's poems were originally sent in
+                                letters to Lang, and she appears frequently in these poems.|
+                            </note></persName> died, then <persName>John Latouche, <note n="8">John
+                                La Touche (1914-1956): American lyricist and bookwriter for the
+                                musical theater.|<ref
+                                    target="https://en.wikipedia.org/wiki/John_La_Touche_(lyricist)"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l>then <persName>Jackson Pollock.<note n="9">Jackson Pollock (1912-1956):
+                                American Painter and leader in the abstract expressionist movement.
+                                Pollock was both a close friend and artistic icon of O'Hara's. After
+                                his death, O'Hara would write a monograph on Pollock and his
+                                paintings. Furthermore, several of O'Hara's poems are either
+                                inspired by or make direct reference to Pollock's work. |<ref
+                                    target="https://en.wikipedia.org/wiki/Jackson_Pollock"
+                                    >Wikipedia</ref></note></persName> But is the</l>
+                    <l>earth as full as life was full, of them?</l>
+                    <l>And one has eaten and one walks,</l>
+                    <l>past the magazines with nudes</l>
+                    <l>and the posters for BULLFIGHT and</l>
+                    <l>the Manhattan Storage Warehouse,</l>
+                    <l>which they'll soon tear down. I</l>
+                    <l>used to think they had the Armory</l>
+                    <l>Show there.</l>
+                </lg>
+                <lg>
+                    <l rendition="#l-indent-01">A glass of papaya juice</l>
+                    <l>and back to work. My heart is in my</l>
+                    <l>pocket, it is Poems by <persName>Pierre Reverdy.<note n="10">Pierre Reverdy
+                                (1889-1960): French poet and surrealist. |<ref
+                                    target="https://en.wikipedia.org/wiki/Pierre_Reverdy"
+                                    >Wikipedia</ref></note></persName></l>
+                </lg>
+                <p rendition="#right">
+                    <date>1956</date>
+                </p>
+                <pb n="19" xml:id="p19" facs="../images/p19.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>
