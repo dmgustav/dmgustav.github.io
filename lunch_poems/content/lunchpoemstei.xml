@@ -90,7 +90,7 @@
       <body>
          
          <div type="poem">
-            <pb n="6" xml:id="p6"/>
+            
             <head>MUSIC</head>
             <l>If I rest for a moment near The Equestrian</l>
             <l>pausing for a liver sausage sandwich in the Mayflower Shoppe,</l>
@@ -481,7 +481,7 @@
                <l>in a cab.</l>
             </lg>
             <lg>
-               <l>There are several Puerto</l>
+               <l rendition="#l-indent-01">There are several Puerto</l>
                <l>Ricans on the avenue today, which</l>
                <l>makes it beautiful and warm. First</l>
                <l><persName>Bunny<note n="7">V.R. "Bunny" Lang (1924-1956): Poet, actor, and editor of the <hi rendition="#itl">Chicago Review</hi>. Lang and O'Hara met during O'Hara college years at Harvard, where they became close friends. Many of O'Hara's poems were originally sent in letters to Lang, and she appears frequently in these poems.| </note></persName> died, then <persName>John Latouche, <note n="8">John La Touche (1914-1956): American lyricist and bookwriter for the musical theater.|<ref target="https://en.wikipedia.org/wiki/John_La_Touche_(lyricist)">Wikipedia</ref></note></persName></l>
@@ -489,13 +489,14 @@
                <l>earth as full as life was full, of them?</l>
                <l>And one has eaten and one walks,</l>
                <l>past the magazines with nudes</l>
-               <l>and the posters for BULLFIGHT and the Manhattan Storage Warehouse,</l>
+               <l>and the posters for BULLFIGHT and </l>
+               <l>the Manhattan Storage Warehouse,</l>
                <l>which they'll soon tear down. I</l>
                <l>used to think they had the Armory</l>
                <l>Show there.</l>
             </lg>
             <lg>
-               <l>A glass of papaya juice</l>
+               <l rendition="#l-indent-01">A glass of papaya juice</l>
                <l>and back to work. My heart is in my</l>
                <l>pocket, it is Poems by <persName>Pierre Reverdy.<note n="10">Pierre Reverdy (1889-1960): French poet and surrealist. |<ref target="https://en.wikipedia.org/wiki/Pierre_Reverdy">Wikipedia</ref></note></persName></l>
             </lg>
