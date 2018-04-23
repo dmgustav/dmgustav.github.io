@@ -38,6 +38,7 @@
 	<xsl:param name="pbNote"><text>page: </text></xsl:param>
 	<xsl:param name="altTextPbFacs"><text>view page image(s)</text></xsl:param>
 	
+		
 	<!-- parameters for file paths or URLs -->
 	<!-- modify filePrefix to point to files on your own server, 
 		or to specify a relatie path, e.g.:
@@ -229,13 +230,13 @@
       <xd:p>Transforms TEI ref element to html a (link) element.</xd:p>
     </xd:desc>
   </xd:doc>
-  <xsl:template match="tei:ref[@target]" priority="99">
+  <!--<xsl:template match="tei:ref[@target]" priority="99">
     <a href="{@target}">
       <xsl:apply-templates select="@*"/>
       <xsl:call-template name="rendition"/>
       <xsl:apply-templates select="node()"/>
     </a>
-  </xsl:template>
+  </xsl:template>-->
 
 	<xd:doc>
     <xd:desc>
@@ -619,6 +620,7 @@
 		<xsl:variable name="incr">
 			<xsl:number level="any" count="tei:note"/>
 		</xsl:variable>
+		
 		<p>
 			
 			<sup>
@@ -626,8 +628,8 @@
 					<xsl:value-of select="@n"/>
 				</a>
 			</sup>
-			<xsl:value-of select="."/>
-			<xsl:text/>
+			<xsl:value-of select="substring-before(.,'|')"/>
+			<a href="{./tei:ref/@target}"><xsl:value-of select="./tei:ref"/></a>			
 		</p>
 	</xsl:template>
 	

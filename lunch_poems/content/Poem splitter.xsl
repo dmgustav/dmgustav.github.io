@@ -35,8 +35,7 @@
                             <p>Pocket Poets Series: Number 19</p>
                         </seriesStmt>
                         <notesStmt>
-                            <note type="ns">Digital edition created by David Gustavsen for
-                                Z656</note>
+                           
                         </notesStmt>
                         <sourceDesc>
                             <p>Created using XSLT from an EPUB then edited for consistancy</p>
@@ -52,28 +51,28 @@
                             <moduleRef key="verse" except=""/>
                         </schemaSpec>
                         <tagsDecl>
-                            <rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </rendition>
-                            <rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </rendition>
-                            <rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </rendition>
-                            <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </rendition>
+                            <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
+                            <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
+                            <tei:rendition xml:id="right" n="teibp:right" scheme="css">
+                                text-align:right; </tei:rendition>
+                            <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition>
 
-                            <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </rendition>
+                            <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition>
 
-                            <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </rendition>
+                            <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition>
 
-                            <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </rendition>
+                            <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition>
 
-                            <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </rendition>
+                            <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition>
 
-                            <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </rendition>
+                            <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition>
                         </tagsDecl>
                     </encodingDesc>
                 </teiHeader>

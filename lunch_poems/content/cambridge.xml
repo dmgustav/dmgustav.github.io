@@ -1,86 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Lunch Poems</title>
-                <author>Frank O'Hara</author>
-                <respStmt>
-                    <resp>Created using XSLT from EPUB, encoded by </resp>
-                    <name>David Gustavsen</name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>City Lights Books</publisher>
-                <date>1964</date>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Pocket Poets Series: Number 19</p>
-            </seriesStmt>
-            <notesStmt>
-                <note type="ns">Digital edition created by David Gustavsen for Z656</note>
-            </notesStmt>
-            <sourceDesc>
-                <p>Created using XSLT from an EPUB then edited for consistancy</p>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
-                <moduleRef key="core" except=""/>
-                <moduleRef key="tei" except=""/>
-                <moduleRef key="header" except=""/>
-                <moduleRef key="textstructure" except=""/>
-                <moduleRef key="namesdates" except=""/>
-                <moduleRef key="verse" except=""/>
-            </schemaSpec>
-            <tagsDecl>
-                <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                    text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
-                <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
-                <tei:rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </tei:rendition>
-                <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css"> display:block;
-                    padding-left:4em; text-indent:-2em; </tei:rendition>
-                <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css"> display:block;
-                    padding-left:5em; text-indent:-2em; </tei:rendition>
-                <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css"> display:block;
-                    padding-left:10em; text-indent:-2em; </tei:rendition>
-                <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css"> display:block;
-                    padding-left:15em; text-indent:-2em; </tei:rendition>
-                <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css"> display:block;
-                    padding-left:20em; text-indent:-2em; </tei:rendition>
-                <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css"> display:block;
-                    padding-left:25em; text-indent:-2em; </tei:rendition>
-            </tagsDecl>
-        </encodingDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
-              
-                <head>CAMBRIDGE</head>
-                <l>It is still raining and the yellow-green cotton fruit</l>
-                <l>looks silly round a window giving out on winter trees</l>
-                <l>with only three drab leaves left. The hot plate works,</l>
-                <l>it is the sole heat on earth, and instant coffee. I</l>
-                <l>put on my warm corduroy pants, a heavy maroon sweater,</l>
-                <l>and wrap myself in my old maroon bathrobe. Just like <persName>Pasternak <note
-                            n="10">Boris Pasternak (1890-1960): Russian poet, novelist, and
-                            translator. <ref target="https://en.wikipedia.org/wiki/Boris_Pasternak"
-                                >Wikipedia</ref></note></persName></l>
-                <l>in Marburg (they say Italy and France are colder, but</l>
-                <l>I'm sure that Germany's at least as cold as this) and,</l>
-                <l>lacking the Master's inspiration, I may freeze to death</l>
-                <l>before I can get out into the white rain. I could have left</l>
-                <l>the window closed last night? But that's where health</l>
-                <l>comes from! His breath from the Urals, drawing me into flame</l>
-                <l>like a forgotten cigarette. Burn! this is not negligible,</l>
-                <l>being poetic, and not feeble, since it's sponsored by</l>
-                <l>the greatest living Russian poet at incalculable cost.</l>
-                <l>Across the street there is a house under construction,</l>
-                <l>abandoned to the rain. Secretly, I shall go to work on it.</l>
-                <l>1956</l>
-                <pb n="20" xml:id="p20" facs="../images/p20.png"/>
-            </div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
+                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>CAMBRIDGE</head><l>It is still raining and the yellow-green cotton fruit</l><l>looks silly round a window giving out on winter trees</l><l>with only three drab leaves left. The hot plate works,</l><l>it is the sole heat on earth, and instant coffee. I</l><l>put on my warm corduroy pants, a heavy maroon sweater,</l><l>and wrap myself in my old maroon bathrobe. Just like <persName>Pasternak <note n="11">Boris Pasternak (1890-1960): Russian poet, novelist, and translator. |<ref target="https://en.wikipedia.org/wiki/Boris_Pasternak">Wikipedia</ref></note></persName></l><l>in Marburg (they say Italy and France are colder, but</l><l>I'm sure that Germany's at least as cold as this) and,</l><l>lacking the Master's inspiration, I may freeze to death</l><l>before I can get out into the white rain. I could have left</l><l>the window closed last night? But that's where health</l><l>comes from! His breath from the Urals, drawing me into flame</l><l>like a forgotten cigarette. Burn! this is not negligible,</l><l>being poetic, and not feeble, since it's sponsored by</l><l>the greatest living Russian poet at incalculable cost.</l><l>Across the street there is a house under construction,</l><l>abandoned to the rain. Secretly, I shall go to work on it.</l><l>1956</l><pb n="20" xml:id="p20" facs="../images/p20.png"/></div></body></text></TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
 <TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
               <teiHeader>
                             <fileDesc>
@@ -17,10 +18,7 @@
                                           <seriesStmt>
                                                   <p>Pocket Poets Series: Number 19</p>
                                           </seriesStmt>
-                                          <notesStmt>
-                                                  <note type="ns">Digital edition created by David
-                                                  Gustavsen for Z656</note>
-                                          </notesStmt>
+                                          <notesStmt/>
                                           <sourceDesc>
                                                   <p>Created using XSLT from an EPUB then edited for
                                                   consistancy</p>
@@ -40,8 +38,8 @@
                                                   <tei:rendition xml:id="center" n="tiebp:center"
                                                   scheme="css"> display:block; text-align:center;
                                                   margin-left:auto; margin-right:auto; </tei:rendition>
-                                                  <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"
-                                                  > font-style: italic; </tei:rendition>
+                                                  <tei:rendition xml:id="itl" n="tiebp:itl"
+                                                  scheme="css"> font-style: italic; </tei:rendition>
                                                   <tei:rendition xml:id="right" n="teibp:right"
                                                   scheme="css"> text-align:right; </tei:rendition>
                                                   <tei:rendition xml:id="l-indent-01"
@@ -61,14 +59,14 @@
                                                   padding-left:20em; text-indent:-2em; </tei:rendition>
                                                   <tei:rendition xml:id="l-indent-06"
                                                   n="tiebp:l-indent-06" scheme="css"> display:block;
-                                                  padding-left:25em; text-indent:-2em; </tei:rendition>
+                                                  padding-left:25em; text-indent:-2em;
+                                                  </tei:rendition>
                                           </tagsDecl>
                             </encodingDesc>
               </teiHeader>
               <text>
                             <body>
                                           <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
-                                                 
                                                   <head>ALMA</head>
                                                   <epigraph>
                                                   <p rendition="#itl"> "Est-elle almee? . . . aux
@@ -78,7 +76,7 @@
                                                   she destroy herself like deceased flowers..." -
                                                   Rimbaud <hi rendition="#itl">Est-elle
                                                   almee?...</hi> translated by John
-                                                  Kinsella</note></p>
+                                                  Kinsella.|</note></p>
                                                   <p> — Rimbaud.</p>
                                                   </epigraph>
                                                   <div type="part">
@@ -96,7 +94,7 @@
                                                   how are you,</l>
                                                   <l><persName>Prester John?<note n="2">Prester
                                                   John: Legendary Christian king said to have ruled
-                                                  over a lost Christian nation in Asia <ref
+                                                  over a lost Christian nation in Asia.|<ref
                                                   target="https://en.wikipedia.org/wiki/Prester_John"
                                                   >Wikipedia</ref></note></persName> the smile of
                                                   the river, so searching, so enamelled.</l>
@@ -125,7 +123,7 @@
                                                   <lg>
                                                   <l>amidst the acorns with nails</l>
                                                   <l>stuck through them by passionate</l>
-                                                                <pb n="8" xml:id="p8" facs="../images/p8.png"/>
+                                                  <pb n="8" xml:id="p8" facs="../images/p8.png"/>
                                                   <l>parents, castanets! Caucasian tales!</l>
                                                   <l>their prodigality proportionate:</l>
                                                   </lg>
@@ -140,9 +138,7 @@
                                                   <l>and Alma singing like a loon.</l>
                                                   <l>Her dancing toenails in her eyes.</l>
                                                   <l>Her pa was dead on the <placeName>River
-                                                  Gaboon<note>River Gaboon: Portuguese name for the
-                                                  estuary which flows through Libreville,
-                                                  Gabon</note></placeName>.</l>
+                                                  Gaboon</placeName>.</l>
                                                   </lg>
                                                   </div>
                                                   <div type="part">
@@ -171,14 +167,14 @@
                                                   little, never missing a beat. She guested one
                                                   season at the height of her nostalgia with the
                                                   Metropolitan Opera Ballet in Salammbo; her </p>
-                                                                <pb n="9" xml:id="p9" facs="../images/p9.png"/>  
+                                                  <pb n="9" xml:id="p9" facs="../images/p9.png"/>
                                                   <p>father seemed very close in all that oriental
                                                   splendor of bamboo and hotel palms and stale sweat
                                                   and bracelets, an engagement of tears. In the
                                                   snow, in her white fox fur wraps, how more
                                                   beautiful than <persName>Mary Garden! <note n="3"
-                                                  >Mary Garden (1874-1967): Scottish opera soprano
-                                                  famed for her beauty. <ref
+                                                  >Mary Garden (1874-1967):Scottish opera soprano
+                                                  famed for her beauty.|<ref
                                                   target="https://en.wikipedia.org/wiki/Mary_Garden"
                                                   >Wikipedia</ref></note></persName></p>
                                                   </div>
@@ -208,7 +204,7 @@
                                                   <p rendition="#right">
                                                   <date>1953</date>
                                                   </p>
-                                                                <pb n="10" xml:id="p10" facs="../images/p10.png"/>
+                                                  <pb n="10" xml:id="p10" facs="../images/p10.png"/>
                                                   </div>
                                           </div>
                             </body>

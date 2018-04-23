@@ -74,46 +74,46 @@
 					<h2 align="center">Table of Contents</h2>
 					<ul>
 						<li><a href="../home.html">Home</a></li>
-						<li><a href="lunchpoemstei.xml">Full Book</a></li>
+						
 						<p></p>
 						<h3>Poems</h3>
-						<li><a href="music.xml">Music</a></li>
-						<li><a href="alma.xml">Alma</a></li>
-						<li><a href="on_rachmaninoffs_birthday.xml">On Rachmaninoff’s Birthday</a></li>
-						<li><a href="poem_i_watched_an_armory.xml">Poem [I watched an armory combing its bronze bricks]</a></li>
-						<li><a href="on_the_way_to_the_san_remo.xml">On the Way to the San Remo</a></li>
-						<li><a href="2_poems_from_the_ohara_monogatari.xml">2 Poems from the Ohara Monogatari </a></li>
-						<li><a href="a_step_away_from_them.xml">A Step Away from Them</a></li>
-						<li><a href="cambridge.xml">Cambridge</a></li>
-						<li><a href="poem_instant_coffe.xml">Poem [Instant coffee with slightly sour cream]</a></li>
-						<li><a href="three_airs.xml">Three Airs</a></li>
-						<li><a href="image_of_the_buddha_preaching.xml">Image of the Buddha Preaching</a></li>
-						<li><a href="song_is_it_dirty.xml">Song [Is it dirty]</a></li>
-						<li><a href="the_day_lady_died.xml">The Day Lady Died</a></li>
-						<li><a href="poem_wouldnt_it_be_funny.xml">Poem [Wouldn’t it be funny]</a></li>
-						<li><a href="poem_khruschev_is_coming_on_the_right_day.xml">Poem [Khrushchev is coming on the right day!]</a></li>
-						<li><a href="naphtha.xml">Naphtha</a></li>
-						<li><a href="personal_poem.xml">Personal Poem</a></li>
-						<li><a href="adieu_to_norman.xml">Adieu to Norman, Bon Jour to Joan and Jean-Paul</a></li>
-						<li><a href="rhapsody.xml">Rhapsody</a></li>
-						<li><a href="hotel_particulier.xml">Hôtel Particulier</a></li>
-						<li><a href="cornkind.xml">Cornkind</a></li>
-						<li><a href="how_to_get_there.xml">How To Get There</a></li>
-						<li><a href="a_little_travel_diary.xml">A Little Travel Diary</a></li>
-						<li><a href="five_poems.xml">Five Poems</a></li>
-						<li><a href="ave_maria.xml">Ave Maria</a></li>
-						<li><a href="pistachio_tree.xml">Pistachio Tree at Château Noir</a></li>
-						<li><a href="at_kamins_dance_bookshop.xml">At Kamin’s Dance Bookshop</a></li>
-						<li><a href="steps.xml">Steps</a></li>
-						<li><a href="mary_destis_ass.xml">Mary Desti’s Ass</a></li>
-						<li><a href="st_paul_and_all_that.xml">St. Paul and All That</a></li>
-						<li><a href="memoir_of_sergei_o.xml">Memoir of Sergei O. . . . </a></li>
-						<li><a href="yesterday_down_at_the_canal.xml">Yesterday Down at the Canal</a></li>
-						<li><a href="poem_en_forme_de_saw.xml">Poem en Forme de Saw</a></li>
-						<li><a href="for_the_chinese_new_year_and_for_bill_berkson.xml">For the Chinese New Year &amp; for Bill Berkson </a></li>
-						<li><a href="poem_lana_turner_has_collapsed.xml">Poem [Lana Turner has collapsed!]</a></li>
-						<li><a href="galanta.xml">Galanta</a></li>
-						<li><a href="fantasy.xml">Fantasy</a></li>
+						<li><a href="#p7">Music</a></li>
+						<li><a href="#p8">Alma</a></li>
+						<li><a href="#p11">On Rachmaninoff’s Birthday</a></li>
+						<li><a href="#p12">Poem [I watched an armory combing its bronze bricks]</a></li>
+						<li><a href="#p14">On the Way to the San Remo</a></li>
+						<li><a href="#p16">2 Poems from the Ohara Monogatari </a></li>
+						<li><a href="#18">A Step Away from Them</a></li>
+						<li><a href="#p20">Cambridge</a></li>
+						<li><a href="#p21">Poem [Instant coffee with slightly sour cream]</a></li>
+						<li><a href="#p22">Three Airs</a></li>
+						<li><a href="#p24">Image of the Buddha Preaching</a></li>
+						<li><a href="#p26">Song [Is it dirty]</a></li>
+						<li><a href="#p27">The Day Lady Died</a></li>
+						<li><a href="#p28">Poem [Wouldn’t it be funny]</a></li>
+						<li><a href="#p29">Poem [Khrushchev is coming on the right day!]</a></li>
+						<li><a href="#p31">Naphtha</a></li>
+						<li><a href="#p33">Personal Poem</a></li>
+						<li><a href="#p35">Adieu to Norman, Bon Jour to Joan and Jean-Paul</a></li>
+						<li><a href="#p37">Rhapsody</a></li>
+						<li><a href="#p39">Hôtel Particulier</a></li>
+						<li><a href="#p40">Cornkind</a></li>
+						<li><a href="#p42">How To Get There</a></li>
+						<li><a href="#p44">A Little Travel Diary</a></li>
+						<li><a href="#p46">Five Poems</a></li>
+						<li><a href="#p48">Ave Maria</a></li>
+						<li><a href="#p50">Pistachio Tree at Château Noir</a></li>
+						<li><a href="#p51">At Kamin’s Dance Bookshop</a></li>
+						<li><a href="#p52">Steps</a></li>
+						<li><a href="#p54">Mary Desti’s Ass</a></li>
+						<li><a href="#p57">St. Paul and All That</a></li>
+						<li><a href="#p59">Memoir of Sergei O. . . . </a></li>
+						<li><a href="#61">Yesterday Down at the Canal</a></li>
+						<li><a href="#62">Poem en Forme de Saw</a></li>
+						<li><a href="#p64">For the Chinese New Year &amp; for Bill Berkson </a></li>
+						<li><a href="#p70">Poem [Lana Turner has collapsed!]</a></li>
+						<li><a href="#p71">Galanta</a></li>
+						<li><a href="#p73">Fantasy</a></li>
 						<p></p>
 						<li><a href="https://github.com/dmgustav/dmgustav.github.io/blob/master/lunch_poems/content/lunchpoemstei.xml">Unstyled TEI</a></li>
 						<p></p>
@@ -125,7 +125,9 @@
 				<div id="tei_wrapper">
 					<xsl:apply-templates/>
 				</div>
-				
+				<div class="footnotes">
+					<xsl:apply-templates select="//tei:note" mode="endlist"/>
+				</div>
 				<xsl:copy-of select="$htmlFooter"/>
 				<script type="text/javascript" src="{$teibpJS}"></script>
 			</body>
@@ -222,7 +224,7 @@
 		</xsl:attribute>
 	</xsl:template>
 
-	<!--<xd:doc>
+	<xd:doc>
     <xd:desc>
       <xd:p>Transforms TEI ref element to html a (link) element.</xd:p>
     </xd:desc>
@@ -233,7 +235,7 @@
       <xsl:call-template name="rendition"/>
       <xsl:apply-templates select="node()"/>
     </a>
-  </xsl:template>-->
+  </xsl:template>
 
 	<xd:doc>
     <xd:desc>
@@ -617,7 +619,6 @@
 		<xsl:variable name="incr">
 			<xsl:number level="any" count="tei:note"/>
 		</xsl:variable>
-		
 		<p>
 			
 			<sup>
@@ -625,8 +626,8 @@
 					<xsl:value-of select="@n"/>
 				</a>
 			</sup>
-			<xsl:value-of select="substring-before(.,'|')"/>
-			<a href="{./tei:ref/@target}"><xsl:value-of select="./tei:ref"/></a>			
+			<xsl:value-of select="."/>
+			<xsl:text/>
 		</p>
 	</xsl:template>
 	
