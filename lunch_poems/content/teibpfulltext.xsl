@@ -125,6 +125,9 @@
 				<div id="tei_wrapper">
 					<xsl:apply-templates/>
 				</div>
+				<div class="footnotes">
+					<xsl:apply-templates select="//tei:note" mode="endlist"/>
+				</div>
 				<xsl:copy-of select="$htmlFooter"/>
 				<script type="text/javascript" src="{$teibpJS}"></script>
 			</body>
@@ -354,7 +357,7 @@
 
 			<script src="{$lessJS}"></script>
 			<link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
-		
+			<link id="customcss" rel="stylesheet" type="text/css" href="{$customCSS}"/>
 
 			<xsl:call-template name="tagUsage2style"/>
 			<xsl:call-template name="rendition2style"/>
