@@ -716,8 +716,14 @@ body > head {
 display: inline;
 float: left;
     margin-left: 15%;
-    padding-left: 5%;
-    height: 100%
+    
+	padding-left: 5%;
+    height: 100%;
+	
+}
+text{
+	padding-right:30%;
+	margin-right:30%;
 }
 div > head {
   font-size: 170%;
