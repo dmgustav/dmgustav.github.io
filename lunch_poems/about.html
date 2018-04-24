@@ -59,13 +59,18 @@ in O’Hara’s poems were not easily researchable. The restaurants and apartmen
 or, if they exist, they have changed their names. While it would undoubtedly be worthwhile to add geographical notes to these poems,
 I decided to prioritize providing biographical context. 
 </p>
-<p>The next to last stage in constructing this edition of <i>Lunch Poems</i> involved working with and modifying TEI Boilerplate.
+<p>The next to last stage in constructing this edition of <i>Lunch Poems</i> involved working with and modifying <a href="http://dcl.ils.indiana.edu/teibp/index.html">TEI 
+  Boilerplate</a>.
 TEI Boilerplate is a collection of XSLT, Javascript, and CSS which together transform TEI documents into styled HTML pages.
 This allows those interested to take advantage of the richness of TEI encoding while still presenting an attractive and uncluttered
 reading experience for those not interested in the underlying TEI. This involved modifying TEI Boilerplate’s XSLT to add a side
 navigation panel, and add footnotes (with code borrowed from Mia Partlow’s project). I also modified the default CSS, and created
-a home page as a cover for the project. As a final step, I wrote another XSLT to divide the book into its composite poems. I hosted
-these alongside the full document, and created a second side-nav panel to link between these poems. 
+  a home page as a cover for the project. As a final step, I wrote
+  <a href="https://github.com/dmgustav/dmgustav.github.io/blob/master/lunch_poems/content/Poem%20splitter.xsl">another XSLT</a> to divide the book into its composite poems. I hosted
+these alongside the full document, and created a second side-nav panel to link between these poems. At the home page, the reader can either enter the full book 
+  or enter at an individual poem. The full book and individual poems are displayed using <i>almost</i> identical XSLT, however the side
+  panel in the whole book (which is added using XSLT) links to sections of the full book, while the side panel in individual poems
+  links to other individual poems.
 </p>
 <p></p>
 <p></p>
