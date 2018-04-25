@@ -1,9 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>MARY DESTI'S ASS</head><lg><l>In Bayreuth once</l><l>we were very good friends of the <persName>Wagners<note n="76">Possibly Wilhelm Richard Wagner(1813-1883): German composer.|<ref target="https://en.wikipedia.org/wiki/Richard_Wagner">Wikipedia</ref></note></persName></l><l>and I stepped in once</l><l>for Isadora so perfectly</l><l>she would never allow me to dance again</l><l>that's the way it was in Bayreuth</l></lg><lg><l>the way it was in Hackensack</l><l>was different</l><l>there one never did anything</l><l>and everyone hated you anyway</l><l>it was fun, it was clear</l><l>you knew where you stood</l></lg><lg><l>in Boston you were never really standing</l><l>I was usually lying</l><l>it was amusing to be lying all</l><l>the time for everybody</l><l>it was like exercise</l></lg><lg><l>it means something to exercise</l><l>in Norfolk Virginia</l><l>it means you've been to bed with a Nigra</l><l>well it is exercise</l><l>the only difference is it's better than Boston</l></lg><pb n="54" xml:id="p54" facs="../images/p54.png"/><lg><l>I was walking along the street</l><l>of Cincinnati</l><l>and I met <persName>Kenneth Koch's <note n="77">Kenneth Koch (1925-2002): American poet and playwright. Koch was one of O'Hara's closest friends and a centeral figure in the New York School of poets. |<ref target="https://en.wikipedia.org/wiki/Kenneth_Koch">Wikipedia</ref></note></persName> mother</l><l>fresh from the Istanbul Hilton</l><l>she liked me and I liked her</l><l>we both liked Istanbul</l></lg><lg><l>then in Waukegan I met a furniture manufacturer</l><l>and it wiped out all dreams of pleasantness from my mind</l><l>it was like being pushed down hard</l><l>on a chair</l><l>it was like something horrible you hadn't expected</l><l>which is the most horrible thing</l></lg><lg><l>and in Singapore I got a dreadful</l><l>disease it was amusing to have bumps</l><l>except they went into my veins</l><l>and rose to the surface like Vesuvius</l><l>getting cured was like learning to smoke</l></lg><lg><l>yet I always loved Baltimore</l><l>the porches which hurt your ass</l><l>no, they were the steps</l><l>well you have a wet ass anyway</l><l>if they'd only stop scrubbing</l></lg><lg><l>and Frisco where I saw</l><l><persName>Toumanova <note n="78">Tamara Toumanova (1919-1996): Russian-born American Ballerina. The child of Russian exhiles, Toumanova began her career at 10. Toumanova and fellow Russian exiles  Irina Baronova and Tatiana Riabouchinska became known as "the baby ballerinas"|</note></persName> "the baby ballerina" except</l><l>she looked like a cow</l><l>I didn't know the history of the ballet yet</l><l>not that that taught me much</l></lg><pb n="55" xml:id="p55" facs="../images/p55.png"/><lg><l>now if you feel like you want to deal with</l><l>Tokyo</l><l>you've really got something to handle</l><l>it's like Times Square at midnight</l><l>you don't know where you're going</l><l>but you know</l></lg><lg><l>and then in Harbin I knew</l><l>how to behave it was glorious that</l><l>was love sneaking up on me through the snow</l><l>and I felt it was because of all</l><l>the postcards and the smiles and kisses and the grunts</l><l>that was love but I kept on traveling</l></lg><p rendition="#right"><date>1961</date></p><pb n="56" xml:id="p56" facs="../images/p56.png"/></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt/>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
+                <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
+                <tei:rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </tei:rendition>
+                <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                    display:block; padding-left:4em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                    display:block; padding-left:5em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                    display:block; padding-left:10em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                    display:block; padding-left:15em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                    display:block; padding-left:20em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                    display:block; padding-left:25em; text-indent:-2em; </tei:rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                <head>MARY DESTI'S ASS</head>
+                <lg>
+                    <l>In Bayreuth once</l>
+                    <l>we were very good friends of the <persName>Wagners<note n="1">Possibly
+                                Wilhelm Richard Wagner(1813-1883): German composer.|<ref
+                                    target="https://en.wikipedia.org/wiki/Richard_Wagner"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l>and I stepped in once</l>
+                    <l>for Isadora so perfectly</l>
+                    <l>she would never allow me to dance again</l>
+                    <l>that's the way it was in Bayreuth</l>
+                </lg>
+                <lg>
+                    <l>the way it was in Hackensack</l>
+                    <l>was different</l>
+                    <l>there one never did anything</l>
+                    <l>and everyone hated you anyway</l>
+                    <l>it was fun, it was clear</l>
+                    <l>you knew where you stood</l>
+                </lg>
+                <lg>
+                    <l>in Boston you were never really standing</l>
+                    <l>I was usually lying</l>
+                    <l>it was amusing to be lying all</l>
+                    <l>the time for everybody</l>
+                    <l>it was like exercise</l>
+                </lg>
+                <lg>
+                    <l>it means something to exercise</l>
+                    <l>in Norfolk Virginia</l>
+                    <l>it means you've been to bed with a Nigra</l>
+                    <l>well it is exercise</l>
+                    <l>the only difference is it's better than Boston</l>
+                </lg>
+                <pb n="54" xml:id="p54" facs="../images/p54.png"/>
+                <lg>
+                    <l>I was walking along the street</l>
+                    <l>of Cincinnati</l>
+                    <l>and I met <persName>Kenneth Koch's <note n="2">Kenneth Koch (1925-2002):
+                                American poet and playwright. Koch was one of O'Hara's closest
+                                friends and a centeral figure in the New York School of poets. |<ref
+                                    target="https://en.wikipedia.org/wiki/Kenneth_Koch"
+                                    >Wikipedia</ref></note></persName> mother</l>
+                    <l>fresh from the Istanbul Hilton</l>
+                    <l>she liked me and I liked her</l>
+                    <l>we both liked Istanbul</l>
+                </lg>
+                <lg>
+                    <l>then in Waukegan I met a furniture manufacturer</l>
+                    <l>and it wiped out all dreams of pleasantness from my mind</l>
+                    <l>it was like being pushed down hard</l>
+                    <l>on a chair</l>
+                    <l>it was like something horrible you hadn't expected</l>
+                    <l>which is the most horrible thing</l>
+                </lg>
+                <lg>
+                    <l>and in Singapore I got a dreadful</l>
+                    <l>disease it was amusing to have bumps</l>
+                    <l>except they went into my veins</l>
+                    <l>and rose to the surface like Vesuvius</l>
+                    <l>getting cured was like learning to smoke</l>
+                </lg>
+                <lg>
+                    <l>yet I always loved Baltimore</l>
+                    <l>the porches which hurt your ass</l>
+                    <l>no, they were the steps</l>
+                    <l>well you have a wet ass anyway</l>
+                    <l>if they'd only stop scrubbing</l>
+                </lg>
+                <lg>
+                    <l>and Frisco where I saw</l>
+                    <l><persName>Toumanova <note n="3">Tamara Toumanova (1919-1996): Russian-born
+                                American Ballerina. The child of Russian exhiles, Toumanova began
+                                her career at 10. Toumanova and fellow Russian exiles Irina Baronova
+                                and Tatiana Riabouchinska became known as "the baby
+                                ballerinas"|</note></persName> "the baby ballerina" except</l>
+                    <l>she looked like a cow</l>
+                    <l>I didn't know the history of the ballet yet</l>
+                    <l>not that that taught me much</l>
+                </lg>
+                <pb n="55" xml:id="p55" facs="../images/p55.png"/>
+                <lg>
+                    <l>now if you feel like you want to deal with</l>
+                    <l>Tokyo</l>
+                    <l>you've really got something to handle</l>
+                    <l>it's like Times Square at midnight</l>
+                    <l>you don't know where you're going</l>
+                    <l>but you know</l>
+                </lg>
+                <lg>
+                    <l>and then in Harbin I knew</l>
+                    <l>how to behave it was glorious that</l>
+                    <l>was love sneaking up on me through the snow</l>
+                    <l>and I felt it was because of all</l>
+                    <l>the postcards and the smiles and kisses and the grunts</l>
+                    <l>that was love but I kept on traveling</l>
+                </lg>
+                <p rendition="#right">
+                    <date>1961</date>
+                </p>
+                <pb n="56" xml:id="p56" facs="../images/p56.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

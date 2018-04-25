@@ -121,7 +121,7 @@
             <head>ALMA</head>
             <epigraph>
                <p rendition="#itl"> "Est-elle almee? . . . aux premieres heures bleues Se detruira-t-elle
-                  comme les fleurs feues. . . /'<note n="1">"Is she an Egyptian dancer? ... in the first blue hours will she destroy herself like deceased flowers..." - Arthur Rimbaud <hi rendition="#itl">"Est-elle almee?..."</hi> translated by John Kinsella.|</note></p>
+                  comme les fleurs feues. . . /'<note n="1">"Is she an Egyptian dancer? ... in the first blue hours will she destroy herself like deceased flowers..." - Rimbaud <hi rendition="#itl">Est-elle almee?...</hi> translated by John Kinsella.|</note></p>
                <p> — Rimbaud.</p>
             </epigraph>
             <div type="part">
@@ -457,7 +457,7 @@
                <l>are cats playing in sawdust.</l>
             </lg>
             <lg>
-               <l rendition="#l-indent-05">On</l>
+               <l rendition="#right">On</l>
                <l>to Times Square, where the sign</l>
                <l>blows smoke over my head, and higher</l>
                <l>the waterfall pours lightly. A</l>
@@ -524,7 +524,7 @@
             <l>the greatest living Russian poet at incalculable cost.</l>
             <l>Across the street there is a house under construction,</l>
             <l>abandoned to the rain. Secretly, I shall go to work on it.</l>
-            <p rendition="#right"><date>1956</date></p>
+            <l>1956</l>
             <pb n="20" xml:id="p20" facs="../images/p20.png"/>
          </div>
          
@@ -686,7 +686,7 @@
                <l>is the character less bad. no. it improves constantly</l>
                <l>you don't refuse to breathe do you</l>
             </lg>
-            <p rendition="#right"><date>1959</date></p>
+            <l>1959</l>
             <pb n="26" xml:id="p26" facs="../images/p26.png"/>
          </div>
         
@@ -968,7 +968,7 @@
                <l><persName>Rene Char,<note n="53">Rene Char (1907-1988): French poet and member of the french resistance. |<ref target="https://en.wikipedia.org/wiki/Ren%C3%A9_Char">Wikipedia</ref></note></persName> <persName>Pierre Reverdy,<note n="54">Pierre Reverdy (1889-1960): French poet and surrealist. |<ref target="https://en.wikipedia.org/wiki/Pierre_Reverdy">Wikipedia</ref></note></persName> <persName>Samuel Beckett<note n="55">Samuel Beckett (1906-1989): Irish avant-garde writer. |<ref target="https://en.wikipedia.org/wiki/Samuel_Beckett">Wikipedia</ref></note></persName> it is possible isn't it</l>
                <l>I love Reverdy for saying yes, though I don't believe it</l>
             </lg>
-            <p rendition="#right"><date>1959</date></p>
+            <l>1959</l>
             <pb n="36" xml:id="p36" facs="../images/p36.png"/>
          </div>
        

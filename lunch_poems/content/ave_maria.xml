@@ -1,11 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>AVE MARIA</head><lg><l>Mothers of America</l><l rendition="#l-indent-03">let your kids go to the movies!</l><l>get them out of the house so they won't know what you're up to</l><l>it's true that fresh air is good for the body</l><l rendition="#l-indent-05">but what about the soul</l><l>that grows in darkness, embossed by silvery images</l><l>and when you grow old as grow old you must</l><l rendition="#l-indent-05"> they won't hate you</l><l>they won't criticise you they won't know</l><l rendition="#l-indent-03"> they'll be in some glamorous country</l><l>they first saw on a Saturday afternoon or playing hookey</l></lg><lg><l>they may even be grateful to you</l><l rendition="#l-indent-04">for their first sexual experience</l><l>which only cost you a quarter</l><l rendition="#l-indent-03"> and didn't upset the peaceful home</l><l>they will know where candy bars come from</l><l rendition="#l-indent-04">and gratuitous bags of popcorn </l><l>s gratuitous as leaving the movie before it's over with a pleasant stranger whose
-                  apartment is in the</l><l rendition="#l-indent-05">Heaven on Earth Bldg</l><l>near the Williamsburg Bridge</l><l rendition="#l-indent-03">oh mothers you will have made the little tykes</l><l>so happy because if nobody does pick them up in the movies</l><l>they won't know the difference</l><l rendition="#l-indent-03"> and if somebody does it'll be sheer gravy</l><l>and they'll have been truly entertained either way</l><l>instead of hanging around the
-                  yard</l><l rendition="#l-indent-04">or up in their room</l><l rendition="#right">hating you</l><pb n="48" xml:id="p48" facs="../images/p48.png"/><l>prematurely since you won't have done anything horribly</l><l rendition="#right">mean yet</l><l>except keeping them from the darker joys</l><l rendition="#right">it's unforgivable the latter</l><l>so don't blame me if you won't take this advice</l><l rendition="#right">and the family breaks up</l><l>and your children grow old and blind in front of a TV set</l><l rendition="#right">seeing</l><l>movies you wouldn't let them see when they were young</l></lg><p rendition="#right"><date>1960</date></p><pb n="49" xml:id="p49" facs="../images/p49.png"/></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+              <teiHeader>
+                            <fileDesc>
+                                          <titleStmt>
+                                                  <title>Lunch Poems</title>
+                                                  <author>Frank O'Hara</author>
+                                                  <respStmt>
+                                                  <resp>Created using XSLT from EPUB, encoded by </resp>
+                                                  <name>David Gustavsen</name>
+                                                  </respStmt>
+                                          </titleStmt>
+                                          <publicationStmt>
+                                                  <publisher>City Lights Books</publisher>
+                                                  <date>1964</date>
+                                          </publicationStmt>
+                                          <seriesStmt>
+                                                  <p>Pocket Poets Series: Number 19</p>
+                                          </seriesStmt>
+                                          <notesStmt/>
+                                          <sourceDesc>
+                                                  <p>Created using XSLT from an EPUB then edited for
+                                                  consistancy</p>
+                                          </sourceDesc>
+                            </fileDesc>
+                            <encodingDesc>
+                                          <schemaSpec ident="myTEI" docLang="en" prefix="tei_"
+                                                  xml:lang="en">
+                                                  <moduleRef key="core" except=""/>
+                                                  <moduleRef key="tei" except=""/>
+                                                  <moduleRef key="header" except=""/>
+                                                  <moduleRef key="textstructure" except=""/>
+                                                  <moduleRef key="namesdates" except=""/>
+                                                  <moduleRef key="verse" except=""/>
+                                          </schemaSpec>
+                                          <tagsDecl>
+                                                  <tei:rendition xml:id="center" n="tiebp:center"
+                                                  scheme="css"> display:block; text-align:center;
+                                                  margin-left:auto; margin-right:auto; </tei:rendition>
+                                                  <tei:rendition xml:id="itl" n="tiebp:itl"
+                                                  scheme="css"> font-style: italic; </tei:rendition>
+                                                  <tei:rendition xml:id="right" n="teibp:right"
+                                                  scheme="css"> text-align:right; </tei:rendition>
+                                                  <tei:rendition xml:id="l-indent-01"
+                                                  n="tiebp:l-indent-01" scheme="css"> display:block;
+                                                  padding-left:4em; text-indent:-2em; </tei:rendition>
+                                                  <tei:rendition xml:id="l-indent-02"
+                                                  n="tiebp:l-indent-02" scheme="css"> display:block;
+                                                  padding-left:5em; text-indent:-2em; </tei:rendition>
+                                                  <tei:rendition xml:id="l-indent-03"
+                                                  n="tiebp:l-indent-03" scheme="css"> display:block;
+                                                  padding-left:10em; text-indent:-2em; </tei:rendition>
+                                                  <tei:rendition xml:id="l-indent-04"
+                                                  n="tiebp:l-indent-04" scheme="css"> display:block;
+                                                  padding-left:15em; text-indent:-2em; </tei:rendition>
+                                                  <tei:rendition xml:id="l-indent-05"
+                                                  n="tiebp:l-indent-05" scheme="css"> display:block;
+                                                  padding-left:20em; text-indent:-2em; </tei:rendition>
+                                                  <tei:rendition xml:id="l-indent-06"
+                                                  n="tiebp:l-indent-06" scheme="css"> display:block;
+                                                  padding-left:25em; text-indent:-2em;
+                                                  </tei:rendition>
+                                          </tagsDecl>
+                            </encodingDesc>
+              </teiHeader>
+              <text>
+                            <body>
+                                          <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                                                  <head>AVE MARIA</head>
+                                                  <lg>
+                                                  <l>Mothers of America</l>
+                                                  <l rendition="#l-indent-03">let your kids go to
+                                                  the movies!</l>
+                                                  <l>get them out of the house so they won't know
+                                                  what you're up to</l>
+                                                  <l>it's true that fresh air is good for the
+                                                  body</l>
+                                                  <l rendition="#l-indent-05">but what about the
+                                                  soul</l>
+                                                  <l>that grows in darkness, embossed by silvery
+                                                  images</l>
+                                                  <l>and when you grow old as grow old you must</l>
+                                                  <l rendition="#l-indent-05"> they won't hate
+                                                  you</l>
+                                                  <l>they won't criticise you they won't know</l>
+                                                  <l rendition="#l-indent-03"> they'll be in some
+                                                  glamorous country</l>
+                                                  <l>they first saw on a Saturday afternoon or
+                                                  playing hookey</l>
+                                                  </lg>
+                                                  <lg>
+                                                  <l>they may even be grateful to you</l>
+                                                  <l rendition="#l-indent-04">for their first sexual
+                                                  experience</l>
+                                                  <l>which only cost you a quarter</l>
+                                                  <l rendition="#l-indent-03"> and didn't upset the
+                                                  peaceful home</l>
+                                                  <l>they will know where candy bars come from</l>
+                                                  <l rendition="#l-indent-04">and gratuitous bags of
+                                                  popcorn </l>
+                                                  <l>s gratuitous as leaving the movie before it's
+                                                  over with a pleasant stranger whose apartment is
+                                                  in the</l>
+                                                  <l rendition="#l-indent-05">Heaven on Earth
+                                                  Bldg</l>
+                                                  <l>near the Williamsburg Bridge</l>
+                                                  <l rendition="#l-indent-03">oh mothers you will
+                                                  have made the little tykes</l>
+                                                  <l>so happy because if nobody does pick them up in
+                                                  the movies</l>
+                                                  <l>they won't know the difference</l>
+                                                  <l rendition="#l-indent-03"> and if somebody does
+                                                  it'll be sheer gravy</l>
+                                                  <l>and they'll have been truly entertained either
+                                                  way</l>
+                                                  <l>instead of hanging around the yard</l>
+                                                  <l rendition="#l-indent-04">or up in their
+                                                  room</l>
+                                                  <l rendition="#right">hating you</l>
+                                                  <pb n="48" xml:id="p48" facs="../images/p48.png"/>
+                                                  <l>prematurely since you won't have done anything
+                                                  horribly</l>
+                                                  <l rendition="#right">mean yet</l>
+                                                  <l>except keeping them from the darker joys</l>
+                                                  <l rendition="#right">it's unforgivable the
+                                                  latter</l>
+                                                  <l>so don't blame me if you won't take this
+                                                  advice</l>
+                                                  <l rendition="#right">and the family breaks up</l>
+                                                  <l>and your children grow old and blind in front
+                                                  of a TV set</l>
+                                                  <l rendition="#right">seeing</l>
+                                                  <l>movies you wouldn't let them see when they were
+                                                  young</l>
+                                                  </lg>
+                                                  <p rendition="#right">
+                                                  <date>1960</date>
+                                                  </p>
+                                                  <pb n="49" xml:id="p49" facs="../images/p49.png"/>
+                                          </div>
+                            </body>
+              </text>
+</TEI>

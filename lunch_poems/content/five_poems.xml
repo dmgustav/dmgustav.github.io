@@ -1,9 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>FIVE POEMS</head><div type="part"><l>Well now, hold on</l><l>maybe I won't go to sleep at all</l><l>and it'll be a beautiful white night</l><l>or else I'll collapse</l><l>completely from nerves and be calm</l><l>as a rug or a bottle of pills</l><l>or suddenly I'll be off Montauk</l><l>swimming and loving it and not caring where</l><lg><l rendition="#center">*****</l></lg></div><div type="part"><l>an invitation to lunch</l><l>HOW DO YOU LIKE THAT?</l><l>when I only have 16 cents and 2</l><l>packages of yoghurt</l><l>there's a lesson in that, isn't there</l><l>like in Chinese poetry when a leaf falls?</l><l>hold off on the yoghurt till the very</l><l>last, when everything may improve</l><lg><l rendition="#center">*****</l></lg></div><div type="part"><lg><l>at the Rond-Point they were eating</l><l>a oyster, but here</l><l>we were dropping by sculptures</l><l>and seeing some paintings</l><l>and the smasheroo-grates of Cadoret</l><l>and music by <persName>Varese,<note n="68">Edgard Varèse (1883-1965): French-American Composer. |<ref target="https://en.wikipedia.org/wiki/Edgard_Var%C3%A8se">Wikipedia</ref></note></persName> too</l><l>well <persName>Adolph Gottlieb <note n="69">Adolph Gottlieb (1903-1974): American abstract expressionist artist. |<ref target="https://en.wikipedia.org/wiki/Adolph_Gottlieb">Wikipedia</ref></note></persName> I guess you</l><pb n="46" xml:id="p46" facs="../images/p46.png"/><l>are the hero of this day along with venison and <persName>Bill<note n="70"> Bill Berkson (1939-2016): American poet, student of Kenneth Koch, and friend of O'Hara's. |<ref target="https://en.wikipedia.org/wiki/Bill_Berkson">Wikipedia</ref></note></persName></l></lg><lg><l>I'll sleep on the yoghurt and dream of the Persian Gulf</l></lg><lg><l rendition="#center">*****</l></lg></div><div type="part"><l>which I did it was wonderful</l><l>to be in bed again and the knock</l><l>on my door for once signified "hi there"</l><l>and on the deafening walk</l><l>through the ghettos where bombs have gone off lately</l><l>left by subway violators</l><l>I knew why I love taxis, yes</l><l>subways are only fun when you're feeling sexy</l><l>and who feels sexy after The Blue Angel</l><l>well maybe a little bit</l><lg><l rendition="#center">*****</l></lg></div><div type="part"><l>I seem to be defying fate, or am I avoiding it?</l><p rendition="#right"><date>1960</date></p><pb n="47" xml:id="p47" facs="../images/p47.png"/></div></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt/>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
+                <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
+                <tei:rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </tei:rendition>
+                <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                    display:block; padding-left:4em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                    display:block; padding-left:5em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                    display:block; padding-left:10em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                    display:block; padding-left:15em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                    display:block; padding-left:20em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                    display:block; padding-left:25em; text-indent:-2em; </tei:rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                <head>FIVE POEMS</head>
+                <div type="part">
+                    <l>Well now, hold on</l>
+                    <l>maybe I won't go to sleep at all</l>
+                    <l>and it'll be a beautiful white night</l>
+                    <l>or else I'll collapse</l>
+                    <l>completely from nerves and be calm</l>
+                    <l>as a rug or a bottle of pills</l>
+                    <l>or suddenly I'll be off Montauk</l>
+                    <l>swimming and loving it and not caring where</l>
+                    <lg>
+                        <l rendition="#center">*****</l>
+                    </lg>
+                </div>
+                <div type="part">
+                    <l>an invitation to lunch</l>
+                    <l>HOW DO YOU LIKE THAT?</l>
+                    <l>when I only have 16 cents and 2</l>
+                    <l>packages of yoghurt</l>
+                    <l>there's a lesson in that, isn't there</l>
+                    <l>like in Chinese poetry when a leaf falls?</l>
+                    <l>hold off on the yoghurt till the very</l>
+                    <l>last, when everything may improve</l>
+                    <lg>
+                        <l rendition="#center">*****</l>
+                    </lg>
+                </div>
+                <div type="part">
+                    <lg>
+                        <l>at the Rond-Point they were eating</l>
+                        <l>a oyster, but here</l>
+                        <l>we were dropping by sculptures</l>
+                        <l>and seeing some paintings</l>
+                        <l>and the smasheroo-grates of Cadoret</l>
+                        <l>and music by <persName>Varese,<note n="1">Edgard Varèse (1883-1965):
+                                    French-American Composer. |<ref
+                                        target="https://en.wikipedia.org/wiki/Edgard_Var%C3%A8se"
+                                        >Wikipedia</ref></note></persName> too</l>
+                        <l>well <persName>Adolph Gottlieb <note n="2">Adolph Gottlieb (1903-1974):
+                                    American abstract expressionist artist. |<ref
+                                        target="https://en.wikipedia.org/wiki/Adolph_Gottlieb"
+                                        >Wikipedia</ref></note></persName> I guess you</l>
+                        <pb n="46" xml:id="p46" facs="../images/p46.png"/>
+                        <l>are the hero of this day along with venison and <persName>Bill<note
+                                    n="3"> Bill Berkson (1939-2016): American poet, student of
+                                    Kenneth Koch, and friend of O'Hara's. |<ref
+                                        target="https://en.wikipedia.org/wiki/Bill_Berkson"
+                                        >Wikipedia</ref></note></persName></l>
+                    </lg>
+                    <lg>
+                        <l>I'll sleep on the yoghurt and dream of the Persian Gulf</l>
+                    </lg>
+                    <lg>
+                        <l rendition="#center">*****</l>
+                    </lg>
+                </div>
+                <div type="part">
+                    <l>which I did it was wonderful</l>
+                    <l>to be in bed again and the knock</l>
+                    <l>on my door for once signified "hi there"</l>
+                    <l>and on the deafening walk</l>
+                    <l>through the ghettos where bombs have gone off lately</l>
+                    <l>left by subway violators</l>
+                    <l>I knew why I love taxis, yes</l>
+                    <l>subways are only fun when you're feeling sexy</l>
+                    <l>and who feels sexy after The Blue Angel</l>
+                    <l>well maybe a little bit</l>
+                    <lg>
+                        <l rendition="#center">*****</l>
+                    </lg>
+                </div>
+                <div type="part">
+                    <l>I seem to be defying fate, or am I avoiding it?</l>
+                    <p rendition="#right">
+                        <date>1960</date>
+                    </p>
+                    <pb n="47" xml:id="p47" facs="../images/p47.png"/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

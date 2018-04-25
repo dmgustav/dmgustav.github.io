@@ -1,9 +1,177 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>ADIEU TO <persName>NORMAN, <note n="42">Norman Bluhm (1921-1999):  American abstract expressionist painter. Bluhm was a friend of O'Hara's, and collaborated with him on several poem/paintings which attempted to combine the gestural paintings of abstract expressionism with the studied casualness of O'Hara's language. |<ref target="https://en.wikipedia.org/wiki/Norman_Bluhm">Wikipedia</ref></note></persName> BON JOUR TO <persName>JOAN<note n="43">Likely Joan Mitchell (1925-1992): Abstract expressionist painter and printmaker. |<ref target="https://en.wikipedia.org/wiki/Joan_Mitchell">Wikipedia</ref></note></persName> AND <persName>JEAN-PAUL <note n="44">Possibly Jean-Paul Riopelle (1923-2002: Canadian painter and sculptor. |<ref target="https://en.wikipedia.org/wiki/Jean-Paul_Riopelle">Wikipedia</ref></note></persName></head><lg><l>It is 12 : 10 in New York and I am wondering</l><l>if I will finish this in time to meet Norman for lunch</l><l>ah lunch! I think I am going crazy</l><l>what with my terrible hangover and the weekend coming up</l><l>at excitement-prone <persName>Kenneth Koch's<note n="45">Kenneth Koch (1925-2002): American poet and playwright. Koch was one of O'Hara's closest friends and a centeral figure in the New York School of poets. |<ref target="https://en.wikipedia.org/wiki/Kenneth_Koch">Wikipedia</ref></note></persName></l><l>I wish I were staying in town and working on my poems</l><l>at Joan's studio for a new book by Grove Press</l><l>which they will probably not print</l><l>but it is good to be several floors up in the dead of night</l><l>wondering whether you are any good or not</l><l>and the only decision you can make is that you did it</l></lg><lg><l>yesterday I looked up the rue Fremicourt on a map</l><l>and was happy to find it like a bird</l><l>flying over Paris et ses environs</l><l>which unfortunately did not include Seine-et-Oise</l><l rendition="#right">which I don't know</l><l>as well as a number of other things</l><l>and <persName>Allen<note n="46">Allen Ginsberg (1926-1997): poet, philospher, and leading figure in the beat movement on American counter-culture. |<ref target="https://en.wikipedia.org/wiki/Allen_Ginsberg">Wikipedia</ref></note></persName> is back talking about god a lot</l><l>and Peter is back not talking very much</l><l>and <persName>Joe<note n="47">Joe LeSuer (1924-2001): O'Hara's friend, housemate, and occassional lover.|</note></persName> has a cold and is not coming to Kenneth's</l><l>although he is coming to lunch with Norman</l><l>I suspect he is making a distinction well, who isn't</l></lg><lg><l>I wish I were reeling around Paris</l><l>instead of reeling around New York</l><l>I wish I weren't reeling at all</l><l>it is Spring the ice has melted the Ricard is being poured</l><pb n="35" xml:id="p35" facs="../images/p35.png"/><l>we are all happy and young and toothless</l><l>it is the same as old age</l><l>the only thing to do is simply continue</l><l>is that simple</l><l>yes, it is simple because it is the only thing to do</l><l>can you do it</l><l>yes, you can because it is the only thing to do</l><l>blue light over the Bois de Boulogne it continues</l><l>the Seine continues</l><l>the Louvre stays open it continues it hardly closes at all</l><l>the Bar Americain continues to be French</l><l><persName>de Gaulle<note n="48">Charles de Gaulle (1890-1970): French general who lead the French Resistance against Germany. |<ref target="https://en.wikipedia.org/wiki/Charles_de_Gaulle">Wikipedia</ref></note></persName> continues to be Algerian as does <persName>Camus<note n="49">Albert Camus (1913-1960): French philosopher and writer, winner of the 1957 Nobel prize in Literature. |<ref target="https://en.wikipedia.org/wiki/Albert_Camus">Wikipedia</ref></note></persName></l><l><persName>Shirley Goldfarb<note n="50">Shirley Goldfarb (1925-1980): American painter and writer. |<ref target="https://en.wikipedia.org/wiki/Shirley_Goldfarb">Wikipedia</ref></note></persName> continues to be Shirley Goldfarb</l><l>and <persName>Jane Hazan<note n="51">Jane Freilicher (1924-2014): American painter and muse to many of the writers in O'Hara's circle. Freilicher married the painter Joe Hazan, but kept her the name Freilicher (from a previous marriage) hence O'Hara's joke. |<ref target="https://en.wikipedia.org/wiki/Jane_Freilicher">Wikipedia</ref></note></persName> continues to be Jane Freilicher (I think!)</l><l>and <persName>Irving Sandler<note n="52">Irving Sandler (1925-): American art critic and art historian who managed that Tanager Gallery. |<ref target="https://en.wikipedia.org/wiki/Irving_Sandler">Wikipedia</ref></note></persName> continues to be the balayeur des artistes</l><l>and so do I (sometimes I think I'm "in love" with painting)</l><l>and surely the Piscine Deligny continues to have water in it</l><l>and the Flore continues to have tables and newspapers</l><l rendition="#right">and people under them</l><l>and surely we shall not continue to be unhappy</l><l>we shall be happy</l><l>but we shall continue to be ourselves everything</l><l rendition="#right">continues to be possible</l><l><persName>Rene Char,<note n="53">Rene Char (1907-1988): French poet and member of the french resistance. |<ref target="https://en.wikipedia.org/wiki/Ren%C3%A9_Char">Wikipedia</ref></note></persName><persName>Pierre Reverdy,<note n="54">Pierre Reverdy (1889-1960): French poet and surrealist. |<ref target="https://en.wikipedia.org/wiki/Pierre_Reverdy">Wikipedia</ref></note></persName><persName>Samuel Beckett<note n="55">Samuel Beckett (1906-1989): Irish avant-garde writer. |<ref target="https://en.wikipedia.org/wiki/Samuel_Beckett">Wikipedia</ref></note></persName> it is possible isn't it</l><l>I love Reverdy for saying yes, though I don't believe it</l></lg><p rendition="#right"><date>1959</date></p><pb n="36" xml:id="p36" facs="../images/p36.png"/></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt/>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
+                <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
+                <tei:rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </tei:rendition>
+                <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                    display:block; padding-left:4em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                    display:block; padding-left:5em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                    display:block; padding-left:10em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                    display:block; padding-left:15em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                    display:block; padding-left:20em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                    display:block; padding-left:25em; text-indent:-2em; </tei:rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                <head>ADIEU TO <persName>NORMAN, <note n="1">Norman Bluhm (1921-1999): American
+                            abstract expressionist painter. Bluhm was a friend of O'Hara's, and
+                            collaborated with him on several poem/paintings which attempted to
+                            combine the gestural paintings of abstract expressionism with the
+                            studied casualness of O'Hara's language. |<ref
+                                target="https://en.wikipedia.org/wiki/Norman_Bluhm"
+                            >Wikipedia</ref></note></persName> BON JOUR TO <persName>JOAN<note
+                            n="2">Likely Joan Mitchell (1925-1992): Abstract expressionist painter
+                            and printmaker. |<ref
+                                target="https://en.wikipedia.org/wiki/Joan_Mitchell"
+                            >Wikipedia</ref></note></persName> AND <persName>JEAN-PAUL <note n="3"
+                            >Possibly Jean-Paul Riopelle (1923-2002: Canadian painter and sculptor.
+                                |<ref target="https://en.wikipedia.org/wiki/Jean-Paul_Riopelle"
+                                >Wikipedia</ref></note></persName></head>
+                <lg>
+                    <l>It is 12 : 10 in New York and I am wondering</l>
+                    <l>if I will finish this in time to meet Norman for lunch</l>
+                    <l>ah lunch! I think I am going crazy</l>
+                    <l>what with my terrible hangover and the weekend coming up</l>
+                    <l>at excitement-prone <persName>Kenneth Koch's<note n="4">Kenneth Koch
+                                (1925-2002): American poet and playwright. Koch was one of O'Hara's
+                                closest friends and a centeral figure in the New York School of
+                                poets. |<ref target="https://en.wikipedia.org/wiki/Kenneth_Koch"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l>I wish I were staying in town and working on my poems</l>
+                    <l>at Joan's studio for a new book by Grove Press</l>
+                    <l>which they will probably not print</l>
+                    <l>but it is good to be several floors up in the dead of night</l>
+                    <l>wondering whether you are any good or not</l>
+                    <l>and the only decision you can make is that you did it</l>
+                </lg>
+                <lg>
+                    <l>yesterday I looked up the rue Fremicourt on a map</l>
+                    <l>and was happy to find it like a bird</l>
+                    <l>flying over Paris et ses environs</l>
+                    <l>which unfortunately did not include Seine-et-Oise</l>
+                    <l rendition="#right">which I don't know</l>
+                    <l>as well as a number of other things</l>
+                    <l>and <persName>Allen<note n="5">Allen Ginsberg (1926-1997): poet, philospher,
+                                and leading figure in the beat movement on American counter-culture.
+                                    |<ref target="https://en.wikipedia.org/wiki/Allen_Ginsberg"
+                                    >Wikipedia</ref></note></persName> is back talking about god a
+                        lot</l>
+                    <l>and Peter is back not talking very much</l>
+                    <l>and <persName>Joe<note n="6">Joe LeSuer (1924-2001): O'Hara's friend,
+                                housemate, and occassional lover.|</note></persName> has a cold and
+                        is not coming to Kenneth's</l>
+                    <l>although he is coming to lunch with Norman</l>
+                    <l>I suspect he is making a distinction well, who isn't</l>
+                </lg>
+                <lg>
+                    <l>I wish I were reeling around Paris</l>
+                    <l>instead of reeling around New York</l>
+                    <l>I wish I weren't reeling at all</l>
+                    <l>it is Spring the ice has melted the Ricard is being poured</l>
+                    <pb n="35" xml:id="p35" facs="../images/p35.png"/>
+                    <l>we are all happy and young and toothless</l>
+                    <l>it is the same as old age</l>
+                    <l>the only thing to do is simply continue</l>
+                    <l>is that simple</l>
+                    <l>yes, it is simple because it is the only thing to do</l>
+                    <l>can you do it</l>
+                    <l>yes, you can because it is the only thing to do</l>
+                    <l>blue light over the Bois de Boulogne it continues</l>
+                    <l>the Seine continues</l>
+                    <l>the Louvre stays open it continues it hardly closes at all</l>
+                    <l>the Bar Americain continues to be French</l>
+                    <l><persName>de Gaulle<note n="7">Charles de Gaulle (1890-1970): French general
+                                who lead the French Resistance against Germany. |<ref
+                                    target="https://en.wikipedia.org/wiki/Charles_de_Gaulle"
+                                    >Wikipedia</ref></note></persName> continues to be Algerian as
+                        does <persName>Camus<note n="8">Albert Camus (1913-1960): French
+                                philosopher and writer, winner of the 1957 Nobel prize in
+                                Literature. |<ref
+                                    target="https://en.wikipedia.org/wiki/Albert_Camus"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l><persName>Shirley Goldfarb<note n="9">Shirley Goldfarb (1925-1980): American
+                                painter and writer. |<ref
+                                    target="https://en.wikipedia.org/wiki/Shirley_Goldfarb"
+                                    >Wikipedia</ref></note></persName> continues to be Shirley
+                        Goldfarb</l>
+                    <l>and <persName>Jane Hazan<note n="10">Jane Freilicher (1924-2014): American
+                                painter and muse to many of the writers in O'Hara's circle.
+                                Freilicher married the painter Joe Hazan, but kept her the name
+                                Freilicher (from a previous marriage) hence O'Hara's joke. |<ref
+                                    target="https://en.wikipedia.org/wiki/Jane_Freilicher"
+                                    >Wikipedia</ref></note></persName> continues to be Jane
+                        Freilicher (I think!)</l>
+                    <l>and <persName>Irving Sandler<note n="11">Irving Sandler (1925-): American art
+                                critic and art historian who managed that Tanager Gallery. |<ref
+                                    target="https://en.wikipedia.org/wiki/Irving_Sandler"
+                                    >Wikipedia</ref></note></persName> continues to be the balayeur
+                        des artistes</l>
+                    <l>and so do I (sometimes I think I'm "in love" with painting)</l>
+                    <l>and surely the Piscine Deligny continues to have water in it</l>
+                    <l>and the Flore continues to have tables and newspapers</l>
+                    <l rendition="#right">and people under them</l>
+                    <l>and surely we shall not continue to be unhappy</l>
+                    <l>we shall be happy</l>
+                    <l>but we shall continue to be ourselves everything</l>
+                    <l rendition="#right">continues to be possible</l>
+                    <l><persName>Rene Char,<note n="12">Rene Char (1907-1988): French poet and
+                                member of the french resistance. |<ref
+                                    target="https://en.wikipedia.org/wiki/Ren%C3%A9_Char"
+                                    >Wikipedia</ref></note></persName><persName>Pierre Reverdy,<note
+                                n="13">Pierre Reverdy (1889-1960): French poet and surrealist. |<ref
+                                    target="https://en.wikipedia.org/wiki/Pierre_Reverdy"
+                                    >Wikipedia</ref></note></persName><persName>Samuel Beckett<note
+                                n="14">Samuel Beckett (1906-1989): Irish avant-garde writer. |<ref
+                                    target="https://en.wikipedia.org/wiki/Samuel_Beckett"
+                                    >Wikipedia</ref></note></persName> it is possible isn't it</l>
+                    <l>I love Reverdy for saying yes, though I don't believe it</l>
+                </lg>
+                <p rendition="#right">
+                    <date>1959</date>
+                </p>
+                <pb n="36" xml:id="p36" facs="../images/p36.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

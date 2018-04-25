@@ -1,9 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>NAPHTHA</head><lg><l>Ah <persName>Jean Dubuffet<note n="32">Jean Dubuffet (1901-1985): French painter and sculptor and founder of the Art Brut movement. |<ref target="https://en.wikipedia.org/wiki/Jean_Dubuffet">Wikipedia</ref></note></persName></l><l>when you think of him</l><l>doing his military service in the Eiffel Tower</l><l>as a meteorologist</l><l>in 1922</l><l>you know how wonderful the 20th Century</l><l>can be</l><l>and the gaited Iroquois on the girders</l><l>fierce and unflinching-footed</l><l>nude as they should be</l><l>slightly empty</l><l>like a <persName>Sonia Delaunay<note n="33">Sonia Delaunay (1885-1979): Ukrainian-born French artist and cofounder of the Orphism art movement. |<ref target="https://en.wikipedia.org/wiki/Sonia_Delaunay">Wikipedia</ref></note></persName></l><l>there is a parable of speed</l><l>somewhere behind the Indians' eyes</l><l>they invented the century with their horses</l><l>and their fragile backs</l><l>which are dark</l></lg><lg><l>we owe a debt to the Iroquois</l><l>and to <persName>Duke Ellington<note n="34">Edward Kennedy "Duke" Ellington (1899-1974): American Jazz composer, pianist and bandleader. |<ref target="https://en.wikipedia.org/wiki/Duke_Ellington">Wikipedia</ref></note></persName></l><l>for playing in the buildings when they are built</l><l>we don't do much ourselves</l><l>but fuck and think</l><l>of the haunting Metro</l><l>and the one who didn't show up there</l><l>while we were waiting to become part of our century</l><l>just as you can't make a hat out of steel</l><l>and still wear it</l><l>who wears hats anyway</l><l>it is our tribe's custom</l><l>to beguile</l><pb n="31" xml:id="p31" facs="../images/p31.png"/><l>how are you feeling in ancient September</l><l>I am feeling like a truck on a wet highway</l><l>how can you</l><l>you were made in the image of god</l><l>I was not</l><l>I was made in the image of a sissy truck-driver</l><l>and Jean Dubuffet painting his cows</l><l>"with a likeness burst in the memory"</l><l>apart from love (don't say it)</l><l>I am ashamed of my century</l><l>for being so entertaining</l><l>but I have to smile</l></lg><p rendition="#right"><date>1959</date></p><pb n="32" xml:id="p32" facs="../images/p32.png"/></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt/>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
+                <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
+                <tei:rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </tei:rendition>
+                <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                    display:block; padding-left:4em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                    display:block; padding-left:5em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                    display:block; padding-left:10em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                    display:block; padding-left:15em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                    display:block; padding-left:20em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                    display:block; padding-left:25em; text-indent:-2em; </tei:rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                <head>NAPHTHA</head>
+                <lg>
+                    <l>Ah <persName>Jean Dubuffet<note n="1">Jean Dubuffet (1901-1985): French
+                                painter and sculptor and founder of the Art Brut movement. |<ref
+                                    target="https://en.wikipedia.org/wiki/Jean_Dubuffet"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l>when you think of him</l>
+                    <l>doing his military service in the Eiffel Tower</l>
+                    <l>as a meteorologist</l>
+                    <l>in 1922</l>
+                    <l>you know how wonderful the 20th Century</l>
+                    <l>can be</l>
+                    <l>and the gaited Iroquois on the girders</l>
+                    <l>fierce and unflinching-footed</l>
+                    <l>nude as they should be</l>
+                    <l>slightly empty</l>
+                    <l>like a <persName>Sonia Delaunay<note n="2">Sonia Delaunay (1885-1979):
+                                Ukrainian-born French artist and cofounder of the Orphism art
+                                movement. |<ref
+                                    target="https://en.wikipedia.org/wiki/Sonia_Delaunay"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l>there is a parable of speed</l>
+                    <l>somewhere behind the Indians' eyes</l>
+                    <l>they invented the century with their horses</l>
+                    <l>and their fragile backs</l>
+                    <l>which are dark</l>
+                </lg>
+                <lg>
+                    <l>we owe a debt to the Iroquois</l>
+                    <l>and to <persName>Duke Ellington<note n="3">Edward Kennedy "Duke" Ellington
+                                (1899-1974): American Jazz composer, pianist and bandleader. |<ref
+                                    target="https://en.wikipedia.org/wiki/Duke_Ellington"
+                                    >Wikipedia</ref></note></persName></l>
+                    <l>for playing in the buildings when they are built</l>
+                    <l>we don't do much ourselves</l>
+                    <l>but fuck and think</l>
+                    <l>of the haunting Metro</l>
+                    <l>and the one who didn't show up there</l>
+                    <l>while we were waiting to become part of our century</l>
+                    <l>just as you can't make a hat out of steel</l>
+                    <l>and still wear it</l>
+                    <l>who wears hats anyway</l>
+                    <l>it is our tribe's custom</l>
+                    <l>to beguile</l>
+                    <pb n="31" xml:id="p31" facs="../images/p31.png"/>
+                    <l>how are you feeling in ancient September</l>
+                    <l>I am feeling like a truck on a wet highway</l>
+                    <l>how can you</l>
+                    <l>you were made in the image of god</l>
+                    <l>I was not</l>
+                    <l>I was made in the image of a sissy truck-driver</l>
+                    <l>and Jean Dubuffet painting his cows</l>
+                    <l>"with a likeness burst in the memory"</l>
+                    <l>apart from love (don't say it)</l>
+                    <l>I am ashamed of my century</l>
+                    <l>for being so entertaining</l>
+                    <l>but I have to smile</l>
+                </lg>
+                <p rendition="#right">
+                    <date>1959</date>
+                </p>
+                <pb n="32" xml:id="p32" facs="../images/p32.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

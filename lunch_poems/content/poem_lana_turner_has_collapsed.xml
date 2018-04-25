@@ -1,9 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>POEM</head><l><persName>Lana Turner<note n="85">Lana Turner (1921-1995): American actor famous for both her acting and her tumultuous  personal life. This poem likely refers to a story in the New York Post from February 9th, 1962 entitled "Lana Faints; in Hospital"|<ref target="https://en.wikipedia.org/wiki/Lana_Turner">Wikipedia</ref></note></persName> has collapsed!</l><l>I was trotting along and suddenly</l><l>it started raining and snowing</l><l>and you said it was hailing</l><l>but hailing hits you on the head</l><l>hard so it was really snowing and</l><l>raining and I was in such a hurry</l><l>to meet you but the traffic</l><l>was acting exactly like the sky</l><l>and suddenly I see a headline</l><l>LANA TURNER HAS COLLAPSED!</l><l>there is no snow in Hollywood</l><l>there is no rain in California</l><l>I have been to lots of parties</l><l>and acted perfectly disgraceful</l><l>but I never actually collapsed</l><l>oh Lana Turner we love you get up</l><p rendition="#right"><date>1962</date></p><pb n="70" xml:id="p70" facs="../images/p70.png"/></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt/>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
+                <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
+                <tei:rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </tei:rendition>
+                <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                    display:block; padding-left:4em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                    display:block; padding-left:5em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                    display:block; padding-left:10em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                    display:block; padding-left:15em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                    display:block; padding-left:20em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                    display:block; padding-left:25em; text-indent:-2em; </tei:rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                <head>POEM</head>
+                <l><persName>Lana Turner<note n="1">Lana Turner (1921-1995): American actor famous
+                            for both her acting and her tumultuous personal life. This poem likely
+                            refers to a story in the New York Post from February 9th, 1962 entitled
+                            "Lana Faints; in Hospital"|<ref
+                                target="https://en.wikipedia.org/wiki/Lana_Turner"
+                            >Wikipedia</ref></note></persName> has collapsed!</l>
+                <l>I was trotting along and suddenly</l>
+                <l>it started raining and snowing</l>
+                <l>and you said it was hailing</l>
+                <l>but hailing hits you on the head</l>
+                <l>hard so it was really snowing and</l>
+                <l>raining and I was in such a hurry</l>
+                <l>to meet you but the traffic</l>
+                <l>was acting exactly like the sky</l>
+                <l>and suddenly I see a headline</l>
+                <l>LANA TURNER HAS COLLAPSED!</l>
+                <l>there is no snow in Hollywood</l>
+                <l>there is no rain in California</l>
+                <l>I have been to lots of parties</l>
+                <l>and acted perfectly disgraceful</l>
+                <l>but I never actually collapsed</l>
+                <l>oh Lana Turner we love you get up</l>
+                <p rendition="#right">
+                    <date>1962</date>
+                </p>
+                <pb n="70" xml:id="p70" facs="../images/p70.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>

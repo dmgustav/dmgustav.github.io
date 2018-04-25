@@ -1,9 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lunch Poems</title><author>Frank O'Hara</author><respStmt><resp>Created using XSLT from EPUB, encoded by </resp><name>David Gustavsen</name></respStmt></titleStmt><publicationStmt><publisher>City Lights Books</publisher><date>1964</date></publicationStmt><seriesStmt><p>Pocket Poets Series: Number 19</p></seriesStmt><notesStmt/><sourceDesc><p>Created using XSLT from an EPUB then edited for consistancy</p></sourceDesc></fileDesc><encodingDesc><schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="verse" except=""/></schemaSpec><tagsDecl><tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
-                                text-align:center; margin-left:auto; margin-right:auto; </tei:rendition><tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition><tei:rendition xml:id="right" n="teibp:right" scheme="css">
-                                text-align:right; </tei:rendition><tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
-                                display:block; padding-left:4em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
-                                display:block; padding-left:5em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
-                                display:block; padding-left:10em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
-                                display:block; padding-left:15em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
-                                display:block; padding-left:20em; text-indent:-2em; </tei:rendition><tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
-                                display:block; padding-left:25em; text-indent:-2em; </tei:rendition></tagsDecl></encodingDesc></teiHeader><text><body><div xmlns="http://www.tei-c.org/ns/1.0" type="poem"><head>POEM EN FORME DE SAW</head><l>I ducked out of sight behind the saw-mill</l><l>nobody saw me because of the falls the gates the sluice the tourist boats</l><l>the children were trailing their fingers in the water</l><l>and the swans, regal and smarty, were nipping their "little" fingers</l><l>I heard one swan remark "That was a good nip</l><l>though they are not as interesting as sausages" and another</l><l>reply "Nor as tasty as those peasants we got away from the elephant that time"</l><l>but I didn't really care for conversation that day</l><l>I wanted to be alone</l><l>which is why I went to the mill in the first place</l><l>now I am alone and hate it</l><l>I don't want to just make boards for the rest of my life</l><l>I'm distressed</l><l>the water is very beautiful but you can't go into it</l><l>because of the gunk</l><l>and the dog is always rolling over, I like dogs on their "little" feet</l><l>I think I may scamper off to Winnipeg to see Raymond</l><l>but what'll happen to the mill</l><l>I see the cobwebs collecting already</l><l>and later those other webs, those awful predatory webs</l><l>if I stay right here I will eventually get into the newspapers</l><l>like Robert Frost</l><l>willow trees, willow trees they remind me of Desdemona</l><l>I'm so damned literary</l><l>and at the same time the waters rushing past remind me of nothing</l><l>I'm so damned empty</l><l>what is all this vessel shit anyway</l><l>we are all rushing down the River Happy Times</l><pb n="62" xml:id="p62" facs="../images/p62.png"/><l>ducking poling bumping sinking and swimming</l><l>and we arrive at the beach</l><l>the chaff is sand</l><l>alone as a tree bumping another tree in a storm</l><l>that's not really being alone, is it, signed The Saw</l><p rendition="#right"><date>1961</date></p><pb n="63" xml:id="p63" facs="../images/p63.png"/></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lunch Poems</title>
+                <author>Frank O'Hara</author>
+                <respStmt>
+                    <resp>Created using XSLT from EPUB, encoded by </resp>
+                    <name>David Gustavsen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>City Lights Books</publisher>
+                <date>1964</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Pocket Poets Series: Number 19</p>
+            </seriesStmt>
+            <notesStmt/>
+            <sourceDesc>
+                <p>Created using XSLT from an EPUB then edited for consistancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="verse" except=""/>
+            </schemaSpec>
+            <tagsDecl>
+                <tei:rendition xml:id="center" n="tiebp:center" scheme="css"> display:block;
+                    text-align:center; margin-left:auto; margin-right:auto; </tei:rendition>
+                <tei:rendition xml:id="itl" n="tiebp:itl" scheme="css"> font-style: italic; </tei:rendition>
+                <tei:rendition xml:id="right" n="teibp:right" scheme="css"> text-align:right; </tei:rendition>
+                <tei:rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+                    display:block; padding-left:4em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+                    display:block; padding-left:5em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+                    display:block; padding-left:10em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+                    display:block; padding-left:15em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+                    display:block; padding-left:20em; text-indent:-2em; </tei:rendition>
+                <tei:rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+                    display:block; padding-left:25em; text-indent:-2em; </tei:rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
+                <head>POEM EN FORME DE SAW</head>
+                <l>I ducked out of sight behind the saw-mill</l>
+                <l>nobody saw me because of the falls the gates the sluice the tourist boats</l>
+                <l>the children were trailing their fingers in the water</l>
+                <l>and the swans, regal and smarty, were nipping their "little" fingers</l>
+                <l>I heard one swan remark "That was a good nip</l>
+                <l>though they are not as interesting as sausages" and another</l>
+                <l>reply "Nor as tasty as those peasants we got away from the elephant that
+                    time"</l>
+                <l>but I didn't really care for conversation that day</l>
+                <l>I wanted to be alone</l>
+                <l>which is why I went to the mill in the first place</l>
+                <l>now I am alone and hate it</l>
+                <l>I don't want to just make boards for the rest of my life</l>
+                <l>I'm distressed</l>
+                <l>the water is very beautiful but you can't go into it</l>
+                <l>because of the gunk</l>
+                <l>and the dog is always rolling over, I like dogs on their "little" feet</l>
+                <l>I think I may scamper off to Winnipeg to see Raymond</l>
+                <l>but what'll happen to the mill</l>
+                <l>I see the cobwebs collecting already</l>
+                <l>and later those other webs, those awful predatory webs</l>
+                <l>if I stay right here I will eventually get into the newspapers</l>
+                <l>like Robert Frost</l>
+                <l>willow trees, willow trees they remind me of Desdemona</l>
+                <l>I'm so damned literary</l>
+                <l>and at the same time the waters rushing past remind me of nothing</l>
+                <l>I'm so damned empty</l>
+                <l>what is all this vessel shit anyway</l>
+                <l>we are all rushing down the River Happy Times</l>
+                <pb n="62" xml:id="p62" facs="../images/p62.png"/>
+                <l>ducking poling bumping sinking and swimming</l>
+                <l>and we arrive at the beach</l>
+                <l>the chaff is sand</l>
+                <l>alone as a tree bumping another tree in a storm</l>
+                <l>that's not really being alone, is it, signed The Saw</l>
+                <p rendition="#right">
+                    <date>1961</date>
+                </p>
+                <pb n="63" xml:id="p63" facs="../images/p63.png"/>
+            </div>
+        </body>
+    </text>
+</TEI>
