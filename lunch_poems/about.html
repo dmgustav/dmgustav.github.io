@@ -6,59 +6,40 @@ title: ILS-Z656 Lunch Poems: About
 <p/>
 <div class="blurb">
 <h2>Introduction</h2>
-<p>Frank O’Hara (1926-1966) was a central figure in the New York School of poetry, a movement closely aligned socially and aesthetically 
-with the New York School of painters. O’Hara was friends with many important poets of the time, including John Ashbery, Kenneth Koch, 
-Amiri Baraka, and Allen Ginsberg. In addition, O’Hara was deeply connected to the New York art world. In 1951 he took a job at the Museum 
-of Modern Art, where he worked in various capacities until his death in 1966. There he formed friendships with Jackson Pollock,  Willem
-de Kooning, Grace Hartigan and many others. O’Hara’s friends featured heavily in his poems, as do numerous contemporary celebrities 
-and literary figures. At times O’Hara’s poems feel like a fancy cocktail party filled with poets, artists, and movie stars. 
+
+  <p>Frank O’Hara (1926-1966) was a central figure in the New York School of poetry, a movement closely aligned socially and aesthetically with the New York School of painters. O’Hara was friends with many important poets of the time, including John Ashbery, Kenneth Koch, Amiri Baraka, and Allen Ginsberg. In addition, O’Hara had deep connections with the New York art world. In 1951 he took a job at the Museum of Modern Art, where he worked in various capacities until his death in 1966. There he formed friendships with Jackson Pollock, Willem de Kooning, Grace Hartigan and many others. O’Hara’s friends featured heavily in his poems, as do numerous contemporary celebrities and literary figures. At times O’Hara’s poems feel like a fancy cocktail party filled with poets, artists, and movie stars.
 </p>
-<p>Like a party, O’Hara’s poems can be intimidating, especially for those who don’t know the other guests. O’Hara’s poems were written for
-his small coterie of friends, who would often personally know the people referenced. As an outsider, O’Hara’s friends and their 
-relationships can seem impenetrable. Likewise, the celebrities and Hollywood personalities of the past are often less well known than they 
-once were. Readers may know Elizabeth Taylor and Errol Flynn, but are less likely to know Helmut Dantine(let alone  Max Steiner or Adolph 
-Deutsch).
+
+  <p>Like a party, O’Hara’s poems can be intimidating, especially for those who don’t know the other guests. O’Hara wrote  for his small coterie of friends, who would often personally know the people referenced. For an outsider, O’Hara’s friends and their relationships can seem impenetrable. Likewise, the celebrities and Hollywood personalities of the past are often less well known than they once were. Readers may know Elizabeth Taylor and Errol Flynn, but are less likely to know Helmut Dantine(let alone Max Steiner or Adolph Deutsch).
 </p>
-<p>This edition of Lunch Poems, O’Hara’s most famous book, aims to help remedy this situation.  Footnotes  introduce readers to their 
-fellow party guests and help them get acquainted. As with most introductions at parties these introductions are relatively brief, focusing 
-on the highlights of the introducee’s life and (where appropriate) their relation to the host. However, I have also tried to include 
-outside resources should readers find a guest who they would like to get better acquainted with. Hopefully, with these brief introductions,
-readers will feel welcomed, open to enjoying the party. 
+
+  <p>This edition of Lunch Poems, O’Hara’s most famous book, aims to help remedy this situation. Footnotes introduce readers to their fellow party guests and help them get acquainted. As with most introductions at parties these introductions are relatively brief, focusing on the highlights of the introducee’s life and (where appropriate) their relation to the host. However, I have also tried to include outside resources should readers find a guest who they would like to get better acquainted with. Hopefully, with these brief introductions, readers will feel welcomed, open to enjoying the party.
 </p></div>
 
 </div class="blurb">
 <h2>Development and construction</h2>
+
 <p>This edition of <i>Lunch Poems</i> began with an EPUB <a href="https://archive.org/details/lunchpoems00oharrich"> hosted on the
 Internet Archive</a>. I then transformed the EPUB  using <a href="https://github.com/dmgustav/dmgustav.github.io/blob/master/z656/finalproject/Lunchtransform.xsl"> 
 an XSLT I developed</a> to
-make it a TEI document. I then compared the resulting TEI against PDF scans of the original book, corrected errors, added notes, and
+make it a TEI (Text Encoding Initiative) document. I then compared the resulting TEI against PDF scans of the original book, corrected errors, added notes, and
 published the result using a modified TEI Boilerplate.
 </p>
-<p>There were challenges in this process. First, the original EPUB was likely created using an OCR program on a PDF scan of the
-book also hosted on the IA, but there is no documentation to prove this. However it was created, the EPUB had several problems. First, 
-the EPUB failed to distinguish between poem titles and the poems themselves, enclosing both in &lt;p&gt; tags. This alone might not have
-prevented the transformation of the EPUB using XSLT alone if the titles followed a consistent pattern. If, for example, the titles had
-been the only text in all caps, or if every title had followed a date, it would have been possible to computationally differentiate
-titles from poems. As it was, there was no consistent pattern which didn’t match several lines of poetry as well. To make the 
-transformation into TEI I first changed the tags surrounding titles to &lt;h1&gt; tags, and then ran my XSLT. 
+
+<p>I chose to use TEI for several reasons. I have some familiarity with TEI and TEI markup, allowing me to focus on those aspects of this 
+  project (XSLT) with which I was less familiar. TEI is designed for rich and complex encoding of text, and is often used to describe 
+  literary texts. A module of TEI specifically describes verse, making it ideally suited for this project. Finally, there are open 
+  source tools available for the display of TEI documents in modern browsers. This meant that I could encode the text with biographical 
+  information, create a document that could be used for further TEI encoding, and at the same time create an attractive final product. </p>
+
+<p>There were challenges in this process. First, the original EPUB was likely created using an OCR program on a PDF scan of the book also hosted on the IA, but there is no documentation to prove this. However it was created, the EPUB had several problems. First, the EPUB failed to distinguish between poem titles and the poems themselves, enclosing both in <p> tags. This alone might not have prevented the transformation of the EPUB using XSLT alone if the titles followed a consistent pattern. If, for example, the titles had been the only text in all caps, or if every title had followed a date, it would have been possible to computationally differentiate titles from poems. As it was, there was no consistent pattern, which didn’t match several lines of poetry as well. To make the transformation into TEI I first changed the tags surrounding titles to <h1> tags, and then ran my XSLT.
 </p>
-<p>The resulting document, while well formed TEI, still did not reflect the actual contents of the poems. In many places the EPUB had
-enclosed several lines of poetry within a single &lt;p&gt; element. Often, the &lt;p&gt; element contained an entire stanza represented 
-as a paragraph. Furthermore, the EPUB contained many text-errors, likely the result of OCR. Finally, the EPUB had stripped away 
-formatting from the poems, removing O’Hara’s frequent drop-line indents and alignments. Comparing my TEI to scans of the original book,
-I next added line breaks and formatting instructions and corrected typos. </p>
-<p>After creating a complete and accurate TEI edition of I began adding notes for the people mentioned within the poems.
-I originally began adding annotations for places as well as people, however I quickly found that many of the places mentioned
-in O’Hara’s poems were not easily researchable. The restaurants and apartments of the 1950s and 60s often do not exist any more,
-or, if they exist, they have changed their names. While it would undoubtedly be worthwhile to add geographical notes to these poems, 
-I decided to prioritize providing biographical context. 
+
+<p>The resulting document, while well formed TEI, still did not reflect the actual contents of the poems. In many places, the EPUB had enclosed several lines of poetry within a single <p> element. Often, the <p> element contained an entire stanza represented as a paragraph. Furthermore, the EPUB contained many text-errors, likely the result of OCR. Finally, the EPUB had stripped away formatting from the poems, removing O’Hara’s frequent drop-line indents and alignments. Comparing my TEI to scans of the original book, I next added line breaks and formatting instructions and corrected typos. </p>
+
+<p>After creating a complete and accurate TEI edition of I began adding notes for the people mentioned within the poems. I originally began adding annotations for places as well as people, however I quickly found that many of the places mentioned in O’Hara’s poems were not easily researchable. The restaurants and apartments of the 1950s and 60s often do not exist any more, or, if they exist, they have changed their names. While it would undoubtedly be worthwhile to add geographical notes to these poems, I decided to prioritize providing biographical context.
 </p>
-<p>After creating a complete and accurate TEI edition of I began adding notes for the people mentioned within the poems.
-I originally began adding annotations for places as well as people, however I quickly found that many of the places mentioned
-in O’Hara’s poems were not easily researchable. The restaurants and apartments of the 1950s and 60s often do not exist any more, 
-or, if they exist, they have changed their names. While it would undoubtedly be worthwhile to add geographical notes to these poems,
-I decided to prioritize providing biographical context. 
-</p>
+
 <p>The next to last stage in constructing this edition of <i>Lunch Poems</i> involved working with and modifying <a href="http://dcl.ils.indiana.edu/teibp/index.html">TEI 
   Boilerplate</a>.
 TEI Boilerplate is a collection of XSLT, Javascript, and CSS which together transform TEI documents into styled HTML pages.
