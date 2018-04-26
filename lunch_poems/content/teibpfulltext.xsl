@@ -608,7 +608,7 @@
 				<xsl:value-of select="./@n"/>
 				
 			</sup>
-			<span class="footnoteinline"><xsl:value-of select="@n"/>. <xsl:value-of select="."
+			<span class="footnoteinline"><xsl:value-of select="@n"/>. <xsl:value-of select="substring-before(.,'|')"
 			/></span>
 		</a>
 	</xsl:template>
