@@ -1,0 +1,55 @@
+note {
+  /*display: none;*/
+  margin: 1.5em auto 1.5em auto;
+  padding: .5em 1.5em 1.5em 1.5em;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 325px;
+  position: relative;
+  border: 1px solid #AAA;
+  background: #FAFAFA;
+  /* reset text-indent for note with <l> ancestors. */
+  text-indent: 0;
+  font-size: 85%;
+  text-align: justify;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+/* sup is used for footnote reference numbers */
+sup{
+    vertical-align: super;
+    font-size: smaller;
+    line-height: 0em;
+    background-color: #F0F2EC;
+    border: solid 1px #CCCCCC;
+    padding: 1px 3px 1px 3px;
+}
+/* controls the rendering of text in the footnote div */
+div.footnotes,
+div.footnotes p{
+    font-weight: normal;
+    font-size: .973em;
+}
+
+/* suppresses display of inline footnote text, setting up the pop-up on hover */
+a span.footnoteinline{
+    display: none;
+}
+
+
+/* turns on inline footnote text on hover, producing the pop-up */
+a.fn:hover span.footnoteinline{
+    display: block;
+    position: relative;
+    margin: 5px;
+    padding: 7px;
+    font-size: .825em;
+    line-height: 1.75em;
+    text-transform: none;
+    font-weight: normal;
+    background-color: #F0F2EC;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #CCCCCC;
+}
